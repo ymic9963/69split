@@ -1081,6 +1081,18 @@
     [
       "4b966fee-8f5c-4a23-a90e-d8e6cc86345c",
       "Right Keyboard"
+    ],
+    [
+      "d4182089-a420-4810-8c92-cb85384e402e",
+      "Left Keyboard Connector"
+    ],
+    [
+      "86171c65-8b15-47dd-b0cc-51559fd50666",
+      "Right Keyboard Connector"
+    ],
+    [
+      "b553621f-78c9-4bd8-bee0-4339339a610f",
+      "ATmega32U4"
     ]
   ],
   "text_variables": {}
