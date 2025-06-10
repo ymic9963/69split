@@ -1073,6 +1073,14 @@
     [
       "d75b0717-10e3-4e20-afcb-05300684210e",
       "Root"
+    ],
+    [
+      "a528eaf3-d99a-4f91-978f-500370d04b37",
+      "Left Keyboard"
+    ],
+    [
+      "4b966fee-8f5c-4a23-a90e-d8e6cc86345c",
+      "Right Keyboard"
     ]
   ],
   "text_variables": {}
