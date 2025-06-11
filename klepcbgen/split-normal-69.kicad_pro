@@ -1093,6 +1093,14 @@
     [
       "b553621f-78c9-4bd8-bee0-4339339a610f",
       "ATmega32U4"
+    ],
+    [
+      "35a32853-12e1-4bc3-8463-6fc773ed0444",
+      "Left Matrix"
+    ],
+    [
+      "d3fe7daf-0d6e-41be-bc1c-53fc3114204a",
+      "USB Connector"
     ]
   ],
   "text_variables": {}
