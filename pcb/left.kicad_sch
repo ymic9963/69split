@@ -1,0 +1,385 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d2019ec5-07f8-4ead-a445-4fe842758f2c")
+	(paper "A4")
+	(title_block
+		(title "Split Normal 69")
+		(date "2025-06-11")
+	)
+	(lib_symbols)
+	(bus_alias "COMMON_ROWS"
+		(members "ROW0" "ROW1" "ROW2" "ROW3" "ROW4")
+	)
+	(bus_alias "LEFT_COLUMNS"
+		(members "COL0" "COL1" "COL2" "COL3" "COL4" "COL5" "COL6")
+	)
+	(text "LEFT KEYBOARD"
+		(exclude_from_sim no)
+		(at 146.558 29.972 0)
+		(effects
+			(font
+				(face "Book Antiqua")
+				(size 7.62 7.62)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3eeeef9d-d57c-4505-afe4-0c9f448215dd")
+	)
+	(junction
+		(at 177.8 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae370c8-4d24-4c16-a1cd-c11d516cc483")
+	)
+	(bus
+		(pts
+			(xy 177.8 132.08) (xy 177.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349266c5-adcb-4d9c-9a45-e8fb7e93b3bc")
+	)
+	(bus
+		(pts
+			(xy 151.13 127) (xy 171.45 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5745b2c5-ffa6-4418-8014-bb09bb2f8056")
+	)
+	(bus
+		(pts
+			(xy 151.13 137.16) (xy 198.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d144fc9-6549-453f-bcdf-dd1a8ac6f689")
+	)
+	(bus
+		(pts
+			(xy 177.8 67.31) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b26186-3f0c-4aad-a083-44e4a69e48db")
+	)
+	(bus
+		(pts
+			(xy 151.13 132.08) (xy 177.8 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3875ab-e637-43f9-a8d8-f0f14218370f")
+	)
+	(bus
+		(pts
+			(xy 177.8 132.08) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eae67a3-ac56-4a92-9e1b-78a06626ad63")
+	)
+	(bus
+		(pts
+			(xy 87.63 127) (xy 111.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa2266a-4c17-4633-9753-680437fbcb8e")
+	)
+	(bus
+		(pts
+			(xy 171.45 127) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced7cadb-a8b0-46c1-8c87-8727674b9983")
+	)
+	(bus
+		(pts
+			(xy 151.13 72.39) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef96dd2a-e6e1-4a65-96fa-5ca7a7edb566")
+	)
+	(sheet
+		(at 111.76 58.42)
+		(size 39.37 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35a32853-12e1-4bc3-8463-6fc773ed0444")
+		(property "Sheetname" "Left Matrix"
+			(at 111.76 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left-matrix.kicad_sch"
+			(at 111.76 90.1196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COMMON_ROWS}" bidirectional
+			(at 151.13 67.31 0)
+			(uuid "b35a5910-df70-4bb3-be3e-af31a6840741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{LEFT_COLUMNS}" bidirectional
+			(at 151.13 72.39 0)
+			(uuid "ddeaef3a-7651-4829-ad57-1b7da96c3016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "split-normal-69"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 118.11)
+		(size 39.37 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b553621f-78c9-4bd8-bee0-4339339a610f")
+		(property "Sheetname" "ATmega32U4"
+			(at 111.76 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atmega32u4.kicad_sch"
+			(at 111.76 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COMMON_ROWS}" bidirectional
+			(at 151.13 132.08 0)
+			(uuid "8917494c-25de-4c12-874b-4a48e45de34e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{LEFT_COLUMNS}" bidirectional
+			(at 151.13 127 0)
+			(uuid "6def2f76-2d93-4b78-bd45-47bd385ec833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{RIGHT_COLUMNS}" bidirectional
+			(at 151.13 137.16 0)
+			(uuid "b8fc722e-94bb-4e11-b290-3bb8153af921")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USB_BUS}" bidirectional
+			(at 111.76 127 180)
+			(uuid "f245f3cd-24f5-4312-ae05-703ea622bcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "split-normal-69"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 118.11)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3fe7daf-0d6e-41be-bc1c-53fc3114204a")
+		(property "Sheetname" "USB Connector"
+			(at 58.42 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-conn.kicad_sch"
+			(at 58.42 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{USB_BUS}" bidirectional
+			(at 87.63 127 0)
+			(uuid "1b2e5c5a-af7e-4fb7-873b-edc78e93fc62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "split-normal-69"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 118.11)
+		(size 27.94 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4182089-a420-4810-8c92-cb85384e402e")
+		(property "Sheetname" "Left Keyboard Connector"
+			(at 198.12 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left-conn.kicad_sch"
+			(at 198.12 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COMMON_ROWS}" bidirectional
+			(at 198.12 132.08 180)
+			(uuid "4e23f779-fbff-4bb1-8da5-b7d048fc5f42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RIGHT_COLUMNS}" bidirectional
+			(at 198.12 137.16 180)
+			(uuid "f544cfb9-b01d-45bd-8083-e32c85e6e5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "split-normal-69"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
+					(page "4")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,114 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d75b0717-10e3-4e20-afcb-05300684210e")
+	(paper "A4")
+	(title_block
+		(title "Split Normal 69")
+		(date "2025-06-11")
+	)
+	(lib_symbols)
+	(text "SPLIT 69 KEYBOARD"
+		(exclude_from_sim no)
+		(at 142.748 38.1 0)
+		(effects
+			(font
+				(face "Book Antiqua")
+				(size 7.62 7.62)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "814e5431-33f4-4e82-9440-e9eadbe28bf1")
+	)
+	(sheet
+		(at 187.96 64.135)
+		(size 52.07 88.265)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b966fee-8f5c-4a23-a90e-d8e6cc86345c")
+		(property "Sheetname" "Right Keyboard"
+			(at 187.96 63.4234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "right.kicad_sch"
+			(at 187.96 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "split-normal-69"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 66.04)
+		(size 59.055 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a528eaf3-d99a-4f91-978f-500370d04b37")
+		(property "Sheetname" "Left Keyboard"
+			(at 46.99 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left.kicad_sch"
+			(at 46.99 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "split-normal-69"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
