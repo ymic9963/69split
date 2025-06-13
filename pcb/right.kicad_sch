@@ -1818,6 +1818,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "918de5fe-3e87-4a72-b4ed-4a44152074cb")
 		)
@@ -1883,6 +1892,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2264,6 +2282,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 241.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "013293ed-67ea-4fec-bfd3-5e0287e9901d")
 		)
@@ -2565,6 +2592,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 322.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38b2090b-bdb5-4b0f-9a54-6af1606e3ddf")
 		)
@@ -2630,6 +2666,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 222.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2933,6 +2978,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 322.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3d2b400-24b5-4e53-8929-c804691a8151")
 		)
@@ -3078,6 +3132,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 300.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "644e6309-ad8a-41cb-9ca6-783f234d18d3")
 		)
@@ -3145,6 +3208,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8212b0d9-5025-4478-bffc-8d78527f0d47")
 		)
@@ -3210,6 +3282,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 300.99 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3355,6 +3436,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 300.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3736,6 +3826,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 281.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "636127e5-82c4-433a-93e1-b4aa03944eb2")
 		)
@@ -3879,6 +3978,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4026,6 +4134,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0388c8b9-999c-4b23-ab75-0e98c1ee3603")
 		)
@@ -4091,6 +4208,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 261.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4160,6 +4286,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "623595c1-81a7-4317-a765-89f665f7b37d")
 		)
@@ -4225,6 +4360,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4372,6 +4516,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 300.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d061634e-006d-43d0-95e1-51f8549b9b69")
 		)
@@ -4439,6 +4592,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 281.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "697832dd-d11f-4a9c-aa16-a75522a4c9bf")
 		)
@@ -4504,6 +4666,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4651,6 +4822,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce1bd811-e797-4575-9909-46bc0b72a273")
 		)
@@ -4716,6 +4896,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 300.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4863,6 +5052,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 222.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1aa5cc57-fa88-4e59-9461-2439fa437390")
 		)
@@ -5008,6 +5206,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 342.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c7ec91b-9069-4771-991d-f2eb04f7c069")
 		)
@@ -5073,6 +5280,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 261.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5218,6 +5434,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 203.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5443,6 +5668,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 342.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b094b35-c732-4409-bee4-cf0a1c5b28b0")
 		)
@@ -5508,6 +5742,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5577,6 +5820,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 281.94 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33b92ba3-e200-4a27-a741-37f598f9b0ca")
 		)
@@ -5642,6 +5894,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 203.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5789,6 +6050,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 322.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4122592e-91df-44d9-8f8d-8bfaca67cbfb")
 		)
@@ -5932,6 +6202,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 342.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6079,6 +6358,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 281.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ab9fde3-06da-454e-9289-c86e6c99aa50")
 		)
@@ -6144,6 +6432,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 222.25 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6525,6 +6822,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 261.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d3f928c-ec1d-42d9-af7e-43be1bb4b2f9")
 		)
@@ -6590,6 +6896,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6659,6 +6974,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa3979e2-458c-4756-9507-dcc25981ba21")
 		)
@@ -6724,6 +7048,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7105,6 +7438,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b119dd9-bf34-4d6d-93ac-ffa7f01689d8")
 		)
@@ -7172,6 +7514,15 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 322.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cb55fb6-e5dd-45e1-8dbc-5bcc7e508a4f")
 		)
@@ -7237,6 +7588,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

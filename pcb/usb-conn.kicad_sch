@@ -1719,7 +1719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127 90.932 90)
 			(effects
 				(font
@@ -1751,6 +1751,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 127 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1794,7 +1803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127 96.012 90)
 			(effects
 				(font
@@ -1826,6 +1835,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 127 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1962,7 +1980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DX07S016JA1R1500"
+		(property "MPN" "DX07S016JA1R1500 "
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -2191,11 +2209,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 137.16 0)
+			(at 157.48 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2326,7 +2345,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef6be0b4-edf8-492f-9b9e-0581decff20b")
 		(property "Reference" "C10"
-			(at 171.45 80.0162 0)
+			(at 171.45 78.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2354,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 171.45 82.5562 0)
+			(at 171.45 81.2862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,6 +2387,24 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 168.91 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "10V"
+			(at 171.45 83.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
