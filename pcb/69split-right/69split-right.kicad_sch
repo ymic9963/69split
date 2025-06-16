@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 111.76 72.39)
+		(size 41.91 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac25bf21-5747-45a1-9932-13b7ac3cf727")
+		(property "Sheetname" "69split Right Keyboard"
+			(at 111.76 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../right.kicad_sch"
+			(at 111.76 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "69split-right"
+				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

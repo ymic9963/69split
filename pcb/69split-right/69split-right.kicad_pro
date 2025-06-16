@@ -37,24 +37,23 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
-        "silk_line_width": 0.12,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
-        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -120,7 +119,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -131,9 +130,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -181,12 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        0.5,
-        0.75
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -456,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "split-normal-69.kicad_pro",
+    "filename": "69split-right.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -472,11 +466,11 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -485,444 +479,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C6-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C7-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C8-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J1-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U1-Pad42)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Reset"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Row_6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_3"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_7"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_8"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_9"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_10"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_11"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_12"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_13"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_14"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_15"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_16"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Col_17"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D0-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D1-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D2-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D6-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D7-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D8-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D9-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D10-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D11-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D12-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D13-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D14-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D15-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D16-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D17-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D18-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D19-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D20-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D21-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D22-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D23-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D24-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D25-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D26-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D27-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D28-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D29-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D30-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D31-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D32-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D33-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D34-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D35-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D36-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D37-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D38-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D39-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D40-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D41-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D42-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D43-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D44-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D45-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D46-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D47-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D48-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D49-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D50-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D51-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D52-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D53-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D54-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D55-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D56-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D57-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D58-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D59-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D60-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D61-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D62-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D63-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D64-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D65-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D66-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D67-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D68-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "UNKNOWN"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -1002,36 +559,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Rating",
-          "name": "Rating",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "MPN",
-          "name": "MPN",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1048,14 +581,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -1077,36 +610,20 @@
   },
   "sheets": [
     [
-      "d75b0717-10e3-4e20-afcb-05300684210e",
+      "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867",
       "Root"
     ],
     [
-      "a528eaf3-d99a-4f91-978f-500370d04b37",
-      "Left Keyboard"
-    ],
-    [
-      "4b966fee-8f5c-4a23-a90e-d8e6cc86345c",
-      "Right Keyboard"
-    ],
-    [
-      "d4182089-a420-4810-8c92-cb85384e402e",
-      "Left Keyboard Connector"
+      "ac25bf21-5747-45a1-9932-13b7ac3cf727",
+      "69split Right Keyboard"
     ],
     [
       "86171c65-8b15-47dd-b0cc-51559fd50666",
       "Right Keyboard Connector"
     ],
     [
-      "b553621f-78c9-4bd8-bee0-4339339a610f",
-      "ATmega32U4"
-    ],
-    [
-      "35a32853-12e1-4bc3-8463-6fc773ed0444",
-      "Left Matrix"
-    ],
-    [
-      "d3fe7daf-0d6e-41be-bc1c-53fc3114204a",
-      "USB Connector"
+      "ee959681-d1ae-40ab-943e-c11858dc89da",
+      "Right Matrix"
     ]
   ],
   "text_variables": {}

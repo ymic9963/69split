@@ -1142,6 +1142,18 @@
 	(bus_alias "USB_BUS"
 		(members "VBUS" "D+" "D-")
 	)
+	(text "USB CONNECTOR"
+		(exclude_from_sim no)
+		(at 140.462 35.56 0)
+		(effects
+			(font
+				(face "Book Antiqua")
+				(size 7.62 7.62)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "43c69430-9311-4bb8-9577-bdb06886d264")
+	)
 	(junction
 		(at 168.91 78.74)
 		(diameter 0)
@@ -1637,7 +1649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e997dfc")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR03"
 			(at 88.9 125.73 0)
 			(effects
 				(font
@@ -1686,8 +1698,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "#PWR0107")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1703,7 +1721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005ea3e120")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 127 82.55 90)
 			(effects
 				(font
@@ -1770,8 +1788,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005ea3f186")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 127 101.6 90)
 			(effects
 				(font
@@ -1854,8 +1878,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1871,7 +1901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005ea93c99")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR01"
 			(at 125.73 78.74 0)
 			(effects
 				(font
@@ -1920,8 +1950,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "#PWR0117")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2036,6 +2072,12 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
 					(reference "J1")
 					(unit 1)
@@ -2053,7 +2095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a020a06-5025-4875-b250-45acf321b673")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -2102,8 +2144,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2119,7 +2167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e75d527-2899-49e1-8b88-6f8487450f56")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 160.02 107.9499 0)
 			(effects
 				(font
@@ -2181,8 +2229,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2248,6 +2302,12 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
 					(reference "#PWR04")
 					(unit 1)
@@ -2265,7 +2325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c6904b-d9b5-4425-8c71-b3d314312e8e")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 149.86 102.8699 0)
 			(effects
 				(font
@@ -2327,8 +2387,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2344,7 +2410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6be0b4-edf8-492f-9b9e-0581decff20b")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 171.45 78.7462 0)
 			(effects
 				(font
@@ -2362,7 +2428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 168.91 81.28 0)
 			(effects
 				(font
@@ -2415,8 +2481,14 @@
 		)
 		(instances
 			(project "split-normal-69"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/d3fe7daf-0d6e-41be-bc1c-53fc3114204a"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,230 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d75b0717-10e3-4e20-afcb-05300684210e")
+	(paper "A4")
+	(title_block
+		(title "Split Normal 69")
+		(date "2025-06-11")
+	)
+	(lib_symbols)
+	(arc
+		(start 113.03 100.33)
+		(mid 151.13 62.9002)
+		(end 189.23 100.33)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1fd0822-1362-41c1-93de-e86660a0368e)
+	)
+	(text "DO NOT USE THIS PAGE FOR THE LAYOUT\nIT ONLY EXISTS FOR NAVIGATION AND\nHIGH-LEVEL EXPLANATION."
+		(exclude_from_sim no)
+		(at 53.34 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "099d8acc-ad6b-4029-aa62-3da4b3e61a26")
+	)
+	(text "GPIO Outputs"
+		(exclude_from_sim no)
+		(at 207.01 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2aea2c88-e61a-4e2e-b88b-18eb99f4aeed")
+	)
+	(text "69SPLIT SWEYBOARD"
+		(exclude_from_sim no)
+		(at 142.24 38.1 0)
+		(effects
+			(font
+				(face "Book Antiqua")
+				(size 7.62 7.62)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "814e5431-33f4-4e82-9440-e9eadbe28bf1")
+	)
+	(text "USB-C to PC"
+		(exclude_from_sim no)
+		(at 86.36 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d34f6309-30c5-4452-b938-f84c429338a5")
+	)
+	(text "Keyboard USB-C Connection"
+		(exclude_from_sim no)
+		(at 137.16 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "d3bfdb0f-a9d4-4572-a8b1-4b073618741f")
+	)
+	(polyline
+		(pts
+			(xy 93.98 77.47) (xy 93.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1dfba049-f1b9-4640-b304-601e861b6a80")
+	)
+	(polyline
+		(pts
+			(xy 218.44 77.47) (xy 218.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "7500676e-59e5-4194-95ff-fb9071896504")
+	)
+	(polyline
+		(pts
+			(xy 88.9 77.47) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "96fcd198-b650-4e6c-b080-bc67ab7bfebf")
+	)
+	(polyline
+		(pts
+			(xy 208.28 77.47) (xy 208.28 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ae9bebc2-d5e9-4549-8503-d5768a4f3ab9")
+	)
+	(polyline
+		(pts
+			(xy 213.36 77.47) (xy 213.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d0c24d3b-5182-40e2-bd5b-9d8efbe40aaa")
+	)
+	(sheet
+		(at 165.1 100.33)
+		(size 59.69 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b966fee-8f5c-4a23-a90e-d8e6cc86345c")
+		(property "Sheetname" "Right Keyboard"
+			(at 165.1 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "right.kicad_sch"
+			(at 165.1 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 100.33)
+		(size 59.69 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a528eaf3-d99a-4f91-978f-500370d04b37")
+		(property "Sheetname" "Left Keyboard"
+			(at 73.66 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left.kicad_sch"
+			(at 73.66 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

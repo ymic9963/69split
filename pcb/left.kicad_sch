@@ -15,6 +15,19 @@
 	(bus_alias "LEFT_COLUMNS"
 		(members "COL0" "COL1" "COL2" "COL3" "COL4" "COL5" "COL6")
 	)
+	(rectangle
+		(start 69.85 63.5)
+		(end 224.79 149.86)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 43 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9581c862-39f2-4ec5-a83c-6ecccd2cdd9b)
+	)
 	(text "LEFT KEYBOARD"
 		(exclude_from_sim no)
 		(at 146.558 29.972 0)
@@ -28,103 +41,123 @@
 		(uuid "3eeeef9d-d57c-4505-afe4-0c9f448215dd")
 	)
 	(junction
-		(at 177.8 132.08)
+		(at 158.75 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aae370c8-4d24-4c16-a1cd-c11d516cc483")
+		(uuid "f0a0d3ef-8dd4-4961-bace-bcb7bc603ebf")
 	)
 	(bus
 		(pts
-			(xy 177.8 132.08) (xy 177.8 67.31)
+			(xy 152.4 67.31) (xy 195.58 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "349266c5-adcb-4d9c-9a45-e8fb7e93b3bc")
+		(uuid "13d35595-7674-4419-bb64-6eee50232896")
 	)
 	(bus
 		(pts
-			(xy 151.13 127) (xy 171.45 127)
+			(xy 139.7 116.84) (xy 158.75 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5745b2c5-ffa6-4418-8014-bb09bb2f8056")
+		(uuid "20bcddf6-0143-463a-90d7-434065d2101f")
 	)
 	(bus
 		(pts
-			(xy 151.13 137.16) (xy 198.12 137.16)
+			(xy 92.71 110.49) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d144fc9-6549-453f-bcdf-dd1a8ac6f689")
+		(uuid "356c5f69-a8cf-424b-b285-62ff48b0142c")
 	)
 	(bus
 		(pts
-			(xy 177.8 67.31) (xy 151.13 67.31)
+			(xy 92.71 66.04) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63b26186-3f0c-4aad-a083-44e4a69e48db")
+		(uuid "3ac9594f-0c2e-41a9-95d1-29e5f58b601a")
 	)
 	(bus
 		(pts
-			(xy 151.13 132.08) (xy 177.8 132.08)
+			(xy 139.7 123.19) (xy 167.64 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a3875ab-e637-43f9-a8d8-f0f14218370f")
+		(uuid "4cd89b5a-b34f-4470-a611-7d59a675d8cf")
 	)
 	(bus
 		(pts
-			(xy 177.8 132.08) (xy 198.12 132.08)
+			(xy 152.4 67.31) (xy 152.4 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eae67a3-ac56-4a92-9e1b-78a06626ad63")
+		(uuid "540400b3-36d5-47ba-99ad-3c8e28db6397")
 	)
 	(bus
 		(pts
-			(xy 87.63 127) (xy 111.76 127)
+			(xy 87.63 66.04) (xy 92.71 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caa2266a-4c17-4633-9753-680437fbcb8e")
+		(uuid "5ec4d64f-f59f-4e91-808a-0166aba08c2a")
 	)
 	(bus
 		(pts
-			(xy 171.45 127) (xy 171.45 72.39)
+			(xy 158.75 72.39) (xy 158.75 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ced7cadb-a8b0-46c1-8c87-8727674b9983")
+		(uuid "7801be1c-c404-4272-8ed0-5d27005baa8c")
 	)
 	(bus
 		(pts
-			(xy 151.13 72.39) (xy 171.45 72.39)
+			(xy 158.75 116.84) (xy 167.64 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef96dd2a-e6e1-4a65-96fa-5ca7a7edb566")
+		(uuid "93065afd-c4fe-489e-9fca-618799647f87")
+	)
+	(bus
+		(pts
+			(xy 139.7 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b25d94-3e06-493b-846f-80a902e3c2d7")
+	)
+	(bus
+		(pts
+			(xy 158.75 72.39) (xy 195.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd272a6-db41-4cfa-8251-2c794fdb0db9")
 	)
 	(sheet
-		(at 111.76 58.42)
+		(at 167.64 106.68)
 		(size 39.37 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -140,7 +173,7 @@
 		)
 		(uuid "35a32853-12e1-4bc3-8463-6fc773ed0444")
 		(property "Sheetname" "Left Matrix"
-			(at 111.76 57.7084 0)
+			(at 167.64 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,7 +182,7 @@
 			)
 		)
 		(property "Sheetfile" "left-matrix.kicad_sch"
-			(at 111.76 90.1196 0)
+			(at 167.64 138.3796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,35 +191,45 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 151.13 67.31 0)
+			(at 167.64 116.84 180)
 			(uuid "b35a5910-df70-4bb3-be3e-af31a6840741")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 151.13 72.39 0)
+			(at 167.64 123.19 180)
 			(uuid "ddeaef3a-7651-4829-ad57-1b7da96c3016")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
-			(project "split-normal-69"
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
 					(page "7")
+				)
+			)
+			(project ""
+				(path "/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "#")
+				)
+			)
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 111.76 118.11)
+		(at 100.33 101.6)
 		(size 39.37 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -202,7 +245,7 @@
 		)
 		(uuid "b553621f-78c9-4bd8-bee0-4339339a610f")
 		(property "Sheetname" "ATmega32U4"
-			(at 111.76 117.3984 0)
+			(at 100.33 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "atmega32u4.kicad_sch"
-			(at 111.76 158.0646 0)
+			(at 100.33 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +263,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 151.13 132.08 0)
+			(at 139.7 116.84 0)
 			(uuid "8917494c-25de-4c12-874b-4a48e45de34e")
 			(effects
 				(font
@@ -230,7 +273,7 @@
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 151.13 127 0)
+			(at 139.7 123.19 0)
 			(uuid "6def2f76-2d93-4b78-bd45-47bd385ec833")
 			(effects
 				(font
@@ -240,7 +283,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 151.13 137.16 0)
+			(at 139.7 110.49 0)
 			(uuid "b8fc722e-94bb-4e11-b290-3bb8153af921")
 			(effects
 				(font
@@ -250,7 +293,7 @@
 			)
 		)
 		(pin "{USB_BUS}" bidirectional
-			(at 111.76 127 180)
+			(at 100.33 110.49 180)
 			(uuid "f245f3cd-24f5-4312-ae05-703ea622bcdb")
 			(effects
 				(font
@@ -260,15 +303,25 @@
 			)
 		)
 		(instances
-			(project "split-normal-69"
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
 					(page "6")
+				)
+			)
+			(project ""
+				(path "/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "#")
+				)
+			)
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 58.42 118.11)
+		(at 58.42 57.15)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -284,7 +337,7 @@
 		)
 		(uuid "d3fe7daf-0d6e-41be-bc1c-53fc3114204a")
 		(property "Sheetname" "USB Connector"
-			(at 58.42 117.3984 0)
+			(at 58.42 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +346,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-conn.kicad_sch"
-			(at 58.42 145.3646 0)
+			(at 58.42 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,7 +355,7 @@
 			)
 		)
 		(pin "{USB_BUS}" bidirectional
-			(at 87.63 127 0)
+			(at 87.63 66.04 0)
 			(uuid "1b2e5c5a-af7e-4fb7-873b-edc78e93fc62")
 			(effects
 				(font
@@ -312,16 +365,26 @@
 			)
 		)
 		(instances
-			(project "split-normal-69"
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
 					(page "8")
+				)
+			)
+			(project ""
+				(path "/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "#")
+				)
+			)
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 198.12 118.11)
-		(size 27.94 39.37)
+		(at 195.58 58.42)
+		(size 36.83 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -336,7 +399,7 @@
 		)
 		(uuid "d4182089-a420-4810-8c92-cb85384e402e")
 		(property "Sheetname" "Left Keyboard Connector"
-			(at 198.12 117.3984 0)
+			(at 195.58 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +408,7 @@
 			)
 		)
 		(property "Sheetfile" "left-conn.kicad_sch"
-			(at 198.12 158.0646 0)
+			(at 195.58 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +417,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 198.12 132.08 180)
+			(at 195.58 72.39 180)
 			(uuid "4e23f779-fbff-4bb1-8da5-b7d048fc5f42")
 			(effects
 				(font
@@ -364,7 +427,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 198.12 137.16 180)
+			(at 195.58 67.31 180)
 			(uuid "f544cfb9-b01d-45bd-8083-e32c85e6e5e2")
 			(effects
 				(font
@@ -375,9 +438,19 @@
 			)
 		)
 		(instances
-			(project "split-normal-69"
+			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
 					(page "4")
+				)
+			)
+			(project ""
+				(path "/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "#")
+				)
+			)
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d"
+					(page "6")
 				)
 			)
 		)
