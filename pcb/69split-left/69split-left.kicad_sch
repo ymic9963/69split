@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 167.64 82.55)
-		(end 222.885 140.97)
+		(start 208.026 68.072)
+		(end 263.271 126.492)
 		(stroke
 			(width 0)
 			(type solid)
@@ -19,9 +19,9 @@
 		(uuid 251048a3-5bcb-474e-ab9d-8677d89db440)
 	)
 	(arc
-		(start 120.65 82.55)
-		(mid 158.75 45.1202)
-		(end 196.85 82.55)
+		(start 169.545 68.58)
+		(mid 203.2728 52.6354)
+		(end 237.236 68.072)
 		(stroke
 			(width 0)
 			(type solid)
@@ -32,9 +32,22 @@
 		)
 		(uuid 31481a14-2feb-4501-955c-0809ec151f9b)
 	)
+	(rectangle
+		(start 29.21 73.66)
+		(end 175.26 154.305)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 43 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 898a5247-515c-4052-b67d-0d6d40e13678)
+	)
 	(text "USB-C to PC"
 		(exclude_from_sim no)
-		(at 93.98 57.15 0)
+		(at 37.592 41.402 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,9 +57,21 @@
 		)
 		(uuid "60420583-3e15-4afc-9310-51b105011bb5")
 	)
+	(text "LEFT SIDE"
+		(exclude_from_sim no)
+		(at 146.304 40.386 0)
+		(effects
+			(font
+				(face "Book Antiqua")
+				(size 5.08 5.08)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "98c51fdc-2ff9-48e6-824c-aa9a7e0a4070")
+	)
 	(text "Keyboard USB-C Connection"
 		(exclude_from_sim no)
-		(at 144.78 52.07 0)
+		(at 187.96 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +83,7 @@
 	)
 	(text "GPIO Outputs"
 		(exclude_from_sim no)
-		(at 206.375 57.15 0)
+		(at 246.761 42.672 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -70,7 +95,7 @@
 	)
 	(text "Right Keyboard"
 		(exclude_from_sim no)
-		(at 195.199 111.633 0)
+		(at 235.585 97.155 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,9 +103,9 @@
 		)
 		(uuid "c9e72c25-8b7d-4d65-8c9a-749bc1136cc6")
 	)
-	(text "69SPLIT LEFT KEYBOARD"
+	(text "69SPLIT KEYBOARD"
 		(exclude_from_sim no)
-		(at 137.922 33.02 0)
+		(at 147.574 29.464 0)
 		(effects
 			(font
 				(face "Book Antiqua")
@@ -90,9 +115,25 @@
 		)
 		(uuid "fcb14ea5-e7aa-46d3-9c0c-3dd2f0c634c4")
 	)
+	(junction
+		(at 129.54 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27870c6c-85c3-493b-81b5-11690196a454")
+	)
+	(bus
+		(pts
+			(xy 57.15 77.47) (xy 57.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bbd3ad-5ea4-491e-889a-e16a98fa257c")
+	)
 	(polyline
 		(pts
-			(xy 101.6 59.69) (xy 101.6 82.55)
+			(xy 46.99 45.085) (xy 46.99 67.945)
 		)
 		(stroke
 			(width 0)
@@ -101,9 +142,39 @@
 		)
 		(uuid "094a3152-4dea-4e0c-a3c3-145daa995ef7")
 	)
+	(bus
+		(pts
+			(xy 129.54 88.9) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19013486-5d3a-4054-bd6a-0647856de625")
+	)
+	(bus
+		(pts
+			(xy 99.06 120.65) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd6cb71-11b3-4fea-a00b-735f75b80e3a")
+	)
+	(bus
+		(pts
+			(xy 57.15 120.65) (xy 59.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e59bb1-7491-4918-af05-69f7e4a6492e")
+	)
 	(polyline
 		(pts
-			(xy 212.725 59.436) (xy 212.725 82.296)
+			(xy 253.111 44.958) (xy 253.111 67.818)
 		)
 		(stroke
 			(width 0)
@@ -112,9 +183,79 @@
 		)
 		(uuid "41c5085d-e9a4-4a8f-a567-f024f80afab6")
 	)
+	(bus
+		(pts
+			(xy 129.54 120.65) (xy 133.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e30854b-b266-40b0-97e1-3ba98396e6f2")
+	)
+	(bus
+		(pts
+			(xy 116.84 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd1ed23-d62c-4385-b746-ab7c4c6932af")
+	)
+	(bus
+		(pts
+			(xy 99.06 127) (xy 133.35 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5da4bf-de2e-44d6-82b9-6f2161ab2222")
+	)
+	(bus
+		(pts
+			(xy 123.19 82.55) (xy 123.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d0546b-0e11-419b-8699-6d01c572f039")
+	)
+	(bus
+		(pts
+			(xy 99.06 114.3) (xy 123.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecb6c74-96da-4492-8ed4-8106025bd482")
+	)
+	(bus
+		(pts
+			(xy 99.06 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d50b1a-5fa9-4756-9f74-b2e71039af5f")
+	)
+	(bus
+		(pts
+			(xy 116.84 107.95) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68ef373-7f78-4f7d-9307-e7f7a21a3644")
+	)
 	(polyline
 		(pts
-			(xy 207.645 59.436) (xy 207.645 82.296)
+			(xy 248.031 44.958) (xy 248.031 67.818)
 		)
 		(stroke
 			(width 0)
@@ -123,9 +264,29 @@
 		)
 		(uuid "bb42ef82-264c-4664-8ca7-08854f91f659")
 	)
+	(bus
+		(pts
+			(xy 123.19 82.55) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1b8946-9aae-425c-94f4-63faf4c02f1f")
+	)
+	(bus
+		(pts
+			(xy 129.54 88.9) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c326f2a4-f755-453a-b60d-b78991f96993")
+	)
 	(polyline
 		(pts
-			(xy 96.52 59.69) (xy 96.52 82.55)
+			(xy 41.91 45.085) (xy 41.91 67.945)
 		)
 		(stroke
 			(width 0)
@@ -134,9 +295,29 @@
 		)
 		(uuid "c558713f-e361-4d37-b75a-d8df8a2f7ada")
 	)
+	(bus
+		(pts
+			(xy 54.61 77.47) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75a6761-e369-4294-ae18-3126f7d74920")
+	)
+	(bus
+		(pts
+			(xy 99.06 139.7) (xy 102.87 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59d67fc-a7c1-45a5-8704-06718231747c")
+	)
 	(polyline
 		(pts
-			(xy 217.805 59.436) (xy 217.805 82.296)
+			(xy 258.191 44.958) (xy 258.191 67.818)
 		)
 		(stroke
 			(width 0)
@@ -146,8 +327,8 @@
 		(uuid "f826795b-8fe7-4c0b-b99f-39a0b7ce70ed")
 	)
 	(sheet
-		(at 68.58 82.55)
-		(size 59.69 58.42)
+		(at 102.87 132.08)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,9 +341,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "619d845a-8c90-490b-ae7a-6c3e22416b6d")
-		(property "Sheetname" "69split Left Keyboard"
-			(at 68.58 81.8384 0)
+		(uuid "50769013-414a-494e-93be-b0bb16643ca0")
+		(property "Sheetname" "Indicator LEDs"
+			(at 102.87 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -170,8 +351,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../left.kicad_sch"
-			(at 68.58 141.5546 0)
+		(property "Sheetfile" "indicators.kicad_sch"
+			(at 102.87 147.2696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,10 +360,309 @@
 				(justify left top)
 			)
 		)
+		(pin "{INDICATORS}" input
+			(at 102.87 139.7 180)
+			(uuid "6ab7d428-c93c-44bb-9a0d-4f19a7da8307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 68.58)
+		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "529ccb27-424e-404d-8f7f-2ca17e17c1b0")
+		(property "Sheetname" "Left Keyboard Connector"
+			(at 143.51 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left-conn.kicad_sch"
+			(at 143.51 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COMMON_ROWS}" bidirectional
+			(at 143.51 88.9 180)
+			(uuid "5c49cfc2-3575-4a6d-81e5-59b532797ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RIGHT_COLUMNS}" bidirectional
+			(at 143.51 82.55 180)
+			(uuid "be0e15f7-ec18-4f9f-9744-ea64fd0ca534")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(pin "{GPIO_OUT}" input
+			(at 143.51 76.2 180)
+			(uuid "c666f7ab-fe91-4fc3-ae6c-873888ec365c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 99.06)
+		(size 39.37 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68a55e30-103f-46e9-a337-1e9bab0df478")
+		(property "Sheetname" "ATmega32U4"
+			(at 59.69 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atmega32u4.kicad_sch"
+			(at 59.69 152.3496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COMMON_ROWS}" bidirectional
+			(at 99.06 120.65 0)
+			(uuid "61e517b4-0196-40fb-b566-c67b219a182b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{LEFT_COLUMNS}" bidirectional
+			(at 99.06 127 0)
+			(uuid "79cd15e1-b392-4eef-a916-e994a292c17f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{RIGHT_COLUMNS}" bidirectional
+			(at 99.06 114.3 0)
+			(uuid "b4146ad3-3364-47b5-8f84-f8e55d0b8433")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USB_BUS}" bidirectional
+			(at 59.69 120.65 180)
+			(uuid "f09d0339-b7dd-4295-b93d-ead309f4a55c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{GPIO_OUT}" input
+			(at 99.06 107.95 0)
+			(uuid "f345db2a-4141-4a16-a444-689940269418")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{INDICATORS}" input
+			(at 99.06 139.7 0)
+			(uuid "706005bb-be3a-400c-b97a-61998f6ebcaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 116.84)
+		(size 39.37 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91cdcebd-1915-45e6-b05f-d7c65936f9f3")
+		(property "Sheetname" "Left Matrix"
+			(at 133.35 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left-matrix.kicad_sch"
+			(at 133.35 148.5396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{COMMON_ROWS}" bidirectional
+			(at 133.35 120.65 180)
+			(uuid "4663b5ef-7486-4c9f-9147-e35298f4e520")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{LEFT_COLUMNS}" bidirectional
+			(at 133.35 127 180)
+			(uuid "ccaec65b-ad33-4282-a564-aa2d4c4d0ca7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 68.58)
+		(size 29.21 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9761ff83-2474-42df-b43e-2f8540936a26")
+		(property "Sheetname" "USB Connector"
+			(at 25.4 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-conn.kicad_sch"
+			(at 25.4 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{USB_BUS}" bidirectional
+			(at 54.61 77.47 0)
+			(uuid "78ca4d21-bccd-4a22-96d2-0490bf4aae7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
+					(page "6")
 				)
 			)
 		)

@@ -614,20 +614,16 @@
       "Root"
     ],
     [
-      "ac25bf21-5747-45a1-9932-13b7ac3cf727",
-      "69split Right Keyboard"
+      "f2f72030-456e-424c-bdd0-69cd41410d8b",
+      "GPIO Outputs"
     ],
     [
-      "86171c65-8b15-47dd-b0cc-51559fd50666",
+      "e52f6576-264c-459a-9037-dc2e10a35447",
       "Right Keyboard Connector"
     ],
     [
-      "ee959681-d1ae-40ab-943e-c11858dc89da",
+      "a3a71a3c-f3ce-42c2-a0de-8434118661c9",
       "Right Matrix"
-    ],
-    [
-      "d2802043-988e-4739-bb09-bc702adfc223",
-      "GPIO Outputs"
     ]
   ],
   "text_variables": {}

@@ -638,24 +638,24 @@
       "Root"
     ],
     [
-      "619d845a-8c90-490b-ae7a-6c3e22416b6d",
-      "69split Left Keyboard"
-    ],
-    [
-      "d3fe7daf-0d6e-41be-bc1c-53fc3114204a",
-      "USB Connector"
-    ],
-    [
-      "b553621f-78c9-4bd8-bee0-4339339a610f",
+      "68a55e30-103f-46e9-a337-1e9bab0df478",
       "ATmega32U4"
     ],
     [
-      "35a32853-12e1-4bc3-8463-6fc773ed0444",
+      "50769013-414a-494e-93be-b0bb16643ca0",
+      "Indicator LEDs"
+    ],
+    [
+      "529ccb27-424e-404d-8f7f-2ca17e17c1b0",
+      "Left Keyboard Connector"
+    ],
+    [
+      "91cdcebd-1915-45e6-b05f-d7c65936f9f3",
       "Left Matrix"
     ],
     [
-      "d4182089-a420-4810-8c92-cb85384e402e",
-      "Left Keyboard Connector"
+      "9761ff83-2474-42df-b43e-2f8540936a26",
+      "USB Connector"
     ]
   ],
   "text_variables": {}
