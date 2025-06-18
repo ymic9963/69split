@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "8494680f-867c-451f-a85c-76e44a8b0de7")
 	(paper "A4")
+	(title_block
+		(title "69SPLIT KEYBOARD")
+		(date "2025-06-11")
+	)
 	(lib_symbols
 		(symbol "Device:D"
 			(pin_numbers

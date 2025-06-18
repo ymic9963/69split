@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867")
 	(paper "A4")
+	(title_block
+		(title "69SPLIT KEYBOARD")
+		(date "2025-06-11")
+	)
 	(lib_symbols)
 	(arc
 		(start 103.505 97.79)

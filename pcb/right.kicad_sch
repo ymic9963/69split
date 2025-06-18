@@ -5,13 +5,13 @@
 	(uuid "6d486952-509b-4732-8fbd-f2f361ad338c")
 	(paper "A4")
 	(title_block
-		(title "Split Normal 69")
+		(title "69SPLIT KEYBOARD")
 		(date "2025-06-11")
 	)
 	(lib_symbols)
 	(rectangle
-		(start 73.66 62.865)
-		(end 228.6 149.225)
+		(start 73.66 74.295)
+		(end 234.95 142.24)
 		(stroke
 			(width 0)
 			(type solid)
@@ -36,7 +36,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 88.9) (xy 86.36 88.9)
+			(xy 133.35 93.98) (xy 92.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -46,7 +46,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 132.08) (xy 120.65 95.25)
+			(xy 127 121.92) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -56,7 +56,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 132.08) (xy 158.75 132.08)
+			(xy 127 121.92) (xy 165.1 121.92)
 		)
 		(stroke
 			(width 0)
@@ -66,7 +66,17 @@
 	)
 	(bus
 		(pts
-			(xy 127 125.73) (xy 127 88.9)
+			(xy 92.71 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b9166c-b6ae-4f18-a149-ede2437e0122")
+	)
+	(bus
+		(pts
+			(xy 133.35 115.57) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
@@ -76,7 +86,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 95.25) (xy 86.36 95.25)
+			(xy 127 100.33) (xy 92.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -86,7 +96,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 125.73) (xy 158.75 125.73)
+			(xy 133.35 115.57) (xy 165.1 115.57)
 		)
 		(stroke
 			(width 0)
@@ -95,7 +105,7 @@
 		(uuid "f4a0c0f0-6282-4db9-ba62-5cef855045d8")
 	)
 	(sheet
-		(at 58.42 55.88)
+		(at 64.77 67.31)
 		(size 27.94 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -111,7 +121,7 @@
 		)
 		(uuid "86171c65-8b15-47dd-b0cc-51559fd50666")
 		(property "Sheetname" "Right Keyboard Connector"
-			(at 58.42 55.1684 0)
+			(at 64.77 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +130,7 @@
 			)
 		)
 		(property "Sheetfile" "right-conn.kicad_sch"
-			(at 58.42 116.1546 0)
+			(at 64.77 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +139,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 86.36 88.9 0)
+			(at 92.71 93.98 0)
 			(uuid "fdad7b68-98a7-4a2f-b1d9-776c7e13327f")
 			(effects
 				(font
@@ -139,12 +149,22 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 86.36 95.25 0)
+			(at 92.71 100.33 0)
 			(uuid "256da61e-372f-4e1b-bab5-f7def8a4963b")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPIO_OUT}" input
+			(at 92.71 81.28 0)
+			(uuid "b3b826f5-7fad-4600-93bb-6156d31da2b5")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
@@ -168,8 +188,8 @@
 		)
 	)
 	(sheet
-		(at 158.75 75.565)
-		(size 43.18 26.035)
+		(at 165.1 67.31)
+		(size 43.18 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -184,7 +204,7 @@
 		)
 		(uuid "d2802043-988e-4739-bb09-bc702adfc223")
 		(property "Sheetname" "GPIO Outputs"
-			(at 158.75 74.8534 0)
+			(at 165.1 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,12 +213,22 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 158.75 102.1846 0)
+			(at 165.1 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{GPIO_OUT}" input
+			(at 165.1 81.28 180)
+			(uuid "3e26a718-20b8-40ef-bb13-e39beb539f8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -210,7 +240,7 @@
 		)
 	)
 	(sheet
-		(at 158.75 114.3)
+		(at 165.1 104.14)
 		(size 43.18 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -226,7 +256,7 @@
 		)
 		(uuid "ee959681-d1ae-40ab-943e-c11858dc89da")
 		(property "Sheetname" "Right Matrix"
-			(at 158.75 113.5884 0)
+			(at 165.1 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +265,7 @@
 			)
 		)
 		(property "Sheetfile" "right-matrix.kicad_sch"
-			(at 158.75 145.9996 0)
+			(at 165.1 135.8396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +274,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" input
-			(at 158.75 125.73 180)
+			(at 165.1 115.57 180)
 			(uuid "ec2e948c-4685-4e6d-8f23-c66d4dbeba74")
 			(effects
 				(font
@@ -254,7 +284,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" input
-			(at 158.75 132.08 180)
+			(at 165.1 121.92 180)
 			(uuid "6106e51b-ac86-40ed-8ded-cc676ce8093f")
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "fb5dc3d9-7954-427a-8528-b18056ad0f80")
 	(paper "A4")
 	(title_block
-		(title "Split Normal 69")
+		(title "69SPLIT KEYBOARD")
 		(date "2025-06-11")
 	)
 	(lib_symbols
@@ -1955,6 +1955,16 @@
 		)
 		(uuid "482aa3ff-b758-4028-8809-b19e71026842")
 	)
+	(text "330R for 10mA limit"
+		(exclude_from_sim no)
+		(at 195.58 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4877d973-629e-4837-8359-c44eff616c42")
+	)
 	(text "ATMEGA32U4"
 		(exclude_from_sim no)
 		(at 145.542 26.162 0)
@@ -2327,6 +2337,16 @@
 			(type default)
 		)
 		(uuid "000c466a-5930-48d6-aeb8-ed0868c1cfb3")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 195.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00276a4a-f882-49e5-bfb2-31a014aa52ce")
 	)
 	(wire
 		(pts
@@ -2730,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 172.72 92.71)
+			(xy 157.48 92.71) (xy 162.56 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3067,6 +3087,16 @@
 			(type default)
 		)
 		(uuid "91f3f5cf-8214-4339-b994-8bc7fc8ac74d")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 195.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9384bcff-d8ec-4ea1-9055-237c37f85e2d")
 	)
 	(wire
 		(pts
@@ -3468,6 +3498,16 @@
 		)
 		(uuid "f0c59a07-8e3d-4d2f-8005-b45a0e59e4a3")
 	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4bfd989-5b71-44fc-a431-5fb546f7b8c3")
+	)
 	(bus
 		(pts
 			(xy 254 86.36) (xy 240.03 86.36)
@@ -3549,7 +3589,7 @@
 		(uuid "0ccf88a3-6ebf-4f6e-a4ec-ebb107d515b2")
 	)
 	(label "GPIO_OUT_PB6"
-		(at 172.72 92.71 180)
+		(at 195.58 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3959,7 +3999,7 @@
 		(uuid "b7b6c366-7139-4828-9746-3d788189e891")
 	)
 	(label "GPIO_OUT_PB7"
-		(at 172.72 95.25 180)
+		(at 195.58 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3989,7 +4029,7 @@
 		(uuid "c65a10be-6b83-40f4-8d07-a90c1e52e5a5")
 	)
 	(label "GPIO_OUT_PB5"
-		(at 172.72 90.17 180)
+		(at 195.58 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4389,11 +4429,12 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 74.93 63.5 0)
+			(at 77.47 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4531,11 +4572,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 144.78 0)
+			(at 187.96 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4697,11 +4739,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 170.18 0)
+			(at 142.24 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5794,11 +5837,12 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 44.45 135.89 0)
+			(at 41.91 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5912,6 +5956,234 @@
 			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/b553621f-78c9-4bd8-bee0-4339339a610f"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18aa6350-d65b-44f4-af69-9d0df7c599d5")
+		(property "Reference" "R7"
+			(at 176.53 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 176.53 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 176.53 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab216193-bf63-40ab-86c7-af6777fc8417")
+		)
+		(pin "2"
+			(uuid "d1da260c-b55a-47cf-bc94-b2541cc16483")
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/b553621f-78c9-4bd8-bee0-4339339a610f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192d4111-260e-4bf8-9f9a-b879f059b19a")
+		(property "Reference" "R8"
+			(at 166.37 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 166.37 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 166.37 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04751e7b-85ef-41c2-ac6b-b6b664d19ba7")
+		)
+		(pin "2"
+			(uuid "820486c8-1e3a-4dad-adaa-25b91dbc21b4")
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/b553621f-78c9-4bd8-bee0-4339339a610f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d126e0b-0a74-4d76-ba77-fb96808efffe")
+		(property "Reference" "R9"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 176.53 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 176.53 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7402edde-dff3-46e7-b14b-99acd7d9873b")
+		)
+		(pin "2"
+			(uuid "fd1c5605-c837-4c20-8c5d-675e99d4ece8")
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37/b553621f-78c9-4bd8-bee0-4339339a610f"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6176,11 +6448,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 120.65 0)
+			(at 119.38 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6341,11 +6614,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 97.79 0)
+			(at 106.68 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -6400,6 +6674,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "df43c2c9-864d-4f79-adbf-4a6723c99ba2")
 		(property "Reference" "#PWR08"
 			(at 132.08 73.66 0)
@@ -6411,11 +6686,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 69.342 0)
+			(at 134.62 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

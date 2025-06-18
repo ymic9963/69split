@@ -5,7 +5,7 @@
 	(uuid "691849a4-5d16-4a63-a095-5a0903d5c89e")
 	(paper "A4")
 	(title_block
-		(title "Split Normal 69")
+		(title "69SPLIT KEYBOARD")
 		(date "2025-06-11")
 	)
 	(lib_symbols
@@ -1042,7 +1042,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RIGHT SWEYBOARD CONNECTOR"
+	(bus_alias "COMMON_ROWS"
+		(members "ROW0" "ROW1" "ROW2" "ROW3" "ROW4")
+	)
+	(bus_alias "GPIO_OUT"
+		(members "GPIO_OUT_PB7" "GPIO_OUT_PB6" "GPIO_OUT_PB5")
+	)
+	(bus_alias "RIGHT_COLUMNS"
+		(members "COL6" "COL7" "COL8" "COL9" "COL10" "COL11" "COL12" "COL13" "COL14")
+	)
+	(text "RIGHT KEYBOARD CONNECTOR"
 		(exclude_from_sim no)
 		(at 149.098 39.37 0)
 		(effects
@@ -1079,6 +1088,15 @@
 		(uuid "33c2617f-37e3-4314-9570-0d8fe1abbe1a")
 	)
 	(bus_entry
+		(at 191.77 129.54)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4804fbd9-e084-4b3f-979c-8cd92af20a23")
+	)
+	(bus_entry
 		(at 194.31 76.2)
 		(size -2.54 2.54)
 		(stroke
@@ -1086,6 +1104,15 @@
 			(type default)
 		)
 		(uuid "5a5c6d4a-49a8-484a-93dc-0ef61d54fc35")
+	)
+	(bus_entry
+		(at 191.77 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651ced29-2daf-4229-957e-e05b5cf1a5cc")
 	)
 	(bus_entry
 		(at 194.31 124.46)
@@ -1133,6 +1160,15 @@
 		(uuid "a5e96aed-1534-4125-b83a-118e8c3dfc0a")
 	)
 	(bus_entry
+		(at 191.77 129.54)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab89e8bb-b3db-4456-aa1f-cb27b08d6665")
+	)
+	(bus_entry
 		(at 194.31 104.14)
 		(size -2.54 2.54)
 		(stroke
@@ -1140,6 +1176,15 @@
 			(type default)
 		)
 		(uuid "ac5e2e50-37ed-40c1-8b11-beeb1a7bcfa0")
+	)
+	(bus_entry
+		(at 191.77 134.62)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b000747f-7bd8-43e1-a543-5b13b4538a7c")
 	)
 	(bus_entry
 		(at 194.31 101.6)
@@ -1198,6 +1243,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 137.16) (xy 191.77 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032db464-72e8-47ec-83a6-775cfcf1bf4f")
+	)
+	(wire
+		(pts
 			(xy 191.77 119.38) (xy 116.84 119.38)
 		)
 		(stroke
@@ -1226,6 +1281,26 @@
 		)
 		(uuid "18857185-1304-4b0c-9d26-f5ae11a6bb40")
 	)
+	(bus
+		(pts
+			(xy 194.31 132.08) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df44118-8763-4cfd-ab23-d7839fd7ae58")
+	)
+	(bus
+		(pts
+			(xy 194.31 127) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23837410-9398-429e-8c48-625658603d1c")
+	)
 	(wire
 		(pts
 			(xy 191.77 99.06) (xy 116.84 99.06)
@@ -1235,16 +1310,6 @@
 			(type default)
 		)
 		(uuid "24e8f811-3bb1-4d85-9fbe-ad60eb7d9b9e")
-	)
-	(wire
-		(pts
-			(xy 191.77 137.16) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bebe987-2539-4319-b189-676cead1237c")
 	)
 	(bus
 		(pts
@@ -1368,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 134.62) (xy 116.84 134.62)
+			(xy 116.84 134.62) (xy 191.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 129.54) (xy 116.84 129.54)
+			(xy 116.84 129.54) (xy 191.77 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1515,6 +1580,16 @@
 			(type default)
 		)
 		(uuid "cf610794-796a-4841-ab84-af9fdd1c8515")
+	)
+	(bus
+		(pts
+			(xy 194.31 127) (xy 212.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd132434-59fc-466f-9676-566a70664dfa")
 	)
 	(bus
 		(pts
@@ -1667,6 +1742,16 @@
 		)
 		(uuid "ae59c9b7-1bd6-41c7-abcb-fe6f59bf84aa")
 	)
+	(label "GPIO_OUT_PB5"
+		(at 191.77 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afeb492a-be2c-48ef-9c04-fa2a0f8df9ac")
+	)
 	(label "ROW1"
 		(at 191.77 83.82 180)
 		(effects
@@ -1689,6 +1774,16 @@
 		)
 		(uuid "c1940a7b-6032-4994-a950-c6b4e0db82c7")
 	)
+	(label "GPIO_OUT_PB7"
+		(at 191.77 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd23acc2-ee40-4e39-8a6b-54955f828c94")
+	)
 	(label "COL9"
 		(at 186.69 106.68 0)
 		(effects
@@ -1699,6 +1794,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf96ae3a-c0c2-477e-b318-04b11ef78d57")
+	)
+	(label "GPIO_OUT_PB6"
+		(at 191.77 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd3474a6-bbce-4d96-8ef7-b3695a586275")
 	)
 	(hierarchical_label "{COMMON_ROWS}"
 		(shape bidirectional)
@@ -1723,6 +1828,17 @@
 			(justify left)
 		)
 		(uuid "64c92bb4-2c46-4806-9dd2-6b9177b97175")
+	)
+	(hierarchical_label "{GPIO_OUT}"
+		(shape input)
+		(at 212.09 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d88ee7c1-deb8-403a-8a0e-f98b34b14b80")
 	)
 	(symbol
 		(lib_id "power:GND")
