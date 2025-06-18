@@ -30,7 +30,7 @@
 	)
 	(text "LEFT KEYBOARD"
 		(exclude_from_sim no)
-		(at 146.558 29.972 0)
+		(at 146.05 30.48 0)
 		(effects
 			(font
 				(face "Book Antiqua")
@@ -41,14 +41,14 @@
 		(uuid "3eeeef9d-d57c-4505-afe4-0c9f448215dd")
 	)
 	(junction
-		(at 158.75 116.84)
+		(at 170.18 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0a0d3ef-8dd4-4961-bace-bcb7bc603ebf")
+		(uuid "082f77ff-4078-4eaa-9ae1-abe8fcf82c7a")
 	)
 	(bus
 		(pts
-			(xy 152.4 67.31) (xy 195.58 67.31)
+			(xy 163.83 72.39) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
@@ -58,7 +58,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 116.84) (xy 158.75 116.84)
+			(xy 139.7 110.49) (xy 170.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -88,7 +88,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 123.19) (xy 167.64 123.19)
+			(xy 139.7 116.84) (xy 180.34 116.84)
 		)
 		(stroke
 			(width 0)
@@ -98,7 +98,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 67.31) (xy 152.4 110.49)
+			(xy 163.83 72.39) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
@@ -118,7 +118,27 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 72.39) (xy 158.75 116.84)
+			(xy 157.48 97.79) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710e997a-41ce-4d95-8c6b-9515d1eb2bdd")
+	)
+	(bus
+		(pts
+			(xy 170.18 110.49) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765d30fd-b3c4-4bb6-b7a4-5aa3af930032")
+	)
+	(bus
+		(pts
+			(xy 170.18 78.74) (xy 170.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -128,17 +148,27 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 116.84) (xy 167.64 116.84)
+			(xy 139.7 97.79) (xy 157.48 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93065afd-c4fe-489e-9fca-618799647f87")
+		(uuid "84ff3a8f-33a9-43b4-90f6-467390a04518")
 	)
 	(bus
 		(pts
-			(xy 139.7 110.49) (xy 152.4 110.49)
+			(xy 139.7 129.54) (xy 152.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d77ab9e-0ae9-4971-bc74-b5942f44ec1b")
+	)
+	(bus
+		(pts
+			(xy 139.7 104.14) (xy 163.83 104.14)
 		)
 		(stroke
 			(width 0)
@@ -148,7 +178,17 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 72.39) (xy 195.58 72.39)
+			(xy 157.48 66.04) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6787df3-2160-4d5a-92e5-2ca76203f83c")
+	)
+	(bus
+		(pts
+			(xy 170.18 78.74) (xy 195.58 78.74)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +197,7 @@
 		(uuid "edd272a6-db41-4cfa-8251-2c794fdb0db9")
 	)
 	(sheet
-		(at 167.64 106.68)
+		(at 180.34 106.68)
 		(size 39.37 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -173,7 +213,7 @@
 		)
 		(uuid "35a32853-12e1-4bc3-8463-6fc773ed0444")
 		(property "Sheetname" "Left Matrix"
-			(at 167.64 105.9684 0)
+			(at 180.34 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,7 +222,7 @@
 			)
 		)
 		(property "Sheetfile" "left-matrix.kicad_sch"
-			(at 167.64 138.3796 0)
+			(at 180.34 138.3796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +231,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 167.64 116.84 180)
+			(at 180.34 110.49 180)
 			(uuid "b35a5910-df70-4bb3-be3e-af31a6840741")
 			(effects
 				(font
@@ -201,7 +241,7 @@
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 167.64 123.19 180)
+			(at 180.34 116.84 180)
 			(uuid "ddeaef3a-7651-4829-ad57-1b7da96c3016")
 			(effects
 				(font
@@ -229,8 +269,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 101.6)
-		(size 39.37 39.37)
+		(at 100.33 88.9)
+		(size 39.37 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -245,7 +285,7 @@
 		)
 		(uuid "b553621f-78c9-4bd8-bee0-4339339a610f")
 		(property "Sheetname" "ATmega32U4"
-			(at 100.33 100.8884 0)
+			(at 100.33 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,7 +294,7 @@
 			)
 		)
 		(property "Sheetfile" "atmega32u4.kicad_sch"
-			(at 100.33 141.5546 0)
+			(at 100.33 142.1896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +303,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 139.7 116.84 0)
+			(at 139.7 110.49 0)
 			(uuid "8917494c-25de-4c12-874b-4a48e45de34e")
 			(effects
 				(font
@@ -273,7 +313,7 @@
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 139.7 123.19 0)
+			(at 139.7 116.84 0)
 			(uuid "6def2f76-2d93-4b78-bd45-47bd385ec833")
 			(effects
 				(font
@@ -283,7 +323,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 139.7 110.49 0)
+			(at 139.7 104.14 0)
 			(uuid "b8fc722e-94bb-4e11-b290-3bb8153af921")
 			(effects
 				(font
@@ -302,6 +342,26 @@
 				(justify left)
 			)
 		)
+		(pin "{GPIO_OUT}" input
+			(at 139.7 97.79 0)
+			(uuid "27006bcd-ca6e-48eb-84ab-d49f77ff1303")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{INDICATORS}" input
+			(at 139.7 129.54 0)
+			(uuid "7db959de-25a2-4338-a266-a4afd334b52d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "69split"
 				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
@@ -316,6 +376,58 @@
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/619d845a-8c90-490b-ae7a-6c3e22416b6d"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 121.92)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1cfc144-c1d6-401d-ab36-376c371d20c9")
+		(property "Sheetname" "Indicator LEDs"
+			(at 152.4 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indicators.kicad_sch"
+			(at 152.4 137.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{INDICATORS}" input
+			(at 152.4 129.54 180)
+			(uuid "043fe8b5-3347-43f7-925c-eb916f9b62f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/a528eaf3-d99a-4f91-978f-500370d04b37"
+					(page "11")
 				)
 			)
 		)
@@ -417,7 +529,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 195.58 72.39 180)
+			(at 195.58 78.74 180)
 			(uuid "4e23f779-fbff-4bb1-8da5-b7d048fc5f42")
 			(effects
 				(font
@@ -427,12 +539,22 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 195.58 67.31 180)
+			(at 195.58 72.39 180)
 			(uuid "f544cfb9-b01d-45bd-8083-e32c85e6e5e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(pin "{GPIO_OUT}" input
+			(at 195.58 66.04 180)
+			(uuid "78a241b1-4528-4275-87e3-2e236d1a5934")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)

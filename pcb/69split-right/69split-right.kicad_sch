@@ -5,9 +5,148 @@
 	(uuid "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867")
 	(paper "A4")
 	(lib_symbols)
+	(arc
+		(start 103.505 97.79)
+		(mid 141.605 60.3602)
+		(end 179.705 97.79)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52d20713-9743-4600-abd6-cc232dbaadd9)
+	)
+	(rectangle
+		(start 78.74 97.79)
+		(end 130.175 152.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a094494d-52ad-427a-b683-331695a40a85)
+	)
+	(text "69SPLIT RIGHT KEYBOARD"
+		(exclude_from_sim no)
+		(at 143.51 36.576 0)
+		(effects
+			(font
+				(face "Book Antiqua")
+				(size 7.62 7.62)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "058bee23-0812-45dd-b0ed-1be012b9aa20")
+	)
+	(text "GPIO Outputs"
+		(exclude_from_sim no)
+		(at 200.025 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "37239469-f62c-4753-8df1-880df76a4987")
+	)
+	(text "Keyboard USB-C Connection"
+		(exclude_from_sim no)
+		(at 127.635 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a3acf783-b35b-4659-8163-62b90d1dee42")
+	)
+	(text "USB-C to PC"
+		(exclude_from_sim no)
+		(at 81.915 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b03dcf7c-a5b3-4b00-8e80-17fa3ea9ea0d")
+	)
+	(text "Left Keyboard"
+		(exclude_from_sim no)
+		(at 102.87 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f50d1867-5080-47b9-9d9c-114b3e28d283")
+	)
+	(polyline
+		(pts
+			(xy 206.375 74.93) (xy 206.375 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "05e65ca0-07fb-4632-966c-8edcf1842044")
+	)
+	(polyline
+		(pts
+			(xy 89.535 74.93) (xy 89.535 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4d8e34fb-bc0e-4848-a5fe-c881c514c7ef")
+	)
+	(polyline
+		(pts
+			(xy 201.295 74.93) (xy 201.295 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "71a79108-ceaa-4990-aa48-f093208f7e47")
+	)
+	(polyline
+		(pts
+			(xy 211.455 74.93) (xy 211.455 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9e965d82-0fe1-44e2-878c-5fd7bd92cfe5")
+	)
+	(polyline
+		(pts
+			(xy 84.455 74.93) (xy 84.455 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eee7c592-47f8-49fc-b260-375d5fc6d97a")
+	)
 	(sheet
-		(at 111.76 72.39)
-		(size 41.91 54.61)
+		(at 156.21 97.79)
+		(size 58.42 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +161,7 @@
 		)
 		(uuid "ac25bf21-5747-45a1-9932-13b7ac3cf727")
 		(property "Sheetname" "69split Right Keyboard"
-			(at 111.76 71.6784 0)
+			(at 156.21 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +170,7 @@
 			)
 		)
 		(property "Sheetfile" "../right.kicad_sch"
-			(at 111.76 127.5846 0)
+			(at 156.21 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -9,9 +9,22 @@
 		(date "2025-06-11")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 73.66 62.865)
+		(end 228.6 149.225)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 43 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d0c0748-b0d9-473c-94b7-808331e1c177)
+	)
 	(text "RIGHT KEYBOARD"
 		(exclude_from_sim no)
-		(at 151.13 32.512 0)
+		(at 151.13 33.02 0)
 		(effects
 			(font
 				(face "Book Antiqua")
@@ -23,7 +36,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 67.31) (xy 111.76 67.31)
+			(xy 127 88.9) (xy 86.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -33,7 +46,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 110.49) (xy 120.65 73.66)
+			(xy 120.65 132.08) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +56,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 110.49) (xy 144.78 110.49)
+			(xy 120.65 132.08) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +66,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 104.14) (xy 127 67.31)
+			(xy 127 125.73) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -63,7 +76,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 73.66) (xy 111.76 73.66)
+			(xy 120.65 95.25) (xy 86.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +86,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 104.14) (xy 144.78 104.14)
+			(xy 127 125.73) (xy 158.75 125.73)
 		)
 		(stroke
 			(width 0)
@@ -82,7 +95,7 @@
 		(uuid "f4a0c0f0-6282-4db9-ba62-5cef855045d8")
 	)
 	(sheet
-		(at 83.82 55.88)
+		(at 58.42 55.88)
 		(size 27.94 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -98,7 +111,7 @@
 		)
 		(uuid "86171c65-8b15-47dd-b0cc-51559fd50666")
 		(property "Sheetname" "Right Keyboard Connector"
-			(at 83.82 55.1684 0)
+			(at 58.42 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,7 +120,7 @@
 			)
 		)
 		(property "Sheetfile" "right-conn.kicad_sch"
-			(at 83.82 116.1546 0)
+			(at 58.42 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +129,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 111.76 67.31 0)
+			(at 86.36 88.9 0)
 			(uuid "fdad7b68-98a7-4a2f-b1d9-776c7e13327f")
 			(effects
 				(font
@@ -126,7 +139,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 111.76 73.66 0)
+			(at 86.36 95.25 0)
 			(uuid "256da61e-372f-4e1b-bab5-f7def8a4963b")
 			(effects
 				(font
@@ -155,8 +168,50 @@
 		)
 	)
 	(sheet
-		(at 144.78 92.71)
-		(size 64.77 43.18)
+		(at 158.75 75.565)
+		(size 43.18 26.035)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2802043-988e-4739-bb09-bc702adfc223")
+		(property "Sheetname" "GPIO Outputs"
+			(at 158.75 74.8534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio.kicad_sch"
+			(at 158.75 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "69split"
+				(path "/d75b0717-10e3-4e20-afcb-05300684210e/4b966fee-8f5c-4a23-a90e-d8e6cc86345c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 114.3)
+		(size 43.18 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -171,7 +226,7 @@
 		)
 		(uuid "ee959681-d1ae-40ab-943e-c11858dc89da")
 		(property "Sheetname" "Right Matrix"
-			(at 144.78 91.9984 0)
+			(at 158.75 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -180,7 +235,7 @@
 			)
 		)
 		(property "Sheetfile" "right-matrix.kicad_sch"
-			(at 144.78 136.4746 0)
+			(at 158.75 145.9996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +244,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" input
-			(at 144.78 104.14 180)
+			(at 158.75 125.73 180)
 			(uuid "ec2e948c-4685-4e6d-8f23-c66d4dbeba74")
 			(effects
 				(font
@@ -199,7 +254,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" input
-			(at 144.78 110.49 180)
+			(at 158.75 132.08 180)
 			(uuid "6106e51b-ac86-40ed-8ded-cc676ce8093f")
 			(effects
 				(font

@@ -1073,6 +1073,15 @@
 		(uuid "011e7624-3a6d-4952-a3f0-98faec731300")
 	)
 	(bus_entry
+		(at 105.41 132.08)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e18f0db-4515-449c-84b8-d7875954b64d")
+	)
+	(bus_entry
 		(at 102.87 88.9)
 		(size 2.54 2.54)
 		(stroke
@@ -1136,6 +1145,24 @@
 		(uuid "8b3052fe-9a5f-4774-a3c3-09830e4b6969")
 	)
 	(bus_entry
+		(at 105.41 129.54)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0edb2a9-a170-4ba3-ad9d-bfec53fc129c")
+	)
+	(bus_entry
+		(at 105.41 124.46)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3828b9c-7838-4685-9657-94a082bf08fb")
+	)
+	(bus_entry
 		(at 102.87 111.76)
 		(size 2.54 2.54)
 		(stroke
@@ -1188,26 +1215,6 @@
 			(type default)
 		)
 		(uuid "dbd6cd40-69a7-4c7f-8b0e-67dc1654ae15")
-	)
-	(wire
-		(pts
-			(xy 105.41 132.08) (xy 180.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019a4f81-b40e-44dc-a6cf-b0f4c6ce6d1b")
-	)
-	(wire
-		(pts
-			(xy 105.41 124.46) (xy 180.34 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b28ae8e-34e1-408d-9c20-c47eb9349804")
 	)
 	(wire
 		(pts
@@ -1278,16 +1285,6 @@
 			(type default)
 		)
 		(uuid "34b24235-df32-49e8-8e8c-bc1b7c730db1")
-	)
-	(wire
-		(pts
-			(xy 105.41 129.54) (xy 180.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b98372-6f2a-4ce1-bfbf-f0d09876743b")
 	)
 	(wire
 		(pts
@@ -1369,6 +1366,16 @@
 		)
 		(uuid "59e82352-4701-42da-9f32-6b355363c652")
 	)
+	(bus
+		(pts
+			(xy 102.87 120.65) (xy 102.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c47a3ec-8fba-48a1-8cad-bce97eaf2a13")
+	)
 	(wire
 		(pts
 			(xy 105.41 93.98) (xy 180.34 93.98)
@@ -1401,6 +1408,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91286fa8-304b-4714-8266-b12da1895447")
+	)
+	(wire
+		(pts
 			(xy 105.41 86.36) (xy 180.34 86.36)
 		)
 		(stroke
@@ -1408,6 +1425,26 @@
 			(type default)
 		)
 		(uuid "97e1a7bc-8a8e-4c6a-b09e-25d80e53760b")
+	)
+	(wire
+		(pts
+			(xy 105.41 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990e082f-3dea-4c00-b68d-1e6dec861fb1")
+	)
+	(bus
+		(pts
+			(xy 102.87 121.92) (xy 102.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8de955-a472-4a86-83a2-59d4e729a3aa")
 	)
 	(wire
 		(pts
@@ -1428,6 +1465,16 @@
 			(type default)
 		)
 		(uuid "aad4e9e7-9b03-4b82-87c5-601fc25c1ace")
+	)
+	(bus
+		(pts
+			(xy 102.87 127) (xy 102.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49040b0-8a9f-4bd2-84b6-2c1d2210d008")
 	)
 	(bus
 		(pts
@@ -1539,6 +1586,16 @@
 		)
 		(uuid "edea6c24-aa0c-440e-a475-0e23421dcc90")
 	)
+	(bus
+		(pts
+			(xy 102.87 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f578940c-3cfd-4a54-90c1-d142ecfdbb9a")
+	)
 	(wire
 		(pts
 			(xy 105.41 88.9) (xy 180.34 88.9)
@@ -1548,6 +1605,16 @@
 			(type default)
 		)
 		(uuid "f733a537-f2e5-4d43-aa4b-1565bf6de1ca")
+	)
+	(wire
+		(pts
+			(xy 105.41 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfcf6ec-9159-45b4-8f8f-37006578dd41")
 	)
 	(label "ROW2"
 		(at 105.41 81.28 0)
@@ -1559,6 +1626,36 @@
 			(justify left bottom)
 		)
 		(uuid "3be6ebfa-3d6c-473a-be89-276e8a63cf21")
+	)
+	(label "GPIO_OUT_PB7"
+		(at 119.38 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3dcb8bc9-228e-4ae4-b583-8dad784dff80")
+	)
+	(label "GPIO_OUT_PB5"
+		(at 105.41 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "464be858-a079-4e57-9fdb-37f6d2a7e796")
+	)
+	(label "GPIO_OUT_PB6"
+		(at 105.41 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51d539f7-22b7-49eb-9e7d-8ed8637874bd")
 	)
 	(label "ROW3"
 		(at 105.41 86.36 0)
@@ -1702,6 +1799,17 @@
 			(justify right bottom)
 		)
 		(uuid "eab39c3d-029b-44b9-90eb-539470640052")
+	)
+	(hierarchical_label "{GPIO_OUT}"
+		(shape input)
+		(at 85.09 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b9fa8a6-3e68-4132-8078-2776e2846d38")
 	)
 	(hierarchical_label "{RIGHT_COLUMNS}"
 		(shape bidirectional)
