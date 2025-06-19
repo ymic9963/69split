@@ -1846,7 +1846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f7be6d-bbed-43a5-97e4-abb187505252")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 207.01 101.5999 0)
 			(effects
 				(font
@@ -1864,7 +1864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
 			(at 191.77 99.06 0)
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "12401548E4#2A "
+		(property "MPN" "12401610E4#2A"
 			(at 195.58 99.06 0)
 			(effects
 				(font
@@ -1978,7 +1978,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/529ccb27-424e-404d-8f7f-2ca17e17c1b0"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1994,7 +1994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524da004-d053-4489-8c16-663a8f47cad5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 199.39 152.4 0)
 			(effects
 				(font
@@ -2044,7 +2044,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/529ccb27-424e-404d-8f7f-2ca17e17c1b0"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

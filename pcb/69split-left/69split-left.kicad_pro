@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|889000|1193800|9fc04ebb-9dcb-42f6-bf4c-c67880071b64|00000000-0000-0000-0000-000000000000|/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26|/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26|",
+        "It's GND"
+      ],
+      [
+        "power_pin_not_driven|927100|1193800|9fc04ebb-9dcb-42f6-bf4c-c67880071b64|00000000-0000-0000-0000-000000000000|/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26|/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26|",
+        "It's GND."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -582,6 +591,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],

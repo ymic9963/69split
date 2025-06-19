@@ -573,7 +573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389858be-2c03-4570-abde-5f883b3dd6d5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -623,7 +623,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/50769013-414a-494e-93be-b0bb16643ca0"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -640,7 +640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb7879e-5811-4165-8b52-ccf2af0ee46d")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 127.3175 96.52 0)
 			(effects
 				(font
@@ -656,7 +656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -710,7 +710,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/50769013-414a-494e-93be-b0bb16643ca0"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -727,7 +727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a557c11a-0073-4971-8b98-7409cea5d584")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 133.6675 82.55 0)
 			(effects
 				(font
@@ -743,7 +743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 132.08 88.9 0)
 			(effects
 				(font
@@ -797,7 +797,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/50769013-414a-494e-93be-b0bb16643ca0"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -813,7 +813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbfe796b-b7ec-4000-8837-609e912d1d29")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 115.57 82.55 90)
 			(effects
 				(font
@@ -873,7 +873,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/50769013-414a-494e-93be-b0bb16643ca0"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -889,7 +889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0fb9ad-9124-4821-b75e-85e5ea68784a")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 106.68 95.25 90)
 			(effects
 				(font
@@ -949,7 +949,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/50769013-414a-494e-93be-b0bb16643ca0"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)

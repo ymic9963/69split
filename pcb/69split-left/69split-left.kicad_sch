@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
-		(start 208.026 68.072)
-		(end 263.271 126.492)
+		(start 199.771 75.692)
+		(end 255.016 134.112)
 		(stroke
 			(width 0)
 			(type solid)
@@ -19,9 +19,9 @@
 		(uuid 251048a3-5bcb-474e-ab9d-8677d89db440)
 	)
 	(arc
-		(start 169.545 68.58)
-		(mid 203.2728 52.6354)
-		(end 237.236 68.072)
+		(start 167.005 76.2)
+		(mid 197.639 60.024)
+		(end 228.6 75.565)
 		(stroke
 			(width 0)
 			(type solid)
@@ -33,8 +33,8 @@
 		(uuid 31481a14-2feb-4501-955c-0809ec151f9b)
 	)
 	(rectangle
-		(start 29.21 73.66)
-		(end 175.26 154.305)
+		(start 48.26 81.28)
+		(end 164.465 161.925)
 		(stroke
 			(width 0)
 			(type solid)
@@ -47,7 +47,7 @@
 	)
 	(text "USB-C to PC"
 		(exclude_from_sim no)
-		(at 37.592 41.402 0)
+		(at 56.642 49.022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -71,7 +71,7 @@
 	)
 	(text "Keyboard USB-C Connection"
 		(exclude_from_sim no)
-		(at 187.96 48.768 0)
+		(at 185.928 56.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -83,7 +83,7 @@
 	)
 	(text "GPIO Outputs"
 		(exclude_from_sim no)
-		(at 246.761 42.672 0)
+		(at 240.665 50.419 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -95,7 +95,7 @@
 	)
 	(text "Right Keyboard"
 		(exclude_from_sim no)
-		(at 235.585 97.155 0)
+		(at 227.838 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -116,14 +116,14 @@
 		(uuid "fcb14ea5-e7aa-46d3-9c0c-3dd2f0c634c4")
 	)
 	(junction
-		(at 129.54 120.65)
+		(at 135.89 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27870c6c-85c3-493b-81b5-11690196a454")
+		(uuid "f7f97934-9753-4941-8943-cacc72d90d9d")
 	)
 	(bus
 		(pts
-			(xy 57.15 77.47) (xy 57.15 120.65)
+			(xy 76.2 85.09) (xy 76.2 128.27)
 		)
 		(stroke
 			(width 0)
@@ -131,9 +131,19 @@
 		)
 		(uuid "01bbd3ad-5ea4-491e-889a-e16a98fa257c")
 	)
+	(bus
+		(pts
+			(xy 74.93 147.32) (xy 78.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c40ee0-3810-4253-b8d1-0d96a1386b25")
+	)
 	(polyline
 		(pts
-			(xy 46.99 45.085) (xy 46.99 67.945)
+			(xy 66.04 52.705) (xy 66.04 75.565)
 		)
 		(stroke
 			(width 0)
@@ -144,7 +154,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 88.9) (xy 129.54 120.65)
+			(xy 135.89 96.52) (xy 135.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -154,7 +164,17 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 120.65) (xy 129.54 120.65)
+			(xy 135.89 128.27) (xy 142.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cef223-8722-4bf4-8283-6a5b45ca59d5")
+	)
+	(bus
+		(pts
+			(xy 118.11 128.27) (xy 135.89 128.27)
 		)
 		(stroke
 			(width 0)
@@ -164,7 +184,7 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 120.65) (xy 59.69 120.65)
+			(xy 76.2 128.27) (xy 78.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -174,7 +194,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.111 44.958) (xy 253.111 67.818)
+			(xy 247.015 52.705) (xy 247.015 75.565)
 		)
 		(stroke
 			(width 0)
@@ -185,17 +205,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 120.65) (xy 133.35 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e30854b-b266-40b0-97e1-3ba98396e6f2")
-	)
-	(bus
-		(pts
-			(xy 116.84 76.2) (xy 143.51 76.2)
+			(xy 123.19 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
@@ -205,7 +215,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 127) (xy 133.35 127)
+			(xy 118.11 134.62) (xy 142.24 134.62)
 		)
 		(stroke
 			(width 0)
@@ -215,7 +225,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 82.55) (xy 123.19 114.3)
+			(xy 129.54 90.17) (xy 129.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +235,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 114.3) (xy 123.19 114.3)
+			(xy 118.11 121.92) (xy 129.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -235,7 +245,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 107.95) (xy 116.84 107.95)
+			(xy 118.11 115.57) (xy 123.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -245,7 +255,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 107.95) (xy 116.84 76.2)
+			(xy 123.19 115.57) (xy 123.19 83.82)
 		)
 		(stroke
 			(width 0)
@@ -255,7 +265,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.031 44.958) (xy 248.031 67.818)
+			(xy 241.935 52.705) (xy 241.935 75.565)
 		)
 		(stroke
 			(width 0)
@@ -266,7 +276,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 82.55) (xy 143.51 82.55)
+			(xy 129.54 90.17) (xy 142.24 90.17)
 		)
 		(stroke
 			(width 0)
@@ -276,7 +286,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 88.9) (xy 143.51 88.9)
+			(xy 135.89 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -286,7 +296,7 @@
 	)
 	(polyline
 		(pts
-			(xy 41.91 45.085) (xy 41.91 67.945)
+			(xy 60.96 52.705) (xy 60.96 75.565)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +307,7 @@
 	)
 	(bus
 		(pts
-			(xy 54.61 77.47) (xy 57.15 77.47)
+			(xy 73.66 85.09) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
@@ -305,19 +315,9 @@
 		)
 		(uuid "d75a6761-e369-4294-ae18-3126f7d74920")
 	)
-	(bus
-		(pts
-			(xy 99.06 139.7) (xy 102.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59d67fc-a7c1-45a5-8704-06718231747c")
-	)
 	(polyline
 		(pts
-			(xy 258.191 44.958) (xy 258.191 67.818)
+			(xy 252.095 52.705) (xy 252.095 75.565)
 		)
 		(stroke
 			(width 0)
@@ -327,7 +327,7 @@
 		(uuid "f826795b-8fe7-4c0b-b99f-39a0b7ce70ed")
 	)
 	(sheet
-		(at 102.87 132.08)
+		(at 52.07 139.7)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -343,7 +343,7 @@
 		)
 		(uuid "50769013-414a-494e-93be-b0bb16643ca0")
 		(property "Sheetname" "Indicator LEDs"
-			(at 102.87 131.3684 0)
+			(at 52.07 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,7 +352,7 @@
 			)
 		)
 		(property "Sheetfile" "indicators.kicad_sch"
-			(at 102.87 147.2696 0)
+			(at 52.07 154.8896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,13 +361,13 @@
 			)
 		)
 		(pin "{INDICATORS}" input
-			(at 102.87 139.7 180)
+			(at 74.93 147.32 0)
 			(uuid "6ab7d428-c93c-44bb-9a0d-4f19a7da8307")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -379,8 +379,8 @@
 		)
 	)
 	(sheet
-		(at 143.51 68.58)
-		(size 36.83 31.75)
+		(at 142.24 76.2)
+		(size 29.845 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -395,7 +395,7 @@
 		)
 		(uuid "529ccb27-424e-404d-8f7f-2ca17e17c1b0")
 		(property "Sheetname" "Left Keyboard Connector"
-			(at 143.51 67.8684 0)
+			(at 142.24 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +404,7 @@
 			)
 		)
 		(property "Sheetfile" "left-conn.kicad_sch"
-			(at 143.51 100.9146 0)
+			(at 142.24 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,7 +413,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 143.51 88.9 180)
+			(at 142.24 96.52 180)
 			(uuid "5c49cfc2-3575-4a6d-81e5-59b532797ac9")
 			(effects
 				(font
@@ -423,7 +423,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 143.51 82.55 180)
+			(at 142.24 90.17 180)
 			(uuid "be0e15f7-ec18-4f9f-9744-ea64fd0ca534")
 			(effects
 				(font
@@ -434,7 +434,7 @@
 			)
 		)
 		(pin "{GPIO_OUT}" input
-			(at 143.51 76.2 180)
+			(at 142.24 83.82 180)
 			(uuid "c666f7ab-fe91-4fc3-ae6c-873888ec365c")
 			(effects
 				(font
@@ -452,7 +452,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 99.06)
+		(at 78.74 106.68)
 		(size 39.37 52.07)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -468,7 +468,7 @@
 		)
 		(uuid "68a55e30-103f-46e9-a337-1e9bab0df478")
 		(property "Sheetname" "ATmega32U4"
-			(at 59.69 98.3484 0)
+			(at 78.74 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +477,7 @@
 			)
 		)
 		(property "Sheetfile" "atmega32u4.kicad_sch"
-			(at 59.69 152.3496 0)
+			(at 78.74 159.9696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 99.06 120.65 0)
+			(at 118.11 128.27 0)
 			(uuid "61e517b4-0196-40fb-b566-c67b219a182b")
 			(effects
 				(font
@@ -496,7 +496,7 @@
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 99.06 127 0)
+			(at 118.11 134.62 0)
 			(uuid "79cd15e1-b392-4eef-a916-e994a292c17f")
 			(effects
 				(font
@@ -506,7 +506,7 @@
 			)
 		)
 		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 99.06 114.3 0)
+			(at 118.11 121.92 0)
 			(uuid "b4146ad3-3364-47b5-8f84-f8e55d0b8433")
 			(effects
 				(font
@@ -516,7 +516,7 @@
 			)
 		)
 		(pin "{USB_BUS}" bidirectional
-			(at 59.69 120.65 180)
+			(at 78.74 128.27 180)
 			(uuid "f09d0339-b7dd-4295-b93d-ead309f4a55c")
 			(effects
 				(font
@@ -526,7 +526,7 @@
 			)
 		)
 		(pin "{GPIO_OUT}" input
-			(at 99.06 107.95 0)
+			(at 118.11 115.57 0)
 			(uuid "f345db2a-4141-4a16-a444-689940269418")
 			(effects
 				(font
@@ -536,13 +536,13 @@
 			)
 		)
 		(pin "{INDICATORS}" input
-			(at 99.06 139.7 0)
+			(at 78.74 147.32 180)
 			(uuid "706005bb-be3a-400c-b97a-61998f6ebcaf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -554,8 +554,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 116.84)
-		(size 39.37 30.48)
+		(at 142.24 124.46)
+		(size 29.845 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -570,7 +570,7 @@
 		)
 		(uuid "91cdcebd-1915-45e6-b05f-d7c65936f9f3")
 		(property "Sheetname" "Left Matrix"
-			(at 133.35 116.1284 0)
+			(at 142.24 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +579,7 @@
 			)
 		)
 		(property "Sheetfile" "left-matrix.kicad_sch"
-			(at 133.35 148.5396 0)
+			(at 142.24 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +588,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 133.35 120.65 180)
+			(at 142.24 128.27 180)
 			(uuid "4663b5ef-7486-4c9f-9147-e35298f4e520")
 			(effects
 				(font
@@ -598,7 +598,7 @@
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 133.35 127 180)
+			(at 142.24 134.62 180)
 			(uuid "ccaec65b-ad33-4282-a564-aa2d4c4d0ca7")
 			(effects
 				(font
@@ -616,7 +616,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 68.58)
+		(at 44.45 76.2)
 		(size 29.21 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -632,7 +632,7 @@
 		)
 		(uuid "9761ff83-2474-42df-b43e-2f8540936a26")
 		(property "Sheetname" "USB Connector"
-			(at 25.4 67.8684 0)
+			(at 44.45 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +641,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-conn.kicad_sch"
-			(at 25.4 95.8346 0)
+			(at 44.45 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -650,7 +650,7 @@
 			)
 		)
 		(pin "{USB_BUS}" bidirectional
-			(at 54.61 77.47 0)
+			(at 73.66 85.09 0)
 			(uuid "78ca4d21-bccd-4a22-96d2-0490bf4aae7f")
 			(effects
 				(font
