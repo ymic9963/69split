@@ -1,0 +1,178 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 69.56 6.9002)
+	)
+	(line
+		(name "")
+		(start 92.56 5.5)
+		(end 2 5.5)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 91.56 4.1002)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 92.56 8.5)
+		(end 2 8.5)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "")
+		(pos 41.34 6.9002)
+		(font bold)
+	)
+	(tbtext "Size: ${PAPER}"
+		(name "")
+		(pos 91.56 6.9002)
+		(comment "Paper format name")
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "")
+		(pos 41.213 4.1002)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 92.56 12.5)
+		(end 2 12.5)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 91.56 10.7002)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 91.56 14.3002)
+	)
+	(line
+		(name "")
+		(start 92.56 18.5)
+		(end 2 18.5)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 91.56 17.0002)
+	)
+	(line
+		(name "")
+		(start 72.56 8.5002)
+		(end 72.56 5.5002)
+	)
+	(line
+		(name "")
+		(start 92.559 18.4822)
+		(end 92.575 2.0142)
+	)
+	(line
+		(name "")
+		(start 42.215 18.3972)
+		(end 42.215 12.5552)
+	)
+	(line
+		(name "")
+		(start 42.215 2.0142)
+		(end 42.215 8.4912)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 91.56 17.0002)
+	)
+	(tbtext "Drawn by: ${COMMENT1}"
+		(name "")
+		(pos 40.789 16.9722)
+	)
+	(tbtext "Username: ${COMMENT2}"
+		(name "")
+		(pos 41.459 14.292)
+	)
+)

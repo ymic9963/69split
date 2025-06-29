@@ -1864,7 +1864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
 			(at 191.77 99.06 0)
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "12401610E4#2A"
+		(property "MPN" "12401548E4#2A"
 			(at 195.58 99.06 0)
 			(effects
 				(font

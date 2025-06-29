@@ -7,6 +7,9 @@
 	(title_block
 		(title "69SPLIT KEYBOARD")
 		(date "2025-06-11")
+		(rev "1")
+		(comment 1 "Yiannis Michael")
+		(comment 2 "ymich9963")
 	)
 	(lib_symbols
 		(symbol "Device:D"

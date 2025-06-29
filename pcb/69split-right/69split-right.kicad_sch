@@ -7,6 +7,9 @@
 	(title_block
 		(title "69SPLIT KEYBOARD")
 		(date "2025-06-11")
+		(rev "1")
+		(comment 1 "Yiannis Michael")
+		(comment 2 "ymich9963")
 	)
 	(lib_symbols)
 	(rectangle
@@ -435,4 +438,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "my-sheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCfCS0VANadXiEQ0zb8P046AJ8aXgsH2O6IQXYrqPActbgvTGkjAgg3cCBVAFEAWAB7LP/L
+				zyw/g9G7Wic1Zntj95csGrCl1TMfak8mtWjA1HoO6fM/+QsAQEBgcj6flV5SJ+kwd6Ip+S7f25nM
+				GINlrZ1uvU6W+ty5UwAEBOfG04UeqDeFmyYieCK/t9h7g3Z+MoMOuug/ORp83WKgi71+31ftVAA8
+				WV6s4+tnaUpW8v/k/x7XCV+vGPTZIKmvv5fN7NVDMu9M7hJ8sfpv709J8jx65IM514baP+fMNtk7
+				OIwGoSb5e+MuL76z6U0o2QSbhPQWiuXnFKVZMkonUyxL8tADtUPyJ/M4lqCllL0iEm2jZJZugSk0
+				h4iAKab4XrVeFOEITC/EKOOwRZdVtgGB4bqUou7OZ4UirF9WRavlIhkEIlGAPic93r72wtU1YXvp
+				pShb6XVcXYu6cFVVWjU4bMJlWWOzrIlSECySPTSGZoBa9F674fqtaLXZg9M48TV3bYCCoOFA5pgZ
+				GklBmgxjgESExqwbzSlGCpJs4MLuYpN32QM4R7fcqQEYZYbBFb1roCZzALF1NlkveCyCWL35cxnE
+				wEKI4KJj0KsXBr6oiI1J+MtQQe+wUhcnvps4Rq/BHcNqTNlOEzNBhptObKt4AIWcYgJSlH9RNGOF
+				4k2HgwPJg0yfmc/CAzU75BLHuyCsTniNFbERpgVEeEgINsEyhIZBhCUXYQhCwScM5iHza+yObgD2
+				rqfvQX3GtNTki66yMw857Cm3qOsujTSVhoEY/SH9Q5Ui707wgLy7+D2sP38Sbw3rjn/tfXLTei5t
+				wgDnVU9KDVYzrAHGAIE4CQf8nZQ1Aw8ByJ0t3qRoW1pWI4TomR9hr1HcpCVt2Lj0DctF1FRG+kCN
+				Qa8C|
+			)
+			(checksum "4C3981DD706FE33EF3AD57A4258970D5")
+		)
+	)
 )

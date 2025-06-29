@@ -2,6 +2,19 @@
   "jobs": [
     {
       "description": "",
+      "id": "d9034184-caed-4f68-b363-1d9b995a9b02",
+      "settings": {
+        "description": "",
+        "fail_on_error": false,
+        "format": "report",
+        "output_filename": "VGA-I2C-GPIO-erc.rpt",
+        "severity": 48,
+        "units": "mm"
+      },
+      "type": "sch_erc"
+    },
+    {
+      "description": "",
       "id": "935bf4e6-3fae-488c-847a-115b51af7ff8",
       "settings": {
         "description": "",
@@ -108,38 +121,49 @@
       "type": "pcb_export_gerbers"
     },
     {
-      "description": "",
-      "id": "d9034184-caed-4f68-b363-1d9b995a9b02",
-      "settings": {
-        "description": "",
-        "fail_on_error": false,
-        "format": "report",
-        "output_filename": "CANBreakoutBoard (MAGE-CANBOB-002)-erc.rpt",
-        "severity": 48,
-        "units": "mm"
-      },
-      "type": "sch_erc"
-    },
-    {
       "description": "Export the XML netlist from the schematic",
       "id": "213b88fd-7410-40a6-8ee6-2d39c6e5c14d",
       "settings": {
         "command": "kicad-cli sch export netlist --format kicadxml \"${PROJECTNAME}.kicad_sch\"",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "",
+        "output_filename": "xml.log",
         "record_output": false
       },
       "type": "special_execute"
     },
     {
-      "description": "Execute aBOM to get the auto generated BOM.",
+      "description": "Execute aBOM to get the auto generated BOM",
       "id": "92d8d6e1-881e-48bf-884c-c4ecf1bd70f9",
       "settings": {
-        "command": "abom \"${PROJECTNAME}.xml\" \"./${PROJECTNAME}.csv\"",
+        "command": "abom \"${PROJECTNAME}.xml\" \"${PROJECTNAME}.csv\" --headers",
         "description": "",
-        "ignore_exit_code": true,
-        "output_filename": "92d8d6e1-881e-48bf-884c-c4ecf1bd70f9.log",
+        "ignore_exit_code": false,
+        "output_filename": "abom.log",
+        "record_output": false
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Move XML to exports/",
+      "id": "250f2601-c040-40bf-b4b4-c8e5c0cdaeee",
+      "settings": {
+        "command": "mv \"${PROJECTNAME}.xml\" exports/",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "250f2601-c040-40bf-b4b4-c8e5c0cdaeee.log",
+        "record_output": false
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Move CSV to exports/",
+      "id": "0cc119f3-4872-4e66-8412-129266d4a86b",
+      "settings": {
+        "command": "mv \"${PROJECTNAME}.csv\" exports/",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "0cc119f3-4872-4e66-8412-129266d4a86b.log",
         "record_output": false
       },
       "type": "special_execute"
@@ -150,21 +174,19 @@
   },
   "outputs": [
     {
-      "description": "",
+      "description": "DRC/ERC",
       "id": "e96baa3b-31a6-4f9e-b90b-7fb0deca8c2d",
       "only": [
         "935bf4e6-3fae-488c-847a-115b51af7ff8",
-        "d9034184-caed-4f68-b363-1d9b995a9b02",
-        "213b88fd-7410-40a6-8ee6-2d39c6e5c14d",
-        "92d8d6e1-881e-48bf-884c-c4ecf1bd70f9"
+        "d9034184-caed-4f68-b363-1d9b995a9b02"
       ],
       "settings": {
-        "output_path": "."
+        "output_path": "./exports"
       },
       "type": "folder"
     },
     {
-      "description": "Gerbers/Drill Files Only",
+      "description": "Gerbers/Drill Files",
       "id": "d6afb539-8806-4964-a9c1-4def9dd8ab95",
       "only": [
         "5edab0f0-9909-4c72-901f-ab6d9fb60604",
@@ -172,9 +194,34 @@
       ],
       "settings": {
         "format": "zip",
-        "output_path": "${PROJECTNAME}-Gerbers-Drill-Files.zip"
+        "output_path": "./exports/${PROJECTNAME}-Gerbers-Drill-Files.zip"
       },
       "type": "archive"
+    },
+    {
+      "description": "Commands",
+      "id": "94355a30-7a37-4dba-808b-378882af16fa",
+      "only": [
+        "213b88fd-7410-40a6-8ee6-2d39c6e5c14d",
+        "92d8d6e1-881e-48bf-884c-c4ecf1bd70f9",
+        "0cc119f3-4872-4e66-8412-129266d4a86b",
+        "250f2601-c040-40bf-b4b4-c8e5c0cdaeee"
+      ],
+      "settings": {
+        "output_path": "."
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Position Files",
+      "id": "4698942f-6d9d-4431-9f8b-1b360afb6265",
+      "only": [
+        "f2f9947d-e5a1-43c9-89c1-257422d12a72"
+      ],
+      "settings": {
+        "output_path": "exports"
+      },
+      "type": "folder"
     }
   ]
 }

@@ -788,132 +788,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1367,7 +1241,7 @@
 		)
 	)
 	(bus_alias "USB_BUS"
-		(members "VBUS" "D+" "D-")
+		(members "D+" "D-")
 	)
 	(text "USB CONNECTOR"
 		(exclude_from_sim no)
@@ -1388,28 +1262,28 @@
 		(uuid "096692d5-9164-47ae-bb6b-c25a42494099")
 	)
 	(junction
-		(at 168.91 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19874b89-0fe9-472d-b79d-539f246d8284")
-	)
-	(junction
 		(at 154.94 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e145b28-3772-4b90-b585-5081716eb12b")
 	)
 	(junction
-		(at 138.43 78.74)
+		(at 143.51 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "434f5e2f-841c-41eb-ad54-146cd11b4f5a")
+		(uuid "3b5bb6e0-ed2a-44c8-b9fb-5d3ac4de9664")
 	)
 	(junction
-		(at 125.73 78.74)
+		(at 168.91 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76978647-7e3b-44ad-a241-7a390c6572f9")
+		(uuid "62f902b6-dfcb-4581-b0ed-adf020f7a894")
+	)
+	(junction
+		(at 88.9 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7271a37-2fff-49e5-8b49-5c696896c09e")
 	)
 	(junction
 		(at 116.84 97.79)
@@ -1439,16 +1313,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "96f9e526-e7db-4e33-9c17-a258cf9c862f")
-	)
-	(bus_entry
-		(at 226.06 93.98)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb4f5cd-3bc4-443a-963b-11dd3411b178")
+		(uuid "37b04248-b2bd-4a4e-b5ed-08b98f9adfa5")
 	)
 	(wire
 		(pts
@@ -1462,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 74.93) (xy 125.73 78.74)
+			(xy 175.26 73.66) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1479,26 +1344,6 @@
 			(type default)
 		)
 		(uuid "1c5adfc3-34c0-45e9-b184-c5c1296ebecc")
-	)
-	(wire
-		(pts
-			(xy 210.82 93.98) (xy 226.06 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa15ed9-b8e8-4c81-818b-80a3c591b98e")
-	)
-	(wire
-		(pts
-			(xy 138.43 78.74) (xy 125.73 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "228739c6-f1ec-432a-a662-5d415182cdf5")
 	)
 	(wire
 		(pts
@@ -1529,26 +1374,6 @@
 			(type default)
 		)
 		(uuid "358c544f-13b6-48fe-9140-e477b8bca2aa")
-	)
-	(wire
-		(pts
-			(xy 179.07 78.74) (xy 168.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3be01389-a540-4815-ab8b-685e5a433075")
-	)
-	(wire
-		(pts
-			(xy 153.67 78.74) (xy 138.43 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40eb0134-bd25-4393-bac3-f39d0e7fbf59")
 	)
 	(wire
 		(pts
@@ -1612,7 +1437,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 125.73 78.74)
+			(xy 143.51 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c36b79e-194a-4dfd-ac4c-0cc3e6a6b25e")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 143.51 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1629,16 +1464,6 @@
 			(type default)
 		)
 		(uuid "67e5871d-739e-4f76-b963-ae1720c0963d")
-	)
-	(wire
-		(pts
-			(xy 168.91 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "684f0fb2-c7f1-4ddb-8e09-3b7a79278cab")
 	)
 	(wire
 		(pts
@@ -1720,16 +1545,6 @@
 		)
 		(uuid "b1bb59cf-d15b-4513-88f6-39891280e52c")
 	)
-	(bus
-		(pts
-			(xy 228.6 96.52) (xy 228.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ebcab2-15ac-4b24-992d-3519aec533fc")
-	)
 	(wire
 		(pts
 			(xy 154.94 132.08) (xy 154.94 129.54)
@@ -1802,6 +1617,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea35ea6-442f-444f-a2df-b0ef2c806760")
+	)
+	(wire
+		(pts
 			(xy 140.97 92.71) (xy 130.81 92.71)
 		)
 		(stroke
@@ -1839,26 +1664,6 @@
 			(justify right bottom)
 		)
 		(uuid "2733231b-ee96-4a87-a82e-1b92c28fc7bc")
-	)
-	(label "VBUS"
-		(at 210.82 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73ae022b-ce82-4858-9dff-e54acb01a1b7")
-	)
-	(label "VBUS"
-		(at 179.07 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc4f7d49-c130-4ed2-89cb-8b6b2311a9fa")
 	)
 	(label "D-"
 		(at 210.82 96.52 0)
@@ -2138,7 +1943,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 125.73 74.93 0)
+		(at 175.26 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2147,7 +1952,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005ea93c99")
 		(property "Reference" "#PWR016"
-			(at 125.73 78.74 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +1961,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 128.27 73.6599 0)
+			(at 177.8 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +1970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 74.93 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +1979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 74.93 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +1988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 74.93 0)
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2416,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 138.43 78.74 0)
+		(at 143.51 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2620,7 +2425,7 @@
 		(fields_autoplaced yes)
 		(uuid "a643955b-d248-416b-ab62-ad7c4673140d")
 		(property "Reference" "#FLG01"
-			(at 138.43 76.835 0)
+			(at 143.51 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2434,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 138.43 73.66 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 78.74 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 78.74 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2460,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 138.43 78.74 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,33 +2481,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 156.21 78.74 0)
+		(lib_id "power:PWR_FLAG")
+		(at 88.9 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d374195f-0fc3-4a56-9c84-b236d520fa9c")
-		(property "Reference" "NT1"
-			(at 156.21 73.66 0)
+		(uuid "b2507ec7-7ec8-4f6f-818a-b9654eefe984")
+		(property "Reference" "#FLG03"
+			(at 86.995 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "NetTie_2"
-			(at 156.21 76.2 0)
+		(property "Value" "PWR_FLAG"
+			(at 85.09 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 156.21 78.74 0)
+		(property "Footprint" ""
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 78.74 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,25 +2526,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Net tie, 2 pins"
-			(at 156.21 78.74 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "5240bf89-f877-46f7-91b5-57813fc41e34")
 		)
 		(pin "1"
-			(uuid "34589eae-8890-4ded-a4c2-6066e1449cbd")
+			(uuid "4ee3fd92-f889-4c67-aa3a-cc23787fa126")
 		)
 		(instances
-			(project ""
+			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26"
-					(reference "NT1")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 168.91 81.28 0)
 			(effects
 				(font
