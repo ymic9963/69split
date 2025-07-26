@@ -6,7 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "69SPLIT KEYBOARD")
-		(date "2025-06-11")
+		(date "2025-06-21")
+		(rev "1")
+		(comment 1 "Yiannis Michael")
+		(comment 2 "ymich9963")
 	)
 	(lib_symbols
 		(symbol "Device:D"
@@ -353,12 +356,6 @@
 		(uuid "0cf051b4-be05-4b3b-a635-0627f35b88b9")
 	)
 	(junction
-		(at 91.44 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e47c050-387a-4023-9ddd-77b20d41d227")
-	)
-	(junction
 		(at 152.4 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -369,12 +366,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1668e4cb-2508-4001-b6cf-03cf34a08cd3")
-	)
-	(junction
-		(at 81.28 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a38dd17-3f74-49ae-9046-5c9f4c398fd2")
 	)
 	(junction
 		(at 142.24 82.55)
@@ -485,6 +476,18 @@
 		(uuid "879563ed-653b-47c5-b181-503e652ab2d7")
 	)
 	(junction
+		(at 193.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95da2ebe-1e87-4122-a48b-7dfa443ad74c")
+	)
+	(junction
+		(at 182.88 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c12099-aa32-40e9-a3ea-c38ed5d7b469")
+	)
+	(junction
 		(at 172.72 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -513,6 +516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0902b4b-6715-46f6-8544-9174b78120aa")
+	)
+	(junction
+		(at 91.44 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7627d8f-972b-4b7f-bb7e-c0916af6ad89")
 	)
 	(junction
 		(at 172.72 102.87)
@@ -549,6 +558,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9e77282-be70-4a9a-a218-1705bf1b100e")
+	)
+	(junction
+		(at 81.28 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d159e9d3-680d-42d2-8669-413e12fb65f3")
 	)
 	(junction
 		(at 111.76 128.27)
@@ -1114,6 +1129,16 @@
 		)
 		(uuid "8c8b5f95-fc76-493b-a551-67b5ec574d15")
 	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 182.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945a3d52-5635-43dd-8de9-307458ba22f9")
+	)
 	(bus
 		(pts
 			(xy 165.1 143.51) (xy 185.42 143.51)
@@ -1146,7 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 182.88 140.97)
+			(xy 182.88 69.85) (xy 182.88 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1183,6 +1208,16 @@
 			(type default)
 		)
 		(uuid "b4b269d0-115a-4d5e-8610-5fa308442fa7")
+	)
+	(wire
+		(pts
+			(xy 193.04 115.57) (xy 200.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a3fea2-06bd-4a90-9d9f-2e3b6c772350")
 	)
 	(wire
 		(pts
@@ -1276,23 +1311,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 115.57) (xy 200.66 115.57)
+			(xy 172.72 115.57) (xy 193.04 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf07ad9e-ff84-4b6f-a2ca-73b943f5dab2")
-	)
-	(wire
-		(pts
-			(xy 81.28 107.95) (xy 81.28 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c0d7a3-2ca4-4fba-a1f1-cd068e5bf220")
 	)
 	(wire
 		(pts
@@ -1303,6 +1328,16 @@
 			(type default)
 		)
 		(uuid "d3b9b14b-5523-4290-86bb-d7b883591aeb")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 111.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c3aee2-f777-429c-b4dc-18f357c64675")
 	)
 	(bus
 		(pts
@@ -1343,16 +1378,6 @@
 			(type default)
 		)
 		(uuid "debce32b-5d97-4cdc-bc3b-9403599366f7")
-	)
-	(wire
-		(pts
-			(xy 91.44 115.57) (xy 111.76 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfccc046-6a74-4e4b-8ba1-5dba5c781d56")
 	)
 	(wire
 		(pts
@@ -1423,6 +1448,16 @@
 			(type default)
 		)
 		(uuid "fc865e3b-b623-4752-b9fb-a61698e9cb7f")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe740e3e-b49f-4782-a791-92492a27dd78")
 	)
 	(label "COL0"
 		(at 60.96 140.97 90)
@@ -1653,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1063c100-35dc-44d1-929e-79ec10db6a21")
-		(property "Reference" "SW28"
+		(property "Reference" "SW29"
 			(at 86.36 123.19 0)
 			(effects
 				(font
@@ -1712,7 +1747,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW28")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -1744,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_2.25u"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 66.04 107.95 0)
 			(effects
 				(font
@@ -1945,6 +1980,83 @@
 	)
 	(symbol
 		(lib_id "Device:D")
+		(at 91.44 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1851dc10-7510-45c4-9106-f0bb98d93209")
+		(property "Reference" "D23"
+			(at 93.98 110.4899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 93.98 113.0299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4454"
+			(at 91.44 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76b5a7dc-c5fb-4295-92b6-97a1e4219db4")
+		)
+		(pin "1"
+			(uuid "54d27ece-9699-4155-8240-0c71762f6453")
+		)
+		(instances
+			(project "70split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
 		(at 193.04 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1996,7 +2108,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 193.04 73.66 90)
 			(effects
 				(font
@@ -2148,7 +2260,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 111.76 86.36 90)
 			(effects
 				(font
@@ -2182,7 +2294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235294de-0444-495f-be8e-e849b652c949")
-		(property "Reference" "D28"
+		(property "Reference" "D29"
 			(at 73.66 123.1899 90)
 			(effects
 				(font
@@ -2225,7 +2337,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 71.12 124.46 90)
 			(effects
 				(font
@@ -2243,7 +2355,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D28")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2414,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 91.44 86.36 90)
 			(effects
 				(font
@@ -2379,7 +2491,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 111.76 99.06 90)
 			(effects
 				(font
@@ -2413,7 +2525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e04cf00-d719-4549-8288-bd86e7964c99")
-		(property "Reference" "SW29"
+		(property "Reference" "SW30"
 			(at 106.68 123.19 0)
 			(effects
 				(font
@@ -2472,7 +2584,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW29")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -2531,7 +2643,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 132.08 86.36 90)
 			(effects
 				(font
@@ -2625,6 +2737,81 @@
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 86.36 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3afa2df8-2994-4e3c-87ae-5de997af485d")
+		(property "Reference" "SW22"
+			(at 86.36 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "\\|"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Generic"
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed4b0817-3d7d-4112-8df8-7ec50bf7ca42")
+		)
+		(pin "2"
+			(uuid "57e4b8cf-7588-454d-9070-4278eba1213f")
+		)
+		(instances
+			(project "70split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -2758,7 +2945,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 172.72 73.66 90)
 			(effects
 				(font
@@ -2784,7 +2971,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 127 107.95 0)
+		(at 147.32 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2792,8 +2979,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43c3ae20-71c0-4f2d-bd48-86d131545e7b")
-		(property "Reference" "SW24"
-			(at 127 110.49 0)
+		(property "Reference" "SW25"
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2801,7 +2988,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 127 113.03 0)
+			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2809,7 +2996,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 127 107.95 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2818,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 107.95 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2826,7 +3013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 107.95 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +3021,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 127 107.95 0)
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +3038,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW24")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -2942,7 +3129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ca9359-3a68-492e-80fd-b8220a27b8e3")
-		(property "Reference" "SW30"
+		(property "Reference" "SW31"
 			(at 127 123.19 0)
 			(effects
 				(font
@@ -2958,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_3.00u"
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.75u_PCB"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -3001,7 +3188,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW30")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -3009,7 +3196,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 172.72 111.76 90)
+		(at 193.04 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3017,8 +3204,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48f9321d-46b1-4147-8ed8-4bf320a3c94d")
-		(property "Reference" "D27"
-			(at 175.26 110.4899 90)
+		(property "Reference" "D28"
+			(at 195.58 110.4899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3027,7 +3214,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 175.26 113.0299 90)
+			(at 195.58 113.0299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3036,7 +3223,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 172.72 121.92 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3045,7 +3232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 121.92 0)
+			(at 193.04 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3053,15 +3240,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 111.76 0)
+			(at 193.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
-			(at 172.72 111.76 90)
+		(property "MPN" "1N4454"
+			(at 193.04 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +3265,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D27")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3324,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 152.4 99.06 90)
 			(effects
 				(font
@@ -3463,7 +3650,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 111.76 111.76 90)
+		(at 132.08 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3471,8 +3658,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b40a437-925a-4816-a1d2-1e7daedf640e")
-		(property "Reference" "D24"
-			(at 114.3 110.4899 90)
+		(property "Reference" "D25"
+			(at 134.62 110.4899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3481,7 +3668,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 114.3 113.0299 90)
+			(at 134.62 113.0299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3490,7 +3677,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 111.76 121.92 0)
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3499,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 121.92 0)
+			(at 132.08 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3507,15 +3694,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 111.76 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
-			(at 111.76 111.76 90)
+		(property "MPN" "1N4454"
+			(at 132.08 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3719,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D24")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3802,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 107.95 0)
+		(at 187.96 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3623,8 +3810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632fa36f-37c3-4095-ac8f-2f140230771e")
-		(property "Reference" "SW26"
-			(at 167.64 110.49 0)
+		(property "Reference" "SW27"
+			(at 187.96 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3632,7 +3819,7 @@
 			)
 		)
 		(property "Value" "B"
-			(at 167.64 113.03 0)
+			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3640,7 +3827,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 167.64 107.95 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3649,7 +3836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 107.95 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3657,7 +3844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 107.95 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3852,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 167.64 107.95 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3869,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW26")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -3698,7 +3885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689da4a8-d1f9-4583-9d1b-1d09c19cc235")
-		(property "Reference" "SW27"
+		(property "Reference" "SW28"
 			(at 66.04 113.03 0)
 			(effects
 				(font
@@ -3757,7 +3944,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW27")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -3816,7 +4003,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 172.72 99.06 90)
 			(effects
 				(font
@@ -3893,7 +4080,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 152.4 86.36 90)
 			(effects
 				(font
@@ -3919,7 +4106,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 91.44 111.76 90)
+		(at 111.76 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3927,8 +4114,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "790e2673-8e81-4fc6-b05a-56c884197d83")
-		(property "Reference" "D23"
-			(at 93.98 110.4899 90)
+		(property "Reference" "D24"
+			(at 114.3 110.4899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3937,7 +4124,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 93.98 113.0299 90)
+			(at 114.3 113.0299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3946,7 +4133,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 91.44 121.92 0)
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3955,7 +4142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 121.92 0)
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3963,15 +4150,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 111.76 0)
+			(at 111.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
-			(at 91.44 111.76 90)
+		(property "MPN" "1N4454"
+			(at 111.76 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +4175,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D23")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4309,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 132.08 73.66 90)
 			(effects
 				(font
@@ -4199,7 +4386,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 71.12 99.06 90)
 			(effects
 				(font
@@ -4233,7 +4420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "946c91fa-8202-4225-8157-cabd6eeec4ea")
-		(property "Reference" "D30"
+		(property "Reference" "D31"
 			(at 114.3 123.1899 90)
 			(effects
 				(font
@@ -4276,7 +4463,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 111.76 124.46 90)
 			(effects
 				(font
@@ -4294,7 +4481,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D30")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -4353,7 +4540,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 71.12 86.36 90)
 			(effects
 				(font
@@ -4379,7 +4566,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 132.08 111.76 90)
+		(at 152.4 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4387,8 +4574,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "980b3e7f-a091-4fd4-a54c-6889f0d4e020")
-		(property "Reference" "D25"
-			(at 134.62 110.4899 90)
+		(property "Reference" "D26"
+			(at 154.94 110.4899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4397,7 +4584,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 134.62 113.0299 90)
+			(at 154.94 113.0299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4406,7 +4593,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 132.08 121.92 0)
+			(at 152.4 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4415,7 +4602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 121.92 0)
+			(at 152.4 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4423,15 +4610,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 111.76 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
-			(at 132.08 111.76 90)
+		(property "MPN" "1N4454"
+			(at 152.4 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4635,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D25")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4793,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 152.4 111.76 90)
+		(at 172.72 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4614,8 +4801,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b018621e-cff5-4510-861d-f26a8a593342")
-		(property "Reference" "D26"
-			(at 154.94 110.4899 90)
+		(property "Reference" "D27"
+			(at 175.26 110.4899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4624,7 +4811,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 154.94 113.0299 90)
+			(at 175.26 113.0299 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4633,7 +4820,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 152.4 121.92 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4642,7 +4829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 121.92 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4650,15 +4837,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 111.76 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
-			(at 152.4 111.76 90)
+		(property "MPN" "1N4454"
+			(at 172.72 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4862,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D26")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -4734,7 +4921,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 152.4 73.66 90)
 			(effects
 				(font
@@ -4886,7 +5073,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 71.12 111.76 90)
 			(effects
 				(font
@@ -4987,7 +5174,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 147.32 107.95 0)
+		(at 167.64 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,8 +5182,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f67648-cc75-4c95-b372-d0cc735e2b24")
-		(property "Reference" "SW25"
-			(at 147.32 110.49 0)
+		(property "Reference" "SW26"
+			(at 167.64 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5004,7 +5191,7 @@
 			)
 		)
 		(property "Value" "V"
-			(at 147.32 113.03 0)
+			(at 167.64 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5012,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 147.32 107.95 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5021,7 +5208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 107.95 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5029,7 +5216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 107.95 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5224,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 147.32 107.95 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5241,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW25")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -5113,7 +5300,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 91.44 73.66 90)
 			(effects
 				(font
@@ -5147,7 +5334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b962227f-2377-4812-9868-a350fad7c367")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 134.62 123.1899 90)
 			(effects
 				(font
@@ -5190,7 +5377,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 132.08 124.46 90)
 			(effects
 				(font
@@ -5208,7 +5395,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -5267,7 +5454,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 132.08 99.06 90)
 			(effects
 				(font
@@ -5344,7 +5531,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 91.44 99.06 90)
 			(effects
 				(font
@@ -5370,7 +5557,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 106.68 107.95 0)
+		(at 127 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5378,8 +5565,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6eed957-b72c-4a2f-b5ef-6846a7a99183")
-		(property "Reference" "SW23"
-			(at 106.68 110.49 0)
+		(property "Reference" "SW24"
+			(at 127 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5387,7 +5574,7 @@
 			)
 		)
 		(property "Value" "X"
-			(at 106.68 113.03 0)
+			(at 127 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5395,7 +5582,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 106.68 107.95 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5404,7 +5591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 107.95 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5412,7 +5599,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 107.95 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5607,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 106.68 107.95 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5624,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW23")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbff6793-4f36-44ca-9d4e-169596634e7e")
-		(property "Reference" "D29"
+		(property "Reference" "D30"
 			(at 93.98 123.1899 90)
 			(effects
 				(font
@@ -5496,7 +5683,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 91.44 124.46 90)
 			(effects
 				(font
@@ -5514,7 +5701,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "D29")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -5648,7 +5835,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 111.76 73.66 90)
 			(effects
 				(font
@@ -5674,7 +5861,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 86.36 107.95 0)
+		(at 106.68 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5682,8 +5869,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4289172-e3ec-4161-b423-10b8e8896e50")
-		(property "Reference" "SW22"
-			(at 86.36 110.49 0)
+		(property "Reference" "SW23"
+			(at 106.68 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5691,7 +5878,7 @@
 			)
 		)
 		(property "Value" "Z"
-			(at 86.36 113.03 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5699,7 +5886,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 86.36 107.95 0)
+			(at 106.68 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5708,7 +5895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 107.95 0)
+			(at 106.68 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5716,7 +5903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 107.95 0)
+			(at 106.68 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5724,7 +5911,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 86.36 107.95 0)
+			(at 106.68 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5928,7 @@
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/91cdcebd-1915-45e6-b05f-d7c65936f9f3"
-					(reference "SW22")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -5800,7 +5987,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 71.12 73.66 90)
 			(effects
 				(font
@@ -5877,7 +6064,7 @@
 				)
 			)
 		)
-		(property "MPN" "TS4148 RBG "
+		(property "MPN" "1N4454"
 			(at 172.72 86.36 90)
 			(effects
 				(font

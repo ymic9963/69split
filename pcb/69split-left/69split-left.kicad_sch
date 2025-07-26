@@ -11,7 +11,133 @@
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(rectangle
 		(start 199.771 75.692)
 		(end 255.016 134.112)
@@ -41,7 +167,7 @@
 	)
 	(rectangle
 		(start 48.26 81.28)
-		(end 164.465 161.925)
+		(end 168.91 164.465)
 		(stroke
 			(width 0)
 			(type solid)
@@ -130,7 +256,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 85.09) (xy 76.2 128.27)
+			(xy 76.2 96.52) (xy 76.2 128.27)
 		)
 		(stroke
 			(width 0)
@@ -171,7 +297,7 @@
 	)
 	(bus
 		(pts
-			(xy 135.89 128.27) (xy 142.24 128.27)
+			(xy 135.89 143.51) (xy 142.24 143.51)
 		)
 		(stroke
 			(width 0)
@@ -212,6 +338,16 @@
 	)
 	(bus
 		(pts
+			(xy 125.73 134.62) (xy 118.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7262ff03-d952-466c-bc33-9c4e866f4cf3")
+	)
+	(bus
+		(pts
 			(xy 123.19 83.82) (xy 142.24 83.82)
 		)
 		(stroke
@@ -220,15 +356,35 @@
 		)
 		(uuid "7fd1ed23-d62c-4385-b746-ab7c4c6932af")
 	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccbc7b1-7e61-471b-8fdb-196f8cffbe61")
+	)
 	(bus
 		(pts
-			(xy 118.11 134.62) (xy 142.24 134.62)
+			(xy 125.73 149.86) (xy 142.24 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8d5da4bf-de2e-44d6-82b9-6f2161ab2222")
+	)
+	(bus
+		(pts
+			(xy 135.89 143.51) (xy 135.89 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dd5110-80e3-40ac-9591-83cd6a930481")
 	)
 	(bus
 		(pts
@@ -314,13 +470,43 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 85.09) (xy 76.2 85.09)
+			(xy 73.66 96.52) (xy 76.2 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d75a6761-e369-4294-ae18-3126f7d74920")
+	)
+	(bus
+		(pts
+			(xy 125.73 149.86) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9559ddb-35c5-44bd-bad1-3035b68975aa")
+	)
+	(wire
+		(pts
+			(xy 111.76 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15d8ab1-a7a2-46df-9856-d7cbd3435673")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e807f2a3-a02e-4be1-95a2-740e58ce222d")
 	)
 	(polyline
 		(pts
@@ -332,6 +518,70 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f826795b-8fe7-4c0b-b99f-39a0b7ce70ed")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 119.38 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fca64c9-86fc-46a9-b21e-7587efac2ba2")
+		(property "Reference" "#PWR018"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 116.586 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8a2034f-2e05-4e48-92d7-e411cdd068d8")
+		)
+		(instances
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 52.07 139.7)
@@ -561,8 +811,8 @@
 		)
 	)
 	(sheet
-		(at 142.24 124.46)
-		(size 29.845 30.48)
+		(at 142.24 139.7)
+		(size 21.59 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -577,7 +827,7 @@
 		)
 		(uuid "91cdcebd-1915-45e6-b05f-d7c65936f9f3")
 		(property "Sheetname" "Left Matrix"
-			(at 142.24 123.7484 0)
+			(at 142.24 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,7 +845,7 @@
 			)
 		)
 		(pin "{COMMON_ROWS}" bidirectional
-			(at 142.24 128.27 180)
+			(at 142.24 143.51 180)
 			(uuid "4663b5ef-7486-4c9f-9147-e35298f4e520")
 			(effects
 				(font
@@ -605,7 +855,7 @@
 			)
 		)
 		(pin "{LEFT_COLUMNS}" bidirectional
-			(at 142.24 134.62 180)
+			(at 142.24 149.86 180)
 			(uuid "ccaec65b-ad33-4282-a564-aa2d4c4d0ca7")
 			(effects
 				(font
@@ -657,8 +907,18 @@
 			)
 		)
 		(pin "{USB_BUS}" bidirectional
-			(at 73.66 85.09 0)
+			(at 73.66 96.52 0)
 			(uuid "78ca4d21-bccd-4a22-96d2-0490bf4aae7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_5V" input
+			(at 73.66 88.9 0)
+			(uuid "258bbbbc-760e-4edb-8e11-43b37a75ccf2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,6 +930,68 @@
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 85.09)
+		(size 24.13 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd421ade-5253-45fb-9a51-28ad04a50b20")
+		(property "Sheetname" "LDO & Jumper"
+			(at 87.63 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo-jumper.kicad_sch"
+			(at 87.63 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_5V" input
+			(at 87.63 88.9 180)
+			(uuid "b90991be-2f06-4096-9d99-80066153e688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCC" input
+			(at 111.76 88.9 0)
+			(uuid "5af8c460-e020-4e23-979d-5e02f8a94dac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23"
+					(page "7")
 				)
 			)
 		)
