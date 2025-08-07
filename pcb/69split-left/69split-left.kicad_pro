@@ -196,8 +196,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.001
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -673,12 +672,20 @@
       "Root"
     ],
     [
-      "68a55e30-103f-46e9-a337-1e9bab0df478",
-      "ATmega32U4"
+      "9761ff83-2474-42df-b43e-2f8540936a26",
+      "USB Connector"
     ],
     [
       "50769013-414a-494e-93be-b0bb16643ca0",
       "Indicator LEDs"
+    ],
+    [
+      "68a55e30-103f-46e9-a337-1e9bab0df478",
+      "ATmega32U4"
+    ],
+    [
+      "cd421ade-5253-45fb-9a51-28ad04a50b20",
+      "LDO & Jumper"
     ],
     [
       "529ccb27-424e-404d-8f7f-2ca17e17c1b0",
@@ -687,14 +694,6 @@
     [
       "91cdcebd-1915-45e6-b05f-d7c65936f9f3",
       "Left Matrix"
-    ],
-    [
-      "9761ff83-2474-42df-b43e-2f8540936a26",
-      "USB Connector"
-    ],
-    [
-      "cd421ade-5253-45fb-9a51-28ad04a50b20",
-      "LDO & Jumper"
     ]
   ],
   "text_variables": {}

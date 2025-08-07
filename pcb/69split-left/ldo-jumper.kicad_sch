@@ -5,9 +5,10 @@
 	(uuid "e38dec0f-88ca-4f8d-8f9f-545153f26fca")
 	(paper "A5")
 	(title_block
-		(title "69SPLIT KEYBOARD")
-		(date "2025-06-21")
+		(title "69SPLIT")
+		(date "2025-07-28")
 		(rev "1")
+		(company "Yiannis Michael")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
 	)
@@ -579,6 +580,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Thermals are negligible."
 		(exclude_from_sim no)
@@ -620,6 +722,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77818e84-3575-4dc8-a9b1-7779d1f9def5")
+	)
+	(junction
+		(at 76.2 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec2aae2-38f0-4ba2-a8ac-582a84b3cf96")
 	)
 	(wire
 		(pts
@@ -713,7 +821,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 80.01 76.2)
+			(xy 76.2 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1f8e32-1a4c-49c6-a229-cb651967193d")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -824,15 +942,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfdaaf49-e170-446b-b48c-d3fc5e2bef23")
+			(uuid "abe768d2-f4c5-41be-8223-b4bd0a254677")
 		)
 		(pin "3"
-			(uuid "37a6bc9e-6dae-47a9-bb8c-50b8ca555bfd")
+			(uuid "33f2b6a4-b470-4441-9ca9-faad6bdaf705")
 		)
 		(pin "2"
-			(uuid "5166b778-1dbd-4e02-baab-86346031926f")
+			(uuid "5b89e8b1-ebb4-43a7-9b67-3c950e8aa7e6")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
 					(reference "U2")
@@ -851,7 +975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4881f873-d20c-4a14-9102-51012a7be07f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 83.82 87.63 0)
 			(effects
 				(font
@@ -897,12 +1021,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "c9848eb7-027e-4c7a-abae-7e25334b15b0")
+			(uuid "737c375f-3d26-443e-85ca-da5f0b1a7646")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -918,7 +1048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534c0ed5-6866-420f-8e7f-e7ede75a201f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -963,12 +1093,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e600d8f-4574-4d04-9325-0aab4a6829f6")
+			(uuid "0136c765-abc4-4233-95cb-de9045d38568")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -984,7 +1120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6cb8ea-3db7-4f81-91fa-e0dacf1495c9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -1029,12 +1165,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c649d82-0190-4e18-b050-31a953f357d5")
+			(uuid "968d258c-520f-440d-bf22-ad910d726cf2")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1115,12 +1257,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "92c98628-b5a9-470b-a11c-793874fe96ea")
+			(uuid "e6fc7dc8-afc0-417a-bdeb-ced34f1190d0")
 		)
 		(pin "2"
-			(uuid "7344c6eb-6fb2-4163-9d07-fea76b1836ac")
+			(uuid "f9d31641-a876-4a53-877f-68705c248325")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
 					(reference "C10")
@@ -1184,18 +1332,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd9e1bb0-40ad-477e-bace-9f38c5ec8abf")
+			(uuid "62fba15e-6b13-4e21-9081-6902ef35526c")
 		)
 		(pin "3"
-			(uuid "5e96e7af-7ec6-412d-990b-ac611ce725ae")
+			(uuid "714adcee-3582-4b54-a405-53826b2607a1")
 		)
 		(pin "2"
-			(uuid "2adc4101-c675-485d-b128-ffac440372a5")
+			(uuid "87ffc000-4dc0-469c-b585-84c1a0e963ef")
+		)
+		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
+			(project "69split-left"
+				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab40908-4e3b-4cc1-b465-1a9445e17585")
+		(property "Reference" "#FLG03"
+			(at 76.2 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 76.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed282808-5b03-412b-8640-8aefc45557c9")
 		)
 		(instances
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "JP1")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -1276,12 +1496,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0126703-28b8-4160-b18a-75cae33376a7")
+			(uuid "0cb62b2c-1810-4a8b-a391-6bba21cfd9f8")
 		)
 		(pin "2"
-			(uuid "f779341d-1bd6-4434-bae2-adb8a1f0a954")
+			(uuid "656c90dd-3879-444e-b955-1407263f4860")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/800133d0-6e68-49ca-a870-e06397f7c02c/cd421ade-5253-45fb-9a51-28ad04a50b20"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
 					(reference "C11")

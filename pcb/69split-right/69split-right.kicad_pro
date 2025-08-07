@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -566,12 +566,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "MPN",
-          "name": "MPN",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Description",
           "name": "Description",
@@ -582,14 +576,26 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -633,10 +639,6 @@
   },
   "sheets": [
     [
-      "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867",
-      "Root"
-    ],
-    [
       "f2f72030-456e-424c-bdd0-69cd41410d8b",
       "GPIO Outputs"
     ],
@@ -647,6 +649,14 @@
     [
       "a3a71a3c-f3ce-42c2-a0de-8434118661c9",
       "Right Matrix"
+    ],
+    [
+      "d61255dd-23de-4bf5-9fa7-c13302692107",
+      "IO Expander"
+    ],
+    [
+      "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867",
+      "Root"
     ]
   ],
   "text_variables": {}

@@ -5,9 +5,10 @@
 	(uuid "ca731f86-ad04-4c06-a5ea-7191c80abc39")
 	(paper "A4")
 	(title_block
-		(title "69SPLIT KEYBOARD")
-		(date "2025-06-11")
+		(title "69SPLIT")
+		(date "2025-07-28")
 		(rev "1")
+		(company "Yiannis Michael")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
 	)
@@ -344,10 +345,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "GPIOs: 330R on \nright side for\n10mA limit @ 3V3 \nand 15mA @ 5V"
+		(exclude_from_sim no)
+		(at 131.318 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "251080c0-f9b1-428d-9f9e-9ce6facebdad")
 	)
 	(text "GPIO OUTPUTS"
 		(exclude_from_sim no)
-		(at 142.494 35.052 0)
+		(at 142.24 35.56 0)
 		(effects
 			(font
 				(face "Book Antiqua")
@@ -356,15 +469,6 @@
 			)
 		)
 		(uuid "c5274def-1ba9-42fc-a446-af2e1910ee45")
-	)
-	(bus_entry
-		(at 115.57 93.98)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31cb0c74-bd0e-466d-8eb0-be3905f81ead")
 	)
 	(bus_entry
 		(at 115.57 99.06)
@@ -396,33 +500,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 157.48 93.98)
+			(xy 115.57 96.52) (xy 140.97 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1543a6d9-7786-4ff7-8d9f-3252783bb30c")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 140.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ebfb0c3-c509-4af8-82f0-9d59211de4ad")
-	)
-	(wire
-		(pts
-			(xy 162.56 93.98) (xy 171.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ab25cb-42f8-4e26-9f91-05d800e19bf0")
+		(uuid "1e9eaa82-5391-4b1c-9eec-2fa6fc54b445")
 	)
 	(bus
 		(pts
@@ -436,7 +520,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 171.45 99.06)
+			(xy 146.05 96.52) (xy 171.45 96.52)
 		)
 		(stroke
 			(width 0)
@@ -456,7 +540,37 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 149.225 96.52)
+			(xy 168.91 93.98) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6b6b9d-74ac-4c5a-b452-ee1ee3217163")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552a3d0a-350b-4932-991a-26ed46b5a0b4")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71221868-7aec-4ef2-84aa-6851f4e4a2fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 149.86 99.06)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +580,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 96.52) (xy 171.45 96.52)
+			(xy 154.94 99.06) (xy 171.45 99.06)
 		)
 		(stroke
 			(width 0)
@@ -474,8 +588,18 @@
 		)
 		(uuid "a0d47118-9475-40c1-896e-ac41fbcbab57")
 	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bada8b9b-f48a-49b8-b49e-828cc0e96e15")
+	)
 	(label "GPIO_OUT_PB6"
-		(at 130.81 96.52 180)
+		(at 130.81 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -485,7 +609,7 @@
 		(uuid "93ee6070-007c-4318-ae32-f46359b33e9a")
 	)
 	(label "GPIO_OUT_PB7"
-		(at 130.81 99.06 180)
+		(at 130.81 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -493,16 +617,6 @@
 			(justify right bottom)
 		)
 		(uuid "ae7cf998-25c8-4892-b11a-1fc3ca4a72a7")
-	)
-	(label "GPIO_OUT_PB5"
-		(at 130.81 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eeb88359-cf5e-4c84-9156-c1ee0446684f")
 	)
 	(hierarchical_label "{GPIO_OUT}"
 		(shape input)
@@ -525,7 +639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea3be94-4624-4568-9b26-e771ddbb0b82")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 177.8 95.2499 0)
 			(effects
 				(font
@@ -579,6 +693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" ""
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fc90e874-4de1-49a3-aacb-3a7564ecd78b")
 		)
@@ -589,9 +712,15 @@
 			(uuid "f080ac4d-20c4-48f3-9bd8-a238c3f5920a")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/525264c0-2406-4b67-890e-0f0fc62e1056/f2f72030-456e-424c-bdd0-69cd41410d8b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -599,7 +728,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 143.51 99.06 90)
+		(at 143.51 96.52 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -607,8 +737,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683868df-8cd8-4444-be21-c9e6995687c1")
-		(property "Reference" "R3"
-			(at 143.51 93.98 90)
+		(property "Reference" "R2"
+			(at 143.51 101.6 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -616,15 +746,15 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 143.51 96.52 90)
+			(at 143.51 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 143.51 99.06 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 143.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 99.06 0)
+			(at 143.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -642,7 +772,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 143.51 99.06 0)
+			(at 143.51 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +781,16 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 143.51 99.06 90)
+			(at 143.51 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 143.51 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,9 +805,81 @@
 			(uuid "a80ca446-c434-4f8a-872c-20d4b75f3b19")
 		)
 		(instances
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/525264c0-2406-4b67-890e-0f0fc62e1056/f2f72030-456e-424c-bdd0-69cd41410d8b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
-					(reference "R3")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90ccc233-1f2c-41b9-84bc-591ca4462592")
+		(property "Reference" "#PWR01"
+			(at 165.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.544 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51105330-36eb-4a1b-ac0b-30cec7b0dc33")
+		)
+		(instances
+			(project ""
+				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -676,7 +887,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 151.765 96.52 90)
+		(at 152.4 99.06 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -684,8 +896,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98991f63-1f2d-4328-85d3-57ef380abc92")
-		(property "Reference" "R2"
-			(at 151.765 91.44 90)
+		(property "Reference" "R1"
+			(at 152.4 104.14 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -693,15 +905,15 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 151.765 93.98 90)
+			(at 152.4 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 151.765 96.52 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.765 96.52 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +931,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 151.765 96.52 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,7 +940,16 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 151.765 96.52 90)
+			(at 152.4 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 152.4 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,84 +964,13 @@
 			(uuid "e29d4b43-ca03-4e15-b978-5b2b59395162")
 		)
 		(instances
-			(project "69split-right"
-				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
-					(reference "R2")
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/525264c0-2406-4b67-890e-0f0fc62e1056/f2f72030-456e-424c-bdd0-69cd41410d8b"
+					(reference "R?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0a703f5-958d-4c02-92e7-7bab94eb1d5d")
-		(property "Reference" "R1"
-			(at 160.02 88.9 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 160.02 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "Generic"
-			(at 160.02 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dee1667-c1f6-4529-b773-4516f1c90273")
-		)
-		(pin "2"
-			(uuid "9d54791b-cb87-422f-925b-32d16fe54dc9")
-		)
-		(instances
-			(project ""
+			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
 					(reference "R1")
 					(unit 1)

@@ -5,8 +5,8 @@
 	(uuid "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867")
 	(paper "A4")
 	(title_block
-		(title "69SPLIT KEYBOARD")
-		(date "2025-06-11")
+		(title "69SPLIT")
+		(date "2025-07-28")
 		(rev "1")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(rectangle
 		(start 143.51 81.915)
-		(end 236.855 149.86)
+		(end 220.98 149.86)
 		(stroke
 			(width 0)
 			(type solid)
@@ -53,7 +53,7 @@
 	)
 	(text "GPIO Outputs"
 		(exclude_from_sim no)
-		(at 210.058 51.054 0)
+		(at 205.74 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,7 +65,7 @@
 	)
 	(text "RIGHT SIDE"
 		(exclude_from_sim no)
-		(at 142.748 37.084 0)
+		(at 142.24 38.1 0)
 		(effects
 			(font
 				(face "Book Antiqua")
@@ -77,7 +77,7 @@
 	)
 	(text "Keyboard USB-C Connection"
 		(exclude_from_sim no)
-		(at 102.616 60.452 0)
+		(at 101.6 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -89,7 +89,7 @@
 	)
 	(text "USB-C to PC"
 		(exclude_from_sim no)
-		(at 64.135 50.8 0)
+		(at 63.5 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -101,7 +101,7 @@
 	)
 	(text "69SPLIT KEYBOARD"
 		(exclude_from_sim no)
-		(at 148.336 28.448 0)
+		(at 147.32 27.94 0)
 		(effects
 			(font
 				(face "Book Antiqua")
@@ -113,7 +113,7 @@
 	)
 	(text "Left Keyboard"
 		(exclude_from_sim no)
-		(at 85.09 101.854 0)
+		(at 86.36 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -123,7 +123,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 121.92) (xy 173.99 102.87)
+			(xy 182.88 121.92) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -133,7 +133,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.265 53.34) (xy 215.265 76.2)
+			(xy 215.9 53.34) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -142,19 +142,9 @@
 		)
 		(uuid "05e65ca0-07fb-4632-966c-8edcf1842044")
 	)
-	(bus
-		(pts
-			(xy 167.64 109.22) (xy 162.56 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba556f2-1b90-4aea-9288-2b0a1ef56068")
-	)
 	(polyline
 		(pts
-			(xy 71.755 53.34) (xy 71.755 76.2)
+			(xy 71.12 53.34) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -165,7 +155,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.185 53.34) (xy 210.185 76.2)
+			(xy 210.82 53.34) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -176,28 +166,7 @@
 	)
 	(bus
 		(pts
-			(xy 167.64 128.27) (xy 167.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d8cc6cc-a541-432a-8ed8-be01ea39f4b1")
-	)
-	(polyline
-		(pts
-			(xy 220.345 53.34) (xy 220.345 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "9e965d82-0fe1-44e2-878c-5fd7bd92cfe5")
-	)
-	(bus
-		(pts
-			(xy 173.99 102.87) (xy 162.56 102.87)
+			(xy 182.88 93.98) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +176,7 @@
 	)
 	(bus
 		(pts
-			(xy 167.64 128.27) (xy 189.23 128.27)
+			(xy 175.26 129.54) (xy 190.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -217,17 +186,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 121.92) (xy 189.23 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78983b5-24be-48d4-85de-d819c0790f8b")
-	)
-	(bus
-		(pts
-			(xy 162.56 90.17) (xy 189.23 90.17)
+			(xy 162.56 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +196,7 @@
 	)
 	(polyline
 		(pts
-			(xy 66.675 53.34) (xy 66.675 76.2)
+			(xy 66.04 53.34) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -246,9 +205,19 @@
 		)
 		(uuid "eee7c592-47f8-49fc-b260-375d5fc6d97a")
 	)
+	(bus
+		(pts
+			(xy 175.26 121.92) (xy 182.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2203bdd-208d-416b-99ef-9e12cb8ad337")
+	)
 	(sheet
-		(at 189.23 110.49)
-		(size 43.18 31.75)
+		(at 190.5 121.92)
+		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -263,7 +232,7 @@
 		)
 		(uuid "a3a71a3c-f3ce-42c2-a0de-8434118661c9")
 		(property "Sheetname" "Right Matrix"
-			(at 189.23 109.7784 0)
+			(at 190.5 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "right-matrix.kicad_sch"
-			(at 189.23 142.1896 0)
+			(at 190.5 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,18 +249,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{COMMON_ROWS}" input
-			(at 189.23 121.92 180)
-			(uuid "6b18c43b-cd06-4438-bd1c-245501474ab7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{RIGHT_COLUMNS}" input
-			(at 189.23 128.27 180)
+		(pin "{RIGHT_MATRIX}" input
+			(at 190.5 129.54 180)
 			(uuid "5689a29b-f0c6-4fb4-a388-784d32e399dd")
 			(effects
 				(font
@@ -306,11 +265,83 @@
 					(page "4")
 				)
 			)
+			(project ""
+				(path "/525264c0-2406-4b67-890e-0f0fc62e1056"
+					(page "#")
+				)
+			)
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/525264c0-2406-4b67-890e-0f0fc62e1056"
+					(page "11")
+				)
+			)
 		)
 	)
 	(sheet
-		(at 131.445 76.2)
-		(size 31.115 59.69)
+		(at 152.4 116.84)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d61255dd-23de-4bf5-9fa7-c13302692107")
+		(property "Sheetname" "IO Expander"
+			(at 152.4 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io-expander.kicad_sch"
+			(at 152.4 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2C}" input
+			(at 175.26 121.92 0)
+			(uuid "a7be1010-d938-4095-ae17-9d00447c0ec1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{RIGHT_MATRIX}" input
+			(at 175.26 129.54 0)
+			(uuid "8a82c0b4-4ef6-431a-83df-af4cdcb580e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "69split-right"
+				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 76.2)
+		(size 30.48 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -324,7 +355,7 @@
 		)
 		(uuid "e52f6576-264c-459a-9037-dc2e10a35447")
 		(property "Sheetname" "Right Keyboard Connector"
-			(at 137.16 75.692 0)
+			(at 137.795 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +364,7 @@
 			)
 		)
 		(property "Sheetfile" "right-conn.kicad_sch"
-			(at 131.445 136.4746 0)
+			(at 132.715 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,30 +372,19 @@
 				(justify left top)
 			)
 		)
-		(pin "{COMMON_ROWS}" bidirectional
-			(at 162.56 102.87 0)
-			(uuid "21de7da4-87ae-4232-bec0-02f43f8a2246")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{RIGHT_COLUMNS}" bidirectional
-			(at 162.56 109.22 0)
-			(uuid "743608b1-0c59-4261-8193-e55ca4ee6a81")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
 		(pin "{GPIO_OUT}" input
-			(at 162.56 90.17 0)
+			(at 162.56 86.36 0)
 			(uuid "f9dc837a-98f4-4f4b-b40c-cc2af5700edb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2C}" input
+			(at 162.56 93.98 0)
+			(uuid "c241a56d-737d-47b8-bc05-c33a1f2728b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,11 +398,21 @@
 					(page "3")
 				)
 			)
+			(project ""
+				(path "/525264c0-2406-4b67-890e-0f0fc62e1056"
+					(page "#")
+				)
+			)
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/525264c0-2406-4b67-890e-0f0fc62e1056"
+					(page "9")
+				)
+			)
 		)
 	)
 	(sheet
-		(at 189.23 76.2)
-		(size 43.18 21.59)
+		(at 190.5 76.2)
+		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -397,7 +427,7 @@
 		)
 		(uuid "f2f72030-456e-424c-bdd0-69cd41410d8b")
 		(property "Sheetname" "GPIO Outputs"
-			(at 189.23 75.4884 0)
+			(at 190.5 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +436,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 189.23 98.3746 0)
+			(at 190.5 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +445,7 @@
 			)
 		)
 		(pin "{GPIO_OUT}" input
-			(at 189.23 90.17 180)
+			(at 190.5 86.36 180)
 			(uuid "9bd303ac-6900-4ee4-a1a4-a2d7f2d5c2be")
 			(effects
 				(font
@@ -430,33 +460,16 @@
 					(page "2")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
-	(embedded_files
-		(file
-			(name "my-sheet.kicad_wks")
-			(type worksheet)
-			(data |KLUv/WCfCS0VANadXiEQ0zb8P046AJ8aXgsH2O6IQXYrqPActbgvTGkjAgg3cCBVAFEAWAB7LP/L
-				zyw/g9G7Wic1Zntj95csGrCl1TMfak8mtWjA1HoO6fM/+QsAQEBgcj6flV5SJ+kwd6Ip+S7f25nM
-				GINlrZ1uvU6W+ty5UwAEBOfG04UeqDeFmyYieCK/t9h7g3Z+MoMOuug/ORp83WKgi71+31ftVAA8
-				WV6s4+tnaUpW8v/k/x7XCV+vGPTZIKmvv5fN7NVDMu9M7hJ8sfpv709J8jx65IM514baP+fMNtk7
-				OIwGoSb5e+MuL76z6U0o2QSbhPQWiuXnFKVZMkonUyxL8tADtUPyJ/M4lqCllL0iEm2jZJZugSk0
-				h4iAKab4XrVeFOEITC/EKOOwRZdVtgGB4bqUou7OZ4UirF9WRavlIhkEIlGAPic93r72wtU1YXvp
-				pShb6XVcXYu6cFVVWjU4bMJlWWOzrIlSECySPTSGZoBa9F674fqtaLXZg9M48TV3bYCCoOFA5pgZ
-				GklBmgxjgESExqwbzSlGCpJs4MLuYpN32QM4R7fcqQEYZYbBFb1roCZzALF1NlkveCyCWL35cxnE
-				wEKI4KJj0KsXBr6oiI1J+MtQQe+wUhcnvps4Rq/BHcNqTNlOEzNBhptObKt4AIWcYgJSlH9RNGOF
-				4k2HgwPJg0yfmc/CAzU75BLHuyCsTniNFbERpgVEeEgINsEyhIZBhCUXYQhCwScM5iHza+yObgD2
-				rqfvQX3GtNTki66yMw857Cm3qOsujTSVhoEY/SH9Q5Ui707wgLy7+D2sP38Sbw3rjn/tfXLTei5t
-				wgDnVU9KDVYzrAHGAIE4CQf8nZQ1Aw8ByJ0t3qRoW1pWI4TomR9hr1HcpCVt2Lj0DctF1FRG+kCN
-				Qa8C|
+			(project ""
+				(path "/525264c0-2406-4b67-890e-0f0fc62e1056"
+					(page "#")
+				)
 			)
-			(checksum "4C3981DD706FE33EF3AD57A4258970D5")
+			(project "69split"
+				(path "/1573ac28-80e2-4ab2-b20c-1c4896f37ece/525264c0-2406-4b67-890e-0f0fc62e1056"
+					(page "10")
+				)
+			)
 		)
 	)
 )
