@@ -1,0 +1,2 @@
+# 3D Models
+Used the `SW_Cherry_MX_PCB.stp` file from the [kiswitch](https://github.com/kiswitch/kiswitch/tree/main/library/3dmodels/3d-library.3dshapes) (Keyswitch KiCAD Livrary), and renamed it to get the models for the keyswitches used in the project. Place it in your KiCAD 3D model directory. Unfortunately I had to add offsets of X: -2.5mm, Y:-5mm, and Z:-0.5mm in all of the corresponding footprint files so that the models would align nicely.
