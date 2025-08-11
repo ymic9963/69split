@@ -1626,12 +1626,13 @@
 				)
 			)
 		)
-		(property "Value" "S"
+		(property "Value" "SW_Push"
 			(at 106.68 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -1660,6 +1661,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "S"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -1707,12 +1725,13 @@
 				)
 			)
 		)
-		(property "Value" "Win"
+		(property "Value" "SW_Push"
 			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
@@ -1741,6 +1760,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Win"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 86.36 120.65 0)
 			(effects
 				(font
@@ -1788,12 +1824,13 @@
 				)
 			)
 		)
-		(property "Value" "Shift"
+		(property "Value" "SW_Push"
 			(at 66.04 102.87 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
@@ -1822,6 +1859,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Shift"
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 66.04 107.95 0)
 			(effects
 				(font
@@ -1869,12 +1923,13 @@
 				)
 			)
 		)
-		(property "Value" "^,6,,F6"
+		(property "Value" "SW_Push"
 			(at 187.96 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -1903,6 +1958,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "^,6,,F6"
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -1950,12 +2022,13 @@
 				)
 			)
 		)
-		(property "Value" "!,1,,F1"
+		(property "Value" "SW_Push"
 			(at 86.36 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -1984,6 +2057,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "!,1,,F1"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 86.36 69.85 0)
 			(effects
 				(font
@@ -2093,6 +2183,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 91.44 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 91.44 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89ab91c0-055a-42e6-98a3-57636edea13b")
 		)
@@ -2194,6 +2302,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 193.04 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 193.04 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ece2255-d871-4c15-9f2c-d274a5731d79")
 		)
@@ -2233,12 +2359,13 @@
 				)
 			)
 		)
-		(property "Value" "A"
+		(property "Value" "SW_Push"
 			(at 86.36 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -2267,6 +2394,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "A"
+			(at 86.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 86.36 95.25 0)
 			(effects
 				(font
@@ -2376,6 +2520,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 111.76 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.76 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a3cfe99-10ce-46a5-b762-0b6c26846143")
 		)
@@ -2470,6 +2632,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 71.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 71.12 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 71.12 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,6 +2758,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 91.44 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 91.44 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc6c56fb-a2fc-46f1-b8f7-211cbeb7fc63")
 		)
@@ -2679,6 +2877,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 111.76 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.76 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe0566ee-5e37-4db1-87cd-d0ca96359f62")
 		)
@@ -2718,12 +2934,13 @@
 				)
 			)
 		)
-		(property "Value" "Alt"
+		(property "Value" "SW_Push"
 			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
@@ -2752,6 +2969,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Alt"
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -2861,6 +3095,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 132.08 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 132.08 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a130618-6f1a-47ad-89d9-f415fb1c743b")
 		)
@@ -2900,12 +3152,13 @@
 				)
 			)
 		)
-		(property "Value" "T"
+		(property "Value" "SW_Push"
 			(at 167.64 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -2934,6 +3187,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "T"
+			(at 167.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 167.64 82.55 0)
 			(effects
 				(font
@@ -2981,12 +3251,13 @@
 				)
 			)
 		)
-		(property "Value" "\\|"
+		(property "Value" "SW_Push"
 			(at 86.36 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3015,6 +3286,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 86.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "\\|"
+			(at 86.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 86.36 107.95 0)
 			(effects
 				(font
@@ -3062,12 +3350,13 @@
 				)
 			)
 		)
-		(property "Value" "\",2,,F2"
+		(property "Value" "SW_Push"
 			(at 106.68 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3096,6 +3385,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "\",2,,F2"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -3205,6 +3511,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 172.72 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8612ceae-ca5f-409b-917e-ba1d39377e99")
 		)
@@ -3244,12 +3568,13 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "SW_Push"
 			(at 147.32 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3278,6 +3603,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "C"
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -3325,12 +3667,13 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "SW_Push"
 			(at 147.32 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3359,6 +3702,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "R"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -3406,12 +3766,13 @@
 				)
 			)
 		)
-		(property "Value" "Space"
+		(property "Value" "SW_Push"
 			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.75u_PCB"
@@ -3440,6 +3801,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Space"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -3549,6 +3927,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 193.04 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 193.04 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65761efb-1622-4c80-935b-4bba9ea38c71")
 		)
@@ -3650,6 +4046,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 152.4 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 152.4 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36971972-decc-4a71-95c0-ca48dee5c649")
 		)
@@ -3689,12 +4103,13 @@
 				)
 			)
 		)
-		(property "Value" "W"
+		(property "Value" "SW_Push"
 			(at 106.68 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3723,6 +4138,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "W"
+			(at 106.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -3770,12 +4202,13 @@
 				)
 			)
 		)
-		(property "Value" "Caps Lock"
+		(property "Value" "SW_Push"
 			(at 66.04 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB"
@@ -3804,6 +4237,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Caps Lock"
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 66.04 95.25 0)
 			(effects
 				(font
@@ -3851,12 +4301,13 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SW_Push"
 			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3885,6 +4336,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "D"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -3932,12 +4400,13 @@
 				)
 			)
 		)
-		(property "Value" "Q"
+		(property "Value" "SW_Push"
 			(at 86.36 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -3966,6 +4435,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 86.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Q"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 86.36 82.55 0)
 			(effects
 				(font
@@ -4075,6 +4561,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 132.08 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 132.08 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "271dcb8c-367b-4a68-aed3-e7ff2fc75c4a")
 		)
@@ -4114,12 +4618,13 @@
 				)
 			)
 		)
-		(property "Value" "Tab"
+		(property "Value" "SW_Push"
 			(at 66.04 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
@@ -4148,6 +4653,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Tab"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 66.04 82.55 0)
 			(effects
 				(font
@@ -4195,12 +4717,13 @@
 				)
 			)
 		)
-		(property "Value" "B"
+		(property "Value" "SW_Push"
 			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -4229,6 +4752,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 187.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "B"
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 187.96 107.95 0)
 			(effects
 				(font
@@ -4276,12 +4816,13 @@
 				)
 			)
 		)
-		(property "Value" "Ctrl"
+		(property "Value" "SW_Push"
 			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
@@ -4310,6 +4851,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Ctrl"
+			(at 66.04 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 66.04 120.65 0)
 			(effects
 				(font
@@ -4419,6 +4977,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 172.72 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f27c2b8-9930-4226-89bb-650f703af860")
 		)
@@ -4513,6 +5089,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 152.4 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 152.4 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,6 +5215,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 111.76 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.76 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69595e39-c48c-4706-ba4c-3f5fcf14a3a8")
 		)
@@ -4660,12 +5272,13 @@
 				)
 			)
 		)
-		(property "Value" "Esc"
+		(property "Value" "SW_Push"
 			(at 66.04 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -4694,6 +5307,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Esc"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 66.04 69.85 0)
 			(effects
 				(font
@@ -4803,6 +5433,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 132.08 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 132.08 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c33d345b-384d-4990-9edf-672eef2acb6d")
 		)
@@ -4897,6 +5545,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 71.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 71.12 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 71.12 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,6 +5671,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.76 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d14c00e-c81a-47db-8a66-b39f937a75fb")
 		)
@@ -5099,6 +5783,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 71.12 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 71.12 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,6 +5909,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 152.4 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 152.4 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d094fb9e-d5e5-4f47-8eaa-ca2d50035407")
 		)
@@ -5246,12 +5966,13 @@
 				)
 			)
 		)
-		(property "Value" "£,3,,F3"
+		(property "Value" "SW_Push"
 			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -5280,6 +6001,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "£,3,,F3"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -5327,12 +6065,13 @@
 				)
 			)
 		)
-		(property "Value" "F"
+		(property "Value" "SW_Push"
 			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -5361,6 +6100,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "F"
+			(at 147.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -5470,6 +6226,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 172.72 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 172.72 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3112fb56-21be-4ffb-9c64-785cf19ad2f7")
 		)
@@ -5571,6 +6345,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 152.4 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 152.4 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90e8cb08-262f-4935-ac99-909ecd0d931a")
 		)
@@ -5610,12 +6402,13 @@
 				)
 			)
 		)
-		(property "Value" "E"
+		(property "Value" "SW_Push"
 			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -5644,6 +6437,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "E"
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -5753,6 +6563,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 71.12 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 71.12 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cfbc444-5835-4e75-a242-56c03e9b8240")
 		)
@@ -5792,12 +6620,13 @@
 				)
 			)
 		)
-		(property "Value" "$,4,,F4"
+		(property "Value" "SW_Push"
 			(at 147.32 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -5826,6 +6655,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "$,4,,F4"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 147.32 69.85 0)
 			(effects
 				(font
@@ -5873,12 +6719,13 @@
 				)
 			)
 		)
-		(property "Value" "V"
+		(property "Value" "SW_Push"
 			(at 167.64 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -5907,6 +6754,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 167.64 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "V"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 167.64 107.95 0)
 			(effects
 				(font
@@ -6016,6 +6880,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 91.44 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 91.44 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22a35c99-e11d-4a93-a3bc-be53cb38ba76")
 		)
@@ -6110,6 +6992,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 132.08 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 132.08 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,6 +7118,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 132.08 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 132.08 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae06e009-8471-4eec-8240-287f221d70b9")
 		)
@@ -6319,6 +7237,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 91.44 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 91.44 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f37f3b81-e6a8-4fcc-bfbe-158f010fc3a2")
 		)
@@ -6358,12 +7294,13 @@
 				)
 			)
 		)
-		(property "Value" "X"
+		(property "Value" "SW_Push"
 			(at 127 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -6392,6 +7329,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "X"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 127 107.95 0)
 			(effects
 				(font
@@ -6501,6 +7455,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 91.44 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 91.44 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "509b9846-4343-4def-9783-88b4a745c935")
 		)
@@ -6540,12 +7512,13 @@
 				)
 			)
 		)
-		(property "Value" "%,5,,F5"
+		(property "Value" "SW_Push"
 			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -6574,6 +7547,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "%,5,,F5"
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 167.64 69.85 0)
 			(effects
 				(font
@@ -6683,6 +7673,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 111.76 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 111.76 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc601298-05ff-43ee-ae97-f7ce30f3c8ce")
 		)
@@ -6722,12 +7730,13 @@
 				)
 			)
 		)
-		(property "Value" "Z"
+		(property "Value" "SW_Push"
 			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -6756,6 +7765,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "Z"
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 106.68 107.95 0)
 			(effects
 				(font
@@ -6865,6 +7891,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 71.12 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 71.12 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbe849bb-b72a-4422-b022-7a6e1c9028e2")
 		)
@@ -6966,6 +8010,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 172.72 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 172.72 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7432b82-8db8-4332-8f85-db740c654f9e")
 		)
@@ -7005,12 +8067,13 @@
 				)
 			)
 		)
-		(property "Value" "G"
+		(property "Value" "SW_Push"
 			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
@@ -7039,6 +8102,23 @@
 			)
 		)
 		(property "MPN" "Generic"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" "G"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 167.64 95.25 0)
 			(effects
 				(font

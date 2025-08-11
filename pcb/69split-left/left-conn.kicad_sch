@@ -1453,6 +1453,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A12"
 			(uuid "47e8504c-b60e-47dc-bb50-3477617c48a0")
 		)

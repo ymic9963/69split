@@ -818,6 +818,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77803248-67c5-42bb-838b-fa4978411a93")
 		)
@@ -893,6 +911,24 @@
 		)
 		(property "MPN" "Generic"
 			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 107.95 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 107.95 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,6 +1020,24 @@
 			)
 		)
 		(property "MPN" "150080RS75000 "
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
 			(at 128.27 85.09 0)
 			(effects
 				(font
@@ -1084,6 +1138,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f68e5509-ec1b-4fbb-983f-82afb51deb9d")
 		)
@@ -1166,6 +1238,24 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 123.19 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 123.19 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa9d8c6c-fbf9-4023-8e05-0085bb2e43a1")
 		)
@@ -1241,6 +1331,24 @@
 		)
 		(property "MPN" "Generic"
 			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 115.57 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Untitled Field" ""
+			(at 115.57 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
