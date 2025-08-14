@@ -540,33 +540,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 171.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d6b6b9d-74ac-4c5a-b452-ee1ee3217163")
-	)
-	(wire
-		(pts
-			(xy 165.1 91.44) (xy 165.1 92.71)
+			(xy 165.1 101.6) (xy 165.1 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "552a3d0a-350b-4932-991a-26ed46b5a0b4")
-	)
-	(wire
-		(pts
-			(xy 168.91 91.44) (xy 168.91 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71221868-7aec-4ef2-84aa-6851f4e4a2fb")
 	)
 	(wire
 		(pts
@@ -590,7 +570,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 91.44) (xy 168.91 91.44)
+			(xy 165.1 101.6) (xy 171.45 101.6)
 		)
 		(stroke
 			(width 0)
@@ -631,34 +611,32 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 176.53 96.52 0)
+		(at 176.53 99.06 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2ea3be94-4624-4568-9b26-e771ddbb0b82")
 		(property "Reference" "J1"
-			(at 177.8 95.2499 0)
+			(at 175.895 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 177.8 97.7899 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
-			(at 176.53 96.52 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 96.52 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +654,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 176.53 96.52 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -685,7 +663,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 176.53 96.52 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +672,16 @@
 			)
 		)
 		(property "Rating" ""
-			(at 176.53 96.52 0)
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Key" ""
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,7 +724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683868df-8cd8-4444-be21-c9e6995687c1")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 143.51 101.6 90)
 			(effects
 				(font
@@ -798,6 +785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 143.51 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "177bb4b4-8937-49c9-9439-c12eab03980a")
 		)
@@ -813,7 +809,7 @@
 			)
 			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -821,7 +817,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 92.71 0)
+		(at 165.1 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -830,7 +826,7 @@
 		(dnp no)
 		(uuid "90ccc233-1f2c-41b9-84bc-591ca4462592")
 		(property "Reference" "#PWR01"
-			(at 165.1 99.06 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.544 93.472 0)
+			(at 161.544 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 92.71 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 92.71 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 92.71 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98991f63-1f2d-4328-85d3-57ef380abc92")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 152.4 104.14 90)
 			(effects
 				(font
@@ -957,6 +953,15 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 152.4 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "052b2081-a6a3-44fa-8827-731e78b1e3e5")
 		)
@@ -972,7 +977,7 @@
 			)
 			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/f2f72030-456e-424c-bdd0-69cd41410d8b"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)

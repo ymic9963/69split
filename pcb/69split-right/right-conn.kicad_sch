@@ -941,7 +941,9 @@
 		(members "GPIO_OUT_PB7" "GPIO_OUT_PB6")
 	)
 	(bus_alias "RIGHT_MATRIX"
-		(members "COL6" "COL7" "COL8" "COL9" "COL10" "COL11" "COL12" "COL13" "COL14")
+		(members "COL6" "COL7" "COL8" "COL9" "COL10" "COL11" "COL12" "COL13" "COL14"
+			"ROW0" "ROW1" "ROW2" "ROW3" "ROW4"
+		)
 	)
 	(text "RIGHT KEYBOARD CONNECTOR"
 		(exclude_from_sim no)
@@ -1455,6 +1457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Key" ""
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A12"
 			(uuid "47e8504c-b60e-47dc-bb50-3477617c48a0")
 		)
@@ -1592,7 +1603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524da004-d053-4489-8c16-663a8f47cad5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR03"
 			(at 100.33 134.62 0)
 			(effects
 				(font
@@ -1642,7 +1653,7 @@
 		(instances
 			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/e52f6576-264c-459a-9037-dc2e10a35447"
-					(reference "#PWR025")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

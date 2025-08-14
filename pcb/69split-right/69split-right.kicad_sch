@@ -123,7 +123,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 121.92) (xy 182.88 93.98)
+			(xy 180.34 121.92) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +166,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 93.98) (xy 162.56 93.98)
+			(xy 180.34 93.98) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
@@ -176,7 +176,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 129.54) (xy 190.5 129.54)
+			(xy 175.26 134.62) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +207,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 121.92) (xy 182.88 121.92)
+			(xy 175.26 121.92) (xy 180.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +217,7 @@
 	)
 	(sheet
 		(at 190.5 121.92)
-		(size 27.94 15.24)
+		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "right-matrix.kicad_sch"
-			(at 190.5 137.7446 0)
+			(at 190.5 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			)
 		)
 		(pin "{RIGHT_MATRIX}" input
-			(at 190.5 129.54 180)
+			(at 190.5 134.62 180)
 			(uuid "5689a29b-f0c6-4fb4-a388-784d32e399dd")
 			(effects
 				(font
@@ -322,7 +322,7 @@
 			)
 		)
 		(pin "{RIGHT_MATRIX}" input
-			(at 175.26 129.54 0)
+			(at 175.26 134.62 0)
 			(uuid "8a82c0b4-4ef6-431a-83df-af4cdcb580e3")
 			(effects
 				(font

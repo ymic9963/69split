@@ -2328,6 +2328,15 @@
 		(uuid "e720231d-6600-4616-85f1-aaf892f2a019")
 	)
 	(bus_entry
+		(at 67.31 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f60716-8c63-4b5f-8b95-f1f603821904")
+	)
+	(bus_entry
 		(at 240.03 59.69)
 		(size -2.54 -2.54)
 		(stroke
@@ -2434,6 +2443,15 @@
 			(type default)
 		)
 		(uuid "828727ba-3116-4920-a0eb-a1f653e24e44")
+	)
+	(bus_entry
+		(at 67.31 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87703d49-e025-4c8c-a1c7-75985f79595d")
 	)
 	(bus_entry
 		(at 240.03 95.25)
@@ -3442,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 135.89) (xy 80.01 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80d5084-6230-404a-9a04-46564827cf52")
+	)
+	(wire
+		(pts
 			(xy 124.46 41.91) (xy 124.46 52.07)
 		)
 		(stroke
@@ -3550,6 +3578,16 @@
 		)
 		(uuid "bb6942f8-55d5-425d-9b64-7e01c957383d")
 	)
+	(bus
+		(pts
+			(xy 67.31 128.27) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc3d8b8-678c-4298-875d-3e998a8b94ba")
+	)
 	(wire
 		(pts
 			(xy 157.48 140.97) (xy 167.64 140.97)
@@ -3619,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "cae9d886-1488-40be-affc-deac4258884c")
+	)
+	(wire
+		(pts
+			(xy 69.85 133.35) (xy 80.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd50c1bc-93a5-4470-afd3-1914ca606574")
 	)
 	(bus
 		(pts
@@ -3739,6 +3787,16 @@
 			(type default)
 		)
 		(uuid "e3dbcb6b-b5c8-42fc-a2c7-28b807b801eb")
+	)
+	(bus
+		(pts
+			(xy 67.31 130.81) (xy 67.31 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f46cc6-87af-4a43-827a-63215925552b")
 	)
 	(wire
 		(pts
@@ -4330,6 +4388,16 @@
 		)
 		(uuid "b7b6c366-7139-4828-9746-3d788189e891")
 	)
+	(label "SDA"
+		(at 80.01 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba19aec4-c8f6-40c2-b8ba-f31049af025c")
+	)
 	(label "GPIO_OUT_PB7"
 		(at 180.34 95.25 180)
 		(effects
@@ -4349,6 +4417,16 @@
 			(justify left bottom)
 		)
 		(uuid "c196863f-2105-4a0e-b692-00429fcef6e0")
+	)
+	(label "SCL"
+		(at 80.01 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c30c472a-96e3-4b92-891a-bafd09ea8c50")
 	)
 	(label "COL2"
 		(at 223.52 59.69 0)
