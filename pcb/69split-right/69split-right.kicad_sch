@@ -8,6 +8,7 @@
 		(title "69SPLIT")
 		(date "2025-07-28")
 		(rev "1")
+		(company "Yiannis Michael")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
 	)
@@ -153,6 +154,16 @@
 		)
 		(uuid "4d8e34fb-bc0e-4848-a5fe-c881c514c7ef")
 	)
+	(bus
+		(pts
+			(xy 190.5 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62418ac4-baae-4a30-914c-e2f6101b9d9e")
+	)
 	(polyline
 		(pts
 			(xy 210.82 53.34) (xy 210.82 76.2)
@@ -163,6 +174,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "71a79108-ceaa-4990-aa48-f093208f7e47")
+	)
+	(bus
+		(pts
+			(xy 185.42 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f08820-c79e-4606-b4a0-1b1128a054b4")
 	)
 	(bus
 		(pts
@@ -214,6 +235,16 @@
 			(type default)
 		)
 		(uuid "f2203bdd-208d-416b-99ef-9e12cb8ad337")
+	)
+	(bus
+		(pts
+			(xy 185.42 93.98) (xy 185.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9117c1f-e6fd-43dc-a1e8-8061f8fe679d")
 	)
 	(sheet
 		(at 190.5 121.92)
@@ -324,6 +355,16 @@
 		(pin "{RIGHT_MATRIX}" input
 			(at 175.26 134.62 0)
 			(uuid "8a82c0b4-4ef6-431a-83df-af4cdcb580e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPIO_EXP_OUT}" input
+			(at 175.26 128.27 0)
+			(uuid "1d6f0cd5-0f27-4f05-a3c3-9c8403cf77cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,6 +488,16 @@
 		(pin "{GPIO_OUT}" input
 			(at 190.5 86.36 180)
 			(uuid "9bd303ac-6900-4ee4-a1a4-a2d7f2d5c2be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{GPIO_EXP_OUT}" input
+			(at 190.5 93.98 180)
+			(uuid "d96bac6f-c8f2-4666-accd-a5e478918c03")
 			(effects
 				(font
 					(size 1.27 1.27)
