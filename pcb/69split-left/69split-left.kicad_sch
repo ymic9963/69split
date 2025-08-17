@@ -853,7 +853,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -872,7 +871,7 @@
 			)
 		)
 		(property "Sheetfile" "left-conn.kicad_sch"
-			(at 142.24 108.5346 0)
+			(at 142.24 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
