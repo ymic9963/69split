@@ -1412,6 +1412,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 134.62 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62fba15e-6b13-4e21-9081-6902ef35526c")
 		)

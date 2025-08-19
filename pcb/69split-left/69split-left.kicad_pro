@@ -136,7 +136,7 @@
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.14,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -471,9 +471,9 @@
       {
         "bus_width": 0,
         "clearance": 0.12,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.0,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -488,17 +488,32 @@
       },
       {
         "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.4,
         "name": "USB Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ATmega32U4/D+": [
+        "USB Data"
+      ],
+      "/ATmega32U4/D-": [
+        "USB Data"
+      ],
+      "Net-(J1-D+-PadA6)": [
+        "USB Data"
+      ],
+      "Net-(J1-D--PadA7)": [
+        "USB Data"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
