@@ -453,6 +453,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -823,7 +824,7 @@
     ],
     [
       "cd421ade-5253-45fb-9a51-28ad04a50b20",
-      "LDO & Jumper"
+      "LDO & Switch"
     ],
     [
       "529ccb27-424e-404d-8f7f-2ca17e17c1b0",

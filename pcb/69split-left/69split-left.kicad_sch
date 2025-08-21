@@ -1230,7 +1230,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cd421ade-5253-45fb-9a51-28ad04a50b20")
-		(property "Sheetname" "LDO & Jumper"
+		(property "Sheetname" "LDO & Switch"
 			(at 88.9 85.6484 0)
 			(effects
 				(font
@@ -1239,7 +1239,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ldo-jumper.kicad_sch"
+		(property "Sheetfile" "ldo-switch.kicad_sch"
 			(at 88.9 97.7396 0)
 			(effects
 				(font
