@@ -670,9 +670,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Thermals are negligible."
+	(text "Thermals are negligible,\nunless you load the 3V3 pin\nso be careful with that."
 		(exclude_from_sim no)
-		(at 37.592 74.168 0)
+		(at 33.274 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -838,7 +838,7 @@
 		(uuid "f43996e8-c24a-471e-bea2-24a2ca882ba0")
 	)
 	(hierarchical_label "3V3"
-		(shape input)
+		(shape output)
 		(at 168.91 85.09 0)
 		(effects
 			(font
@@ -849,7 +849,7 @@
 		(uuid "168b1b61-7118-49d5-b498-f00f03ee800f")
 	)
 	(hierarchical_label "VCC"
-		(shape input)
+		(shape output)
 		(at 168.91 68.58 0)
 		(effects
 			(font
@@ -880,7 +880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7194b4-d23f-415a-8286-6d07f7ecbc0b")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 96.52 69.85 0)
 			(effects
 				(font
@@ -949,15 +949,6 @@
 				(hide yes)
 			)
 		)
-		(property "Untitled Field" ""
-			(at 96.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "abe768d2-f4c5-41be-8223-b4bd0a254677")
 		)
@@ -976,7 +967,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -992,7 +983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4881f873-d20c-4a14-9102-51012a7be07f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 83.82 87.63 0)
 			(effects
 				(font
@@ -1049,7 +1040,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1065,7 +1056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "534c0ed5-6866-420f-8e7f-e7ede75a201f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0103"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -1121,7 +1112,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "#PWR?")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1137,7 +1128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6cb8ea-3db7-4f81-91fa-e0dacf1495c9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -1193,7 +1184,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1210,7 +1201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b762434-fb62-44e2-8bde-7440327b7ba3")
-		(property "Reference" "C?"
+		(property "Reference" "C10"
 			(at 86.36 76.2062 0)
 			(effects
 				(font
@@ -1282,15 +1273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Untitled Field" ""
-			(at 83.82 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e6fc7dc8-afc0-417a-bdeb-ced34f1190d0")
 		)
@@ -1306,7 +1288,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1478,7 +1460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3467963-dbd6-4b05-8407-4d7c5db4d296")
-		(property "Reference" "C?"
+		(property "Reference" "C11"
 			(at 113.03 76.2062 0)
 			(effects
 				(font
@@ -1550,15 +1532,6 @@
 				(hide yes)
 			)
 		)
-		(property "Untitled Field" ""
-			(at 110.49 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0cb62b2c-1810-4a8b-a391-6bba21cfd9f8")
 		)
@@ -1574,7 +1547,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/cd421ade-5253-45fb-9a51-28ad04a50b20"
-					(reference "C?")
+					(reference "C11")
 					(unit 1)
 				)
 			)

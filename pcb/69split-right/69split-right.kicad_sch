@@ -7,15 +7,15 @@
 	(title_block
 		(title "69SPLIT")
 		(date "2025-07-28")
-		(rev "1")
+		(rev "A")
 		(company "Yiannis Michael")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
 	)
 	(lib_symbols)
 	(rectangle
-		(start 143.51 81.915)
-		(end 220.98 149.86)
+		(start 146.05 92.075)
+		(end 223.52 160.02)
 		(stroke
 			(width 0)
 			(type solid)
@@ -27,9 +27,9 @@
 		(uuid 1c5b7b3d-99a8-496b-81b4-d8bc5a01f255)
 	)
 	(arc
-		(start 95.885 76.2)
-		(mid 115.57 64.2281)
-		(end 135.255 76.2)
+		(start 98.425 86.36)
+		(mid 118.11 74.3881)
+		(end 137.795 86.36)
 		(stroke
 			(width 0)
 			(type solid)
@@ -41,8 +41,8 @@
 		(uuid 52d20713-9743-4600-abd6-cc232dbaadd9)
 	)
 	(rectangle
-		(start 60.96 76.2)
-		(end 112.395 130.81)
+		(start 63.5 86.36)
+		(end 114.935 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -52,9 +52,20 @@
 		)
 		(uuid a094494d-52ad-427a-b683-331695a40a85)
 	)
+	(text "L + R\n42mA + 76mA @ 5V\n25mA + 51mA @ 3V3\n\nTypical current draw when everythin is in use\nexcept the breakout header."
+		(exclude_from_sim no)
+		(at 210.566 30.48 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "28a981cc-5e92-41a7-8f0c-85809357f9bb")
+	)
 	(text "GPIO Outputs"
 		(exclude_from_sim no)
-		(at 205.74 50.8 0)
+		(at 208.28 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +89,7 @@
 	)
 	(text "Keyboard USB-C Connection"
 		(exclude_from_sim no)
-		(at 101.6 60.96 0)
+		(at 104.14 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -90,7 +101,7 @@
 	)
 	(text "USB-C to PC"
 		(exclude_from_sim no)
-		(at 63.5 50.8 0)
+		(at 66.04 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -114,7 +125,7 @@
 	)
 	(text "Left Keyboard"
 		(exclude_from_sim no)
-		(at 86.36 101.6 0)
+		(at 88.9 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,7 +135,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 121.92) (xy 180.34 93.98)
+			(xy 182.88 132.08) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -134,7 +145,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 53.34) (xy 215.9 76.2)
+			(xy 218.44 63.5) (xy 218.44 86.36)
 		)
 		(stroke
 			(width 0)
@@ -145,7 +156,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.12 53.34) (xy 71.12 76.2)
+			(xy 73.66 63.5) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -156,7 +167,7 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 93.98) (xy 185.42 93.98)
+			(xy 193.04 104.14) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +177,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.82 53.34) (xy 210.82 76.2)
+			(xy 213.36 63.5) (xy 213.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +188,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 128.27) (xy 175.26 128.27)
+			(xy 187.96 138.43) (xy 177.8 138.43)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +198,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 93.98) (xy 162.56 93.98)
+			(xy 182.88 104.14) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +208,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 134.62) (xy 190.5 134.62)
+			(xy 177.8 144.78) (xy 193.04 144.78)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +218,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 86.36) (xy 190.5 86.36)
+			(xy 165.1 96.52) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +228,7 @@
 	)
 	(polyline
 		(pts
-			(xy 66.04 53.34) (xy 66.04 76.2)
+			(xy 68.58 63.5) (xy 68.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -228,7 +239,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 121.92) (xy 180.34 121.92)
+			(xy 177.8 132.08) (xy 182.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -238,7 +249,7 @@
 	)
 	(bus
 		(pts
-			(xy 185.42 93.98) (xy 185.42 128.27)
+			(xy 187.96 104.14) (xy 187.96 138.43)
 		)
 		(stroke
 			(width 0)
@@ -247,7 +258,7 @@
 		(uuid "f9117c1f-e6fd-43dc-a1e8-8061f8fe679d")
 	)
 	(sheet
-		(at 190.5 121.92)
+		(at 193.04 132.08)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -263,7 +274,7 @@
 		)
 		(uuid "a3a71a3c-f3ce-42c2-a0de-8434118661c9")
 		(property "Sheetname" "Right Matrix"
-			(at 190.5 121.2084 0)
+			(at 193.04 131.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +283,7 @@
 			)
 		)
 		(property "Sheetfile" "right-matrix.kicad_sch"
-			(at 190.5 140.2846 0)
+			(at 193.04 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,8 +291,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{RIGHT_MATRIX}" input
-			(at 190.5 134.62 180)
+		(pin "{RIGHT_MATRIX}" bidirectional
+			(at 193.04 144.78 180)
 			(uuid "5689a29b-f0c6-4fb4-a388-784d32e399dd")
 			(effects
 				(font
@@ -309,7 +320,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 116.84)
+		(at 154.94 127)
 		(size 22.86 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -325,7 +336,7 @@
 		)
 		(uuid "d61255dd-23de-4bf5-9fa7-c13302692107")
 		(property "Sheetname" "IO Expander"
-			(at 152.4 116.1284 0)
+			(at 154.94 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -334,7 +345,7 @@
 			)
 		)
 		(property "Sheetfile" "io-expander.kicad_sch"
-			(at 152.4 140.2846 0)
+			(at 154.94 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,8 +353,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{I2C}" input
-			(at 175.26 121.92 0)
+		(pin "{I2C}" bidirectional
+			(at 177.8 132.08 0)
 			(uuid "a7be1010-d938-4095-ae17-9d00447c0ec1")
 			(effects
 				(font
@@ -352,8 +363,8 @@
 				(justify right)
 			)
 		)
-		(pin "{RIGHT_MATRIX}" input
-			(at 175.26 134.62 0)
+		(pin "{RIGHT_MATRIX}" bidirectional
+			(at 177.8 144.78 0)
 			(uuid "8a82c0b4-4ef6-431a-83df-af4cdcb580e3")
 			(effects
 				(font
@@ -362,8 +373,8 @@
 				(justify right)
 			)
 		)
-		(pin "{GPIO_EXP_OUT}" input
-			(at 175.26 128.27 0)
+		(pin "{GPIO_EXP_OUT}" bidirectional
+			(at 177.8 138.43 0)
 			(uuid "1d6f0cd5-0f27-4f05-a3c3-9c8403cf77cf")
 			(effects
 				(font
@@ -381,7 +392,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 76.2)
+		(at 134.62 86.36)
 		(size 30.48 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -396,7 +407,7 @@
 		)
 		(uuid "e52f6576-264c-459a-9037-dc2e10a35447")
 		(property "Sheetname" "Right Keyboard Connector"
-			(at 137.795 75.692 0)
+			(at 140.335 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +416,7 @@
 			)
 		)
 		(property "Sheetfile" "right-conn.kicad_sch"
-			(at 132.715 102.362 0)
+			(at 135.255 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,8 +424,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{GPIO_OUT}" input
-			(at 162.56 86.36 0)
+		(pin "{GPIO_OUT}" output
+			(at 165.1 96.52 0)
 			(uuid "f9dc837a-98f4-4f4b-b40c-cc2af5700edb")
 			(effects
 				(font
@@ -423,8 +434,8 @@
 				(justify right)
 			)
 		)
-		(pin "{I2C}" input
-			(at 162.56 93.98 0)
+		(pin "{I2C}" bidirectional
+			(at 165.1 104.14 0)
 			(uuid "c241a56d-737d-47b8-bc05-c33a1f2728b7")
 			(effects
 				(font
@@ -452,7 +463,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 76.2)
+		(at 193.04 86.36)
 		(size 33.02 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -468,7 +479,7 @@
 		)
 		(uuid "f2f72030-456e-424c-bdd0-69cd41410d8b")
 		(property "Sheetname" "GPIO Outputs"
-			(at 190.5 75.4884 0)
+			(at 193.04 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +488,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 190.5 102.1846 0)
+			(at 193.04 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +497,7 @@
 			)
 		)
 		(pin "{GPIO_OUT}" input
-			(at 190.5 86.36 180)
+			(at 193.04 96.52 180)
 			(uuid "9bd303ac-6900-4ee4-a1a4-a2d7f2d5c2be")
 			(effects
 				(font
@@ -495,8 +506,8 @@
 				(justify left)
 			)
 		)
-		(pin "{GPIO_EXP_OUT}" input
-			(at 190.5 93.98 180)
+		(pin "{GPIO_EXP_OUT}" bidirectional
+			(at 193.04 104.14 180)
 			(uuid "d96bac6f-c8f2-4666-accd-a5e478918c03")
 			(effects
 				(font

@@ -1626,7 +1626,7 @@
 	)
 	(text "Route D+/- as differential pairs.\nPlace resistors close to connector.\nFor 90 Ohm impedance coplanar differential pairs,\nWidth: 16 mil (~0.4 mm)\nClearance: 5 mil (~0.12 mm)\n\nSource\nhttps://resources.altium.com/p/routing-requirements-usb-20-2-layer-pcb"
 		(exclude_from_sim no)
-		(at 206.502 114.808 0)
+		(at 201.422 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2129,7 @@
 		(uuid "ad147062-99bc-4495-a383-2807c93574a6")
 	)
 	(hierarchical_label "USB_5V"
-		(shape input)
+		(shape output)
 		(at 259.08 78.74 0)
 		(effects
 			(font
@@ -2262,15 +2262,6 @@
 				(hide yes)
 			)
 		)
-		(property "Untitled Field" ""
-			(at 125.73 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d032af2f-dc81-44dd-bd5e-35fedd485ed2")
 		)
@@ -2370,15 +2361,6 @@
 				(hide yes)
 			)
 		)
-		(property "Untitled Field" ""
-			(at 125.73 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6fe7c474-3f1c-4089-bfa4-9a3c55231dd8")
 		)
@@ -2463,15 +2445,6 @@
 			)
 		)
 		(property "Key" ""
-			(at 96.52 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -2737,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCT06030C5101FPW00"
+		(property "MPN" "Generic"
 			(at 176.53 110.49 0)
 			(effects
 				(font
@@ -2747,15 +2720,6 @@
 			)
 		)
 		(property "Key" ""
-			(at 176.53 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
 			(at 176.53 110.49 0)
 			(effects
 				(font
@@ -2912,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCT06030C5101FPW00"
+		(property "MPN" "Generic"
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -2922,15 +2886,6 @@
 			)
 		)
 		(property "Key" ""
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
 			(at 171.45 105.41 0)
 			(effects
 				(font
@@ -3351,15 +3306,6 @@
 			)
 		)
 		(property "Key" ""
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
 			(at 204.47 81.28 0)
 			(effects
 				(font

@@ -7,7 +7,7 @@
 	(title_block
 		(title "69SPLIT")
 		(date "2025-07-28")
-		(rev "1")
+		(rev "A")
 		(company "Yiannis Michael")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
@@ -1481,7 +1481,7 @@
 		(uuid "93a624b1-c591-403e-aef7-24313f2295ca")
 	)
 	(hierarchical_label "{GPIO_OUT}"
-		(shape input)
+		(shape output)
 		(at 231.14 90.17 0)
 		(effects
 			(font
@@ -1492,7 +1492,7 @@
 		(uuid "29203775-dacd-45d3-b5cc-1e43d9966f87")
 	)
 	(hierarchical_label "{I2C}"
-		(shape input)
+		(shape bidirectional)
 		(at 231.14 97.79 0)
 		(effects
 			(font

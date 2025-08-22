@@ -7,7 +7,7 @@
 	(title_block
 		(title "69SPLIT")
 		(date "2025-07-28")
-		(rev "1")
+		(rev "A")
 		(company "Yiannis Michael")
 		(comment 1 "Yiannis Michael")
 		(comment 2 "ymich9963")
@@ -1908,7 +1908,7 @@
 		(uuid "dfb12ea8-07e3-40d0-80e8-95bb4f504c7d")
 	)
 	(hierarchical_label "{RIGHT_MATRIX}"
-		(shape input)
+		(shape bidirectional)
 		(at 49.53 140.97 180)
 		(effects
 			(font

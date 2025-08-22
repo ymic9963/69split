@@ -736,12 +736,6 @@
         },
         {
           "group_by": false,
-          "label": "Untitled Field",
-          "name": "Untitled Field",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Key",
           "name": "Key",
           "show": true

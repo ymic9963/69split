@@ -436,7 +436,7 @@
 	)
 	(text "@ 5V: (5 - 2) / 200 = 15mA\n@ 3V3: (3.3 - 2) / 200 = 6.5mA"
 		(exclude_from_sim no)
-		(at 99.568 97.028 0)
+		(at 97.028 83.058 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -446,19 +446,19 @@
 		(uuid "82eddf13-d673-4bad-8d85-14fe0b637286")
 	)
 	(junction
-		(at 162.56 82.55)
+		(at 160.02 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "301c65d0-2f14-4c3b-acf4-14e012893602")
 	)
 	(junction
-		(at 162.56 85.09)
+		(at 160.02 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dedf4ec-6d14-4b32-844a-47c2cd186d42")
 	)
 	(bus_entry
-		(at 77.47 82.55)
+		(at 74.93 68.58)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -467,7 +467,7 @@
 		(uuid "10d4d34b-4f4f-4d69-8b07-74d8e95faa7d")
 	)
 	(bus_entry
-		(at 77.47 85.09)
+		(at 74.93 71.12)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -476,7 +476,7 @@
 		(uuid "c35737eb-b2ef-463e-8313-bffb5fe38bdc")
 	)
 	(bus_entry
-		(at 77.47 80.01)
+		(at 74.93 66.04)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -486,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 137.16 80.01)
+			(xy 124.46 66.04) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +496,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 162.56 82.55)
+			(xy 160.02 66.04) (xy 160.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -506,7 +506,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 80.01) (xy 119.38 80.01)
+			(xy 74.93 66.04) (xy 116.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -516,7 +516,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 130.81 82.55)
+			(xy 116.84 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -526,7 +526,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 85.09) (xy 74.93 82.55)
+			(xy 72.39 71.12) (xy 72.39 68.58)
 		)
 		(stroke
 			(width 0)
@@ -536,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 162.56 80.01)
+			(xy 142.24 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -546,7 +546,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 87.63) (xy 74.93 85.09)
+			(xy 72.39 73.66) (xy 72.39 71.12)
 		)
 		(stroke
 			(width 0)
@@ -556,7 +556,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 162.56 82.55)
+			(xy 160.02 71.12) (xy 160.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -566,7 +566,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 104.14 85.09)
+			(xy 74.93 71.12) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -576,7 +576,7 @@
 	)
 	(bus
 		(pts
-			(xy 74.93 82.55) (xy 60.96 82.55)
+			(xy 72.39 68.58) (xy 58.42 68.58)
 		)
 		(stroke
 			(width 0)
@@ -586,7 +586,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 85.09) (xy 124.46 85.09)
+			(xy 109.22 71.12) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -596,7 +596,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 162.56 82.55)
+			(xy 135.89 68.58) (xy 160.02 68.58)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +606,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 82.55) (xy 111.76 82.55)
+			(xy 74.93 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 162.56 85.09)
+			(xy 129.54 71.12) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 87.63) (xy 162.56 85.09)
+			(xy 160.02 73.66) (xy 160.02 71.12)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +635,7 @@
 		(uuid "e189d6c5-220e-4bfd-9f34-9434984d725b")
 	)
 	(label "INDICATOR_PB6"
-		(at 100.33 85.09 180)
+		(at 97.79 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -645,7 +645,7 @@
 		(uuid "1931e14c-d223-4cd0-a194-6b5f5118d031")
 	)
 	(label "INDICATOR_PB7"
-		(at 100.33 82.55 180)
+		(at 97.79 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -655,7 +655,7 @@
 		(uuid "69421a14-d380-4f00-a818-1d764fbbf01b")
 	)
 	(label "INDICATOR_CAPS_LOCK"
-		(at 100.33 80.01 180)
+		(at 97.79 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -666,7 +666,7 @@
 	)
 	(hierarchical_label "{INDICATORS}"
 		(shape input)
-		(at 60.96 82.55 180)
+		(at 58.42 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -677,7 +677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 87.63 0)
+		(at 160.02 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -686,7 +686,7 @@
 		(fields_autoplaced yes)
 		(uuid "389858be-2c03-4570-abde-5f883b3dd6d5")
 		(property "Reference" "#PWR05"
-			(at 162.56 93.98 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 92.71 0)
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 87.63 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 87.63 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 87.63 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +749,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 134.62 82.55 0)
+		(at 132.08 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -758,7 +758,7 @@
 		(dnp no)
 		(uuid "3eb7879e-5811-4165-8b52-ccf2af0ee46d")
 		(property "Reference" "D2"
-			(at 136.652 86.614 0)
+			(at 134.112 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +766,7 @@
 			)
 		)
 		(property "Value" "Amber LED"
-			(at 140.208 88.646 0)
+			(at 137.668 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +774,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 134.62 82.55 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 82.55 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +792,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 134.62 82.55 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +801,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 82.55 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +810,7 @@
 			)
 		)
 		(property "MPN" "150080AS75000 "
-			(at 134.62 82.55 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,16 +819,7 @@
 			)
 		)
 		(property "Key" ""
-			(at 134.62 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 134.62 82.55 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +850,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 85.09 270)
+		(at 105.41 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -868,7 +859,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a8ec154-a1dd-4ff8-84f1-633590b01815")
 		(property "Reference" "R7"
-			(at 107.95 78.74 90)
+			(at 105.41 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,7 +867,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 107.95 81.28 90)
+			(at 105.41 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +875,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 83.312 90)
+			(at 105.41 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +884,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 85.09 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 85.09 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,7 +901,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 107.95 85.09 0)
+			(at 105.41 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,16 +910,7 @@
 			)
 		)
 		(property "Key" ""
-			(at 107.95 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 107.95 85.09 90)
+			(at 105.41 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +941,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 128.27 85.09 0)
+		(at 125.73 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -968,7 +950,7 @@
 		(dnp no)
 		(uuid "6bd2ec91-b624-4852-acb1-345b811bbfbe")
 		(property "Reference" "D3"
-			(at 124.968 88.9 0)
+			(at 122.428 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +958,7 @@
 			)
 		)
 		(property "Value" "Red LED"
-			(at 128.016 90.932 0)
+			(at 125.476 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +966,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 128.27 85.09 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 85.09 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +984,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 128.27 85.09 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +993,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 85.09 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1002,7 @@
 			)
 		)
 		(property "MPN" "150080RS75000 "
-			(at 128.27 85.09 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,16 +1011,7 @@
 			)
 		)
 		(property "Key" ""
-			(at 128.27 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 128.27 85.09 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1042,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 140.97 80.01 0)
+		(at 138.43 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1078,7 +1051,7 @@
 		(dnp no)
 		(uuid "a557c11a-0073-4971-8b98-7409cea5d584")
 		(property "Reference" "D1"
-			(at 138.684 73.914 0)
+			(at 136.144 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1059,7 @@
 			)
 		)
 		(property "Value" "Yellow LED"
-			(at 142.5575 76.2 0)
+			(at 140.0175 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1067,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 140.97 80.01 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 80.01 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1085,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 140.97 80.01 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1094,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 80.01 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1103,7 @@
 			)
 		)
 		(property "MPN" "150080YS75000 "
-			(at 140.97 80.01 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,16 +1112,7 @@
 			)
 		)
 		(property "Key" ""
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 140.97 80.01 0)
+			(at 138.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1143,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 80.01 270)
+		(at 120.65 66.04 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1188,7 +1152,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbfe796b-b7ec-4000-8837-609e912d1d29")
 		(property "Reference" "R5"
-			(at 123.19 73.66 90)
+			(at 120.65 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1160,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 123.19 76.2 90)
+			(at 120.65 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1168,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 123.19 78.232 90)
+			(at 120.65 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 80.01 0)
+			(at 120.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 80.01 0)
+			(at 120.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1194,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 123.19 80.01 0)
+			(at 120.65 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,16 +1203,7 @@
 			)
 		)
 		(property "Key" ""
-			(at 123.19 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 123.19 80.01 90)
+			(at 120.65 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 82.55 270)
+		(at 113.03 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1288,7 +1243,7 @@
 		(fields_autoplaced yes)
 		(uuid "df0fb9ad-9124-4821-b75e-85e5ea68784a")
 		(property "Reference" "R6"
-			(at 115.57 76.2 90)
+			(at 113.03 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +1251,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 115.57 78.74 90)
+			(at 113.03 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1259,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 115.57 80.772 90)
+			(at 113.03 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 82.55 0)
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 82.55 0)
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1285,7 @@
 			)
 		)
 		(property "MPN" "Generic"
-			(at 115.57 82.55 0)
+			(at 113.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,16 +1294,7 @@
 			)
 		)
 		(property "Key" ""
-			(at 115.57 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Untitled Field" ""
-			(at 115.57 82.55 90)
+			(at 113.03 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)

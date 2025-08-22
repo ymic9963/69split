@@ -280,14 +280,14 @@
 		)
 		(uuid 898a5247-515c-4052-b67d-0d6d40e13678)
 	)
-	(text "105mA @ 5V\n60mA @ 3V3"
+	(text "L + R\n42mA + 76mA @ 5V\n25mA + 51mA @ 3V3\n\nTypical current draw when everythin is in use\nexcept the breakout header."
 		(exclude_from_sim no)
-		(at 243.84 35.56 0)
+		(at 209.55 32.766 0)
 		(effects
 			(font
 				(size 2 2)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1307f650-d374-4046-a4b2-0ccaceb6506f")
 	)
@@ -317,7 +317,7 @@
 	)
 	(text "Keyboard USB-C Connection"
 		(exclude_from_sim no)
-		(at 185.42 55.88 0)
+		(at 184.658 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -362,10 +362,10 @@
 		(uuid "fcb14ea5-e7aa-46d3-9c0c-3dd2f0c634c4")
 	)
 	(junction
-		(at 116.84 88.9)
+		(at 115.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef71c4b3-b3dd-457e-b65a-84af6dbc4fa3")
+		(uuid "8310204c-43be-4c44-b588-45420c1cce38")
 	)
 	(bus
 		(pts
@@ -397,6 +397,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "094a3152-4dea-4e0c-a3c3-145daa995ef7")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254a3cea-b716-43b3-94fe-83ddb7ef0687")
 	)
 	(wire
 		(pts
@@ -441,23 +451,13 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 134.62) (xy 142.24 134.62)
+			(xy 124.46 137.16) (xy 142.24 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7262ff03-d952-466c-bc33-9c4e866f4cf3")
-	)
-	(wire
-		(pts
-			(xy 116.84 88.9) (xy 119.38 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed41818-4bd0-47fb-bbfb-40954534e9b7")
 	)
 	(bus
 		(pts
@@ -573,7 +573,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 88.9) (xy 116.84 88.9)
+			(xy 111.76 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -724,7 +724,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 116.84 88.9 180)
+		(at 115.57 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -733,7 +733,7 @@
 		(fields_autoplaced yes)
 		(uuid "a643955b-d248-416b-ab62-ad7c4673140d")
 		(property "Reference" "#FLG01"
-			(at 116.84 90.805 0)
+			(at 115.57 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 119.38 90.1699 0)
+			(at 118.11 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 88.9 0)
+			(at 115.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 88.9 0)
+			(at 115.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 116.84 88.9 0)
+			(at 115.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +947,7 @@
 			)
 		)
 		(pin "{LEFT_MATRIX}" bidirectional
-			(at 124.46 134.62 0)
+			(at 124.46 137.16 0)
 			(uuid "5057e074-3ffe-4985-a238-1150da015ebc")
 			(effects
 				(font
@@ -966,7 +966,7 @@
 				(justify left)
 			)
 		)
-		(pin "{GPIO_OUT}" input
+		(pin "{GPIO_OUT}" output
 			(at 124.46 116.84 0)
 			(uuid "9d759968-dbb8-4697-b301-7fe6af19e207")
 			(effects
@@ -976,7 +976,7 @@
 				(justify right)
 			)
 		)
-		(pin "{INDICATORS}" input
+		(pin "{INDICATORS}" output
 			(at 83.82 152.4 180)
 			(uuid "4878e4bc-a3ff-412e-b286-31965c5111fa")
 			(effects
@@ -996,7 +996,7 @@
 				(justify right)
 			)
 		)
-		(pin "{BREAKOUT_HEADER}" input
+		(pin "{BREAKOUT_HEADER}" bidirectional
 			(at 83.82 127 180)
 			(uuid "945b3605-bf8b-4267-b722-af6893382e5f")
 			(effects
@@ -1020,7 +1020,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 127)
+		(at 142.24 129.54)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1036,7 +1036,7 @@
 		)
 		(uuid "91cdcebd-1915-45e6-b05f-d7c65936f9f3")
 		(property "Sheetname" "Left Matrix"
-			(at 142.24 126.2884 0)
+			(at 142.24 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1045,7 @@
 			)
 		)
 		(property "Sheetfile" "left-matrix.kicad_sch"
-			(at 142.24 142.8246 0)
+			(at 142.24 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1054,7 @@
 			)
 		)
 		(pin "{LEFT_MATRIX}" bidirectional
-			(at 142.24 134.62 180)
+			(at 142.24 137.16 180)
 			(uuid "d5e24c94-e2e7-4653-a39a-4e5526ea4e5a")
 			(effects
 				(font
@@ -1119,7 +1119,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_5V" input
+		(pin "USB_5V" output
 			(at 73.66 91.44 0)
 			(uuid "acfad5cc-f0bf-4814-b364-4f05b3e35925")
 			(effects
@@ -1176,7 +1176,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{BREAKOUT_HEADER}" input
+		(pin "{BREAKOUT_HEADER}" bidirectional
 			(at 72.39 127 0)
 			(uuid "7eb6dcd3-c00b-44a7-b2f4-4ef655a26160")
 			(effects
@@ -1258,7 +1258,7 @@
 				(justify left)
 			)
 		)
-		(pin "VCC" input
+		(pin "VCC" output
 			(at 111.76 88.9 0)
 			(uuid "a29d52fe-16b1-4fb4-8a80-8390d129a9a7")
 			(effects
@@ -1268,7 +1268,7 @@
 				(justify right)
 			)
 		)
-		(pin "3V3" input
+		(pin "3V3" output
 			(at 111.76 93.98 0)
 			(uuid "ebcaf056-0e22-4b00-975b-4ee5c948f353")
 			(effects
