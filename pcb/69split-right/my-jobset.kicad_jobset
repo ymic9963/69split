@@ -7,7 +7,7 @@
         "description": "",
         "fail_on_error": false,
         "format": "report",
-        "output_filename": "VGA-I2C-GPIO-erc.rpt",
+        "output_filename": "69split-right-erc.rpt",
         "severity": 48,
         "units": "mm"
       },
@@ -136,7 +136,7 @@
       "description": "Execute aBOM to get the auto generated BOM",
       "id": "92d8d6e1-881e-48bf-884c-c4ecf1bd70f9",
       "settings": {
-        "command": "abom \"${PROJECTNAME}.xml\" \"${PROJECTNAME}.csv\" --headers",
+        "command": "abom \"${PROJECTNAME}.xml\" \"${PROJECTNAME}.csv\" --headers --preset default",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "abom.log",

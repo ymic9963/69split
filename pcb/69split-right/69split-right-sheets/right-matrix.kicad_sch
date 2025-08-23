@@ -5885,7 +5885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "←"
+		(property "Key" "Left"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -6430,7 +6430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "↑"
+		(property "Key" "Up"
 			(at 215.9 110.49 0)
 			(effects
 				(font
@@ -7621,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "→"
+		(property "Key" "Right"
 			(at 234.95 123.19 0)
 			(effects
 				(font
@@ -8388,7 +8388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "↓"
+		(property "Key" "Down"
 			(at 215.9 123.19 0)
 			(effects
 				(font

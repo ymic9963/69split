@@ -1691,7 +1691,7 @@
 			(uuid "13a38183-92c0-4fa3-bf8d-90c0677e5e93")
 		)
 		(instances
-			(project ""
+			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/e52f6576-264c-459a-9037-dc2e10a35447"
 					(reference "#PWR02")
 					(unit 1)
@@ -1825,7 +1825,7 @@
 			(uuid "85f0c2ba-12d1-4e9c-ba6e-447f9e063a80")
 		)
 		(instances
-			(project ""
+			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/e52f6576-264c-459a-9037-dc2e10a35447"
 					(reference "#FLG01")
 					(unit 1)

@@ -306,7 +306,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cd421ade-5253-45fb-9a51-28ad04a50b20/6b762434-fb62-44e2-8bde-7440327b7ba3")
 		(sheetname "/LDO & Switch/")
-		(sheetfile "ldo-switch.kicad_sch")
+		(sheetfile "69split-left-sheets/ldo-switch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -557,7 +557,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/ef6be0b4-edf8-492f-9b9e-0581decff20b")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -795,7 +795,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/3e876354-2794-4514-b1d1-d3523d71c3d2")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -1034,7 +1034,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/5b01a284-f75f-4564-bcd9-4e56e7ee9965")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1358,7 +1358,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/45641673-034c-40c8-aa0a-109e480dd664")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1681,7 +1681,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea400fe")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -1932,7 +1932,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cd421ade-5253-45fb-9a51-28ad04a50b20/f3467963-dbd6-4b05-8407-4d7c5db4d296")
 		(sheetname "/LDO & Switch/")
-		(sheetfile "ldo-switch.kicad_sch")
+		(sheetfile "69split-left-sheets/ldo-switch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -2183,7 +2183,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/3dfbb480-fe87-4f9a-8dc4-7a352e1a1c68")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -2434,7 +2434,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/00000000-0000-0000-0000-00005ea3e120")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -2685,7 +2685,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea42e8a")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -2924,7 +2924,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/689da4a8-d1f9-4583-9d1b-1d09c19cc235")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -3260,7 +3260,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea476fd")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -3500,7 +3500,7 @@
 		(property ki_fp_filters "TQFP*10x10mm*P0.8mm*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005e9f2ae3")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.11 -5.11)
@@ -4352,7 +4352,7 @@
 		)
 		(path "/cd421ade-5253-45fb-9a51-28ad04a50b20/ee4b4d79-f71f-4339-b8b9-638bfcaf1af5")
 		(sheetname "/LDO & Switch/")
-		(sheetfile "ldo-switch.kicad_sch")
+		(sheetfile "69split-left-sheets/ldo-switch.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.41 2.26)
@@ -4791,7 +4791,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/50769013-414a-494e-93be-b0bb16643ca0/6a8ec154-a1dd-4ff8-84f1-633590b01815")
 		(sheetname "/Indicator LEDs/")
-		(sheetfile "indicators.kicad_sch")
+		(sheetfile "69split-left-sheets/indicators.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -5029,7 +5029,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/50769013-414a-494e-93be-b0bb16643ca0/dbfe796b-b7ec-4000-8837-609e912d1d29")
 		(sheetname "/Indicator LEDs/")
-		(sheetfile "indicators.kicad_sch")
+		(sheetfile "69split-left-sheets/indicators.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -5267,7 +5267,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea41055")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -5506,7 +5506,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/c6eed957-b72c-4a2f-b5ef-6846a7a99183")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -5844,7 +5844,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/3e75d527-2899-49e1-8b88-6f8487450f56")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -6082,7 +6082,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/50769013-414a-494e-93be-b0bb16643ca0/df0fb9ad-9124-4821-b75e-85e5ea68784a")
 		(sheetname "/Indicator LEDs/")
-		(sheetfile "indicators.kicad_sch")
+		(sheetfile "69split-left-sheets/indicators.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -6333,7 +6333,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/00000000-0000-0000-0000-00005ea3f186")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -6586,7 +6586,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea439c6")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -6839,7 +6839,7 @@
 		(property ki_fp_filters "SOT*223*")
 		(path "/cd421ade-5253-45fb-9a51-28ad04a50b20/0c7194b4-d23f-415a-8286-6d07f7ecbc0b")
 		(sheetname "/LDO & Switch/")
-		(sheetfile "ldo-switch.kicad_sch")
+		(sheetfile "69split-left-sheets/ldo-switch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -7142,7 +7142,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/632fa36f-37c3-4095-ac8f-2f140230771e")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -7478,7 +7478,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b9b61e5a-9325-4f88-bef8-ccb8b62517a8/9b54439a-c5aa-478f-bf2a-cce327fb2bc5")
 		(sheetname "/Breakout Header/")
-		(sheetfile "breakout-header.kicad_sch")
+		(sheetfile "69split-left-sheets/breakout-header.kicad_sch")
 		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
@@ -7869,7 +7869,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/3f3e8548-c540-4b20-979d-0aeb9e223dcc")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -8108,7 +8108,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/4c6ec46e-af7c-4854-9124-203d51b339bb")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -8433,7 +8433,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/00000000-0000-0000-0000-000060533d93")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.58 2.76)
@@ -8915,7 +8915,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea49ba6")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.64 2.435)
@@ -9196,7 +9196,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea48ce5")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -9436,7 +9436,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/529ccb27-424e-404d-8f7f-2ca17e17c1b0/17c022c0-a3fe-49f4-9b51-eff596274798")
 		(sheetname "/Left Keyboard Connector/")
-		(sheetfile "left-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/left-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.58 2.76)
@@ -9893,7 +9893,7 @@
 		(property ki_fp_filters "D?SOD?323*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/ade4a081-ebb3-42e9-8a0f-d8b6dea80efc")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.01 -0.85)
@@ -10204,7 +10204,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b5f67648-cc75-4c95-b372-d0cc735e2b24")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -10542,7 +10542,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/50769013-414a-494e-93be-b0bb16643ca0/a557c11a-0073-4971-8b98-7409cea5d584")
 		(sheetname "/Indicator LEDs/")
-		(sheetfile "indicators.kicad_sch")
+		(sheetfile "69split-left-sheets/indicators.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 -0.96)
@@ -10803,7 +10803,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/d4289172-e3ec-4161-b423-10b8e8896e50")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -11127,7 +11127,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/ff8faab7-bb46-429b-91d7-9afeba99856d")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -11439,7 +11439,7 @@
 		(property ki_fp_filters "*SC?70*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/5ddc21af-8491-476b-84db-0afe82f987e4")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.68 1.16)
@@ -11729,7 +11729,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/46ca9359-3a68-492e-80fd-b8220a27b8e3")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -12081,7 +12081,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/128a99f1-408e-42ff-b2de-42d9d66f2404")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -12417,7 +12417,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/b1bdf946-cb55-43ae-8caa-fbd65a722a96")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -12656,7 +12656,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/15288b66-f0ae-4618-bc52-83e0bba088f9")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -12980,7 +12980,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/3c7d8869-a8bb-4964-8f25-118ff3e4f2fc")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -13304,7 +13304,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/1063c100-35dc-44d1-929e-79ec10db6a21")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -13628,7 +13628,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/206bb11d-6065-40a7-acb4-d2907f4f6e37")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -13966,7 +13966,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/50769013-414a-494e-93be-b0bb16643ca0/3eb7879e-5811-4165-8b52-ccf2af0ee46d")
 		(sheetname "/Indicator LEDs/")
-		(sheetfile "indicators.kicad_sch")
+		(sheetfile "69split-left-sheets/indicators.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 -0.96)
@@ -14227,7 +14227,7 @@
 		)
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005ea4204b")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.1 -3.65)
@@ -14563,7 +14563,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/cd2fb356-269e-454e-9bf8-9081ad95bdbd")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -14887,7 +14887,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b351b4cb-4338-43e0-9527-4a8f51dc7e6b")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -15211,7 +15211,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/582d9185-b74f-4bbf-aba4-2f487a322d8c")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -15535,7 +15535,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/7b001e3b-09d8-4f82-9ae8-a3fcc4f43311")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -15859,7 +15859,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b258f50e-3b86-449f-a6d8-f1540b7fa146")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -16183,7 +16183,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/5264fde8-fdee-46ca-9e37-5d82924f5e32")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -16507,7 +16507,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/3562d90c-fe99-4a51-b3b7-38a29d096f52")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -16831,7 +16831,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/43c3ae20-71c0-4f2d-bd48-86d131545e7b")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -17167,7 +17167,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/50769013-414a-494e-93be-b0bb16643ca0/6bd2ec91-b624-4852-acb1-345b811bbfbe")
 		(sheetname "/Indicator LEDs/")
-		(sheetfile "indicators.kicad_sch")
+		(sheetfile "69split-left-sheets/indicators.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.86 -0.96)
@@ -17428,7 +17428,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/3afa2df8-2994-4e3c-87ae-5de997af485d")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -17752,7 +17752,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/2e04cf00-d719-4549-8288-bd86e7964c99")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -18076,7 +18076,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/ab4983b6-4cf3-41e3-b790-d086683890de")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -18412,7 +18412,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/e7bbb3ac-b9d7-4327-a743-4b5653129dfd")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -18651,7 +18651,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/0a62898a-bf76-4d4f-8e65-9537c35126b5")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -18976,7 +18976,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9761ff83-2474-42df-b43e-2f8540936a26/52c6904b-d9b5-4425-8c71-b3d314312e8e")
 		(sheetname "/USB Connector/")
-		(sheetfile "usb-conn.kicad_sch")
+		(sheetfile "69split-left-sheets/usb-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -19215,7 +19215,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/157d2100-8de3-4e01-b1e6-4605c5c6e8ca")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -19539,7 +19539,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/615979f2-e31a-4f00-8a7d-822d8997087a")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -19863,7 +19863,7 @@
 		)
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/a7a5d33c-8e73-4b5e-950b-c1a60e0e14a1")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -20199,7 +20199,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-00005e993b22")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -20439,7 +20439,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/68a55e30-103f-46e9-a337-1e9bab0df478/00000000-0000-0000-0000-000060155d68")
 		(sheetname "/ATmega32U4/")
-		(sheetfile "atmega32u4.kicad_sch")
+		(sheetfile "69split-left-sheets/atmega32u4.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 6.46)
@@ -20832,7 +20832,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/2f2accd6-9694-495e-8080-3c998aefb35d")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -21170,7 +21170,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/980b3e7f-a091-4fd4-a54c-6889f0d4e020")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -21508,7 +21508,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/80f38f84-b415-4131-ac40-63b0803a9c6a")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -21846,7 +21846,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b2eafb9b-2521-4e9e-91f4-a2bda33e8444")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -22184,7 +22184,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b07045b3-0423-40bb-a835-27d2dbff3f97")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -22522,7 +22522,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/4926e4cd-743d-4364-ae63-3014737e20b7")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -22860,7 +22860,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/2c41eeb3-2cde-4064-9268-b3b46884357e")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -23198,7 +23198,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/1851dc10-7510-45c4-9106-f0bb98d93209")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -23536,7 +23536,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/cbff6793-4f36-44ca-9d4e-169596634e7e")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -23874,7 +23874,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/946c91fa-8202-4225-8157-cabd6eeec4ea")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -24212,7 +24212,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/438fd39e-6378-4600-af59-7c9394c49076")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -24550,7 +24550,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/48f9321d-46b1-4147-8ed8-4bf320a3c94d")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -24888,7 +24888,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b018621e-cff5-4510-861d-f26a8a593342")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -25226,7 +25226,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/d9d7ed3e-990f-4a5f-9c0c-122e37d18b49")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -25564,7 +25564,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/be4f0f37-9cc5-48be-a8a4-56fc40ac1a0d")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -25902,7 +25902,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/28da10f0-2fdf-4ddf-8376-6ccfe4599916")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -26240,7 +26240,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/1f21f140-072c-4456-8bea-5919a1732b92")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -26578,7 +26578,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/5b40a437-925a-4816-a1d2-1e7daedf640e")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -26916,7 +26916,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/235294de-0444-495f-be8e-e849b652c949")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -27254,7 +27254,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b962227f-2377-4812-9868-a350fad7c367")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -27592,7 +27592,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/96dd534a-a47b-457c-8518-09ec1c3704e9")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -27930,7 +27930,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/210c525c-5e07-4b41-8552-0dcf4307d572")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -28268,7 +28268,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/cf7c7f2a-8785-4fad-8e1e-1e836b5bd357")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -28606,7 +28606,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/7836cc7a-5c4b-42a0-b152-d9016a279abc")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -28944,7 +28944,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/f3f9e9fe-800f-4483-9b8c-f956da1eb927")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -29282,7 +29282,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/84f92a41-1c7c-4e88-9373-e3842250f48e")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -29620,7 +29620,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/c327fe3d-ff22-42e1-b32f-1b312192db54")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -29958,7 +29958,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/b80c8ce5-0c50-43c7-ae2a-ea19fbef5346")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -30296,7 +30296,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/77a6792d-8352-4b9c-b691-ef0833176dd9")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -30634,7 +30634,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/91cdcebd-1915-45e6-b05f-d7c65936f9f3/790e2673-8e81-4fc6-b05a-56c884197d83")
 		(sheetname "/Left Matrix/")
-		(sheetfile "left-matrix.kicad_sch")
+		(sheetfile "69split-left-sheets/left-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)

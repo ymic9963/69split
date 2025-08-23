@@ -796,7 +796,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -814,8 +813,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "indicators.kicad_sch"
-			(at 49.53 159.9696 0)
+		(property "Sheetfile" "69split-left-sheets/indicators.kicad_sch"
+			(at 28.448 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,6 +852,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -870,8 +870,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "left-conn.kicad_sch"
-			(at 142.24 109.728 0)
+		(property "Sheetfile" "69split-left-sheets/left-conn.kicad_sch"
+			(at 142.24 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,8 +937,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "atmega32u4.kicad_sch"
-			(at 83.82 159.9696 0)
+		(property "Sheetfile" "69split-left-sheets/atmega32u4.kicad_sch"
+			(at 83.82 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1044,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "left-matrix.kicad_sch"
+		(property "Sheetfile" "69split-left-sheets/left-matrix.kicad_sch"
 			(at 142.24 145.3646 0)
 			(effects
 				(font
@@ -1100,8 +1100,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb-conn.kicad_sch"
-			(at 45.72 104.648 0)
+		(property "Sheetfile" "69split-left-sheets/usb-conn.kicad_sch"
+			(at 29.464 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1167,8 +1166,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "breakout-header.kicad_sch"
-			(at 49.53 135.2046 0)
+		(property "Sheetfile" "69split-left-sheets/breakout-header.kicad_sch"
+			(at 21.336 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,8 +1238,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ldo-switch.kicad_sch"
-			(at 88.9 97.7396 0)
+		(property "Sheetfile" "69split-left-sheets/ldo-switch.kicad_sch"
+			(at 88.9 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

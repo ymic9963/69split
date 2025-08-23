@@ -5084,7 +5084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e9a0259")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 140.97 170.18 0)
 			(effects
 				(font
@@ -5140,7 +5140,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/68a55e30-103f-46e9-a337-1e9bab0df478"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6343,7 +6343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006015e4d5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 104.14 171.45 0)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 			)
 			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/68a55e30-103f-46e9-a337-1e9bab0df478"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

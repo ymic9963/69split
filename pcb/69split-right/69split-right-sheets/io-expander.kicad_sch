@@ -2509,6 +2509,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f9e3236-4229-4cd2-b313-8f4147a1c43b")
 		)
@@ -2588,6 +2597,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed1e048a-6913-4ba6-b9b9-8fc42ae0af1d")
 		)
@@ -2595,7 +2613,7 @@
 			(uuid "d48bae26-b1cf-4488-9332-75031e85ca57")
 		)
 		(instances
-			(project ""
+			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/d61255dd-23de-4bf5-9fa7-c13302692107"
 					(reference "R3")
 					(unit 1)
@@ -2661,7 +2679,7 @@
 			(uuid "6dc3bbaa-460b-4ef1-b7d9-2caada3690f7")
 		)
 		(instances
-			(project ""
+			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/d61255dd-23de-4bf5-9fa7-c13302692107"
 					(reference "#PWR07")
 					(unit 1)
@@ -2928,7 +2946,7 @@
 			(uuid "607ca600-77d6-4429-9f5d-2429583ec694")
 		)
 		(instances
-			(project ""
+			(project "69split-right"
 				(path "/f79c3bfa-40a7-4d04-ac4b-e56fce3d0867/d61255dd-23de-4bf5-9fa7-c13302692107"
 					(reference "#PWR05")
 					(unit 1)
@@ -3050,6 +3068,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -3228,6 +3255,15 @@
 			)
 		)
 		(property "Key" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP23017-E/SS "
 			(at 160.02 104.14 0)
 			(effects
 				(font

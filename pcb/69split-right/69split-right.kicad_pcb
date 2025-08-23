@@ -291,7 +291,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/caf776bb-7134-4cdd-bb0e-9aac910ebd1b")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -615,7 +615,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/d0cd7522-1a6a-462c-8c6b-90cab679625b")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -939,7 +939,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/99786a5e-d683-48be-bc77-8798ea024376")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1291,7 +1291,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/758b774c-7c60-4586-bb67-8b9c0d2ab9ab")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1615,7 +1615,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/67001814-c65c-4243-9cea-b3cd1a1e4c4e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1938,7 +1938,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d61255dd-23de-4bf5-9fa7-c13302692107/e7bbb3ac-b9d7-4327-a743-4b5653129dfd")
 		(sheetname "/IO Expander/")
-		(sheetfile "io-expander.kicad_sch")
+		(sheetfile "69split-right-sheets/io-expander.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -2176,7 +2176,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/19620367-a48f-4868-a987-58d5e16bcd27")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -2415,7 +2415,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/7d4e1759-ba97-4291-b94f-6a948072ea3e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -2727,7 +2727,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/e52f6576-264c-459a-9037-dc2e10a35447/17c022c0-a3fe-49f4-9b51-eff596274798")
 		(sheetname "/Right Keyboard Connector/")
-		(sheetfile "right-conn.kicad_sch")
+		(sheetfile "69split-right-sheets/right-conn.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.58 2.76)
@@ -3181,7 +3181,7 @@
 				)
 			)
 		)
-		(property "Key" "←"
+		(property "Key" "Left"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3196,7 +3196,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/804f89b8-9562-4a1a-87c8-ec3f2d58c40a")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -3519,7 +3519,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/edc4b233-69c1-4c96-915a-b75b83dac887")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -10.09 6.41)
@@ -4203,7 +4203,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/7f64bc38-d57a-49bf-8d38-e27f3b84bcec")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -4497,10 +4497,23 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40eb9efc-c070-466b-8fc2-aa047e04d783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d61255dd-23de-4bf5-9fa7-c13302692107/3816d00c-a767-4ccd-8c80-a93b926701ad")
 		(sheetname "/IO Expander/")
-		(sheetfile "io-expander.kicad_sch")
+		(sheetfile "69split-right-sheets/io-expander.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -4724,7 +4737,7 @@
 				)
 			)
 		)
-		(property "Key" "↓"
+		(property "Key" "Down"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4739,7 +4752,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/b7c34f84-dbe9-422c-ac99-128e3fb11233")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -5020,10 +5033,23 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "778c13dc-3736-4d17-a629-27d9ec1499a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d61255dd-23de-4bf5-9fa7-c13302692107/de8937f3-e67a-4d00-a0eb-bc6457813f96")
 		(sheetname "/IO Expander/")
-		(sheetfile "io-expander.kicad_sch")
+		(sheetfile "69split-right-sheets/io-expander.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -5262,7 +5288,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/933f2c60-2069-4d7e-a66f-a8a66e2029c8")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -5585,7 +5611,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/660b77ea-6bd1-404e-9bb4-233d1336a223")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -5824,7 +5850,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/9ba51655-b766-4d1e-962f-abfe301aae30")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -6148,7 +6174,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/7f090847-9200-4e61-82b7-960769af0d75")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -6472,7 +6498,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/f4bbc66c-1b07-490d-8c42-6b21eb125899")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -6796,7 +6822,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/998e82a5-b9f7-4209-8876-b3af4f33eea3")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -7167,7 +7193,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/98991f63-1f2d-4328-85d3-57ef380abc92")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -7378,10 +7404,23 @@
 				)
 			)
 		)
+		(property "MPN" "MCP23017-E/SS "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffa7fb1d-e6d0-4ebd-a2ea-74cefd51fbf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SSOP*5.3x10.2mm*P0.65mm*")
 		(path "/d61255dd-23de-4bf5-9fa7-c13302692107/f743d47a-33b5-4891-945a-300040ece2f4")
 		(sheetname "/IO Expander/")
-		(sheetfile "io-expander.kicad_sch")
+		(sheetfile "69split-right-sheets/io-expander.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.875 -5.325)
@@ -7916,7 +7955,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/063dc2ab-70c5-4271-bab1-934fbc60c753")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -8240,7 +8279,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/15d0b5f2-4a8a-4c85-a4d5-20198033edf2")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -8563,7 +8602,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/683868df-8cd8-4444-be21-c9e6995687c1")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -8801,7 +8840,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/2ea3be94-4624-4568-9b26-e771ddbb0b82")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -10.09 6.41)
@@ -9485,7 +9524,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/3c3a414e-f3b1-4011-bb9e-8aaa31b2164e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -9809,7 +9848,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/aa014e29-c327-40ea-a31d-4228dafaece6")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -10133,7 +10172,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/6c8ec801-b32c-4c68-80e9-2c2fa313338e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -10457,7 +10496,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/4c0b9530-f08d-4cbf-9f58-ce10fe74b2ac")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -10781,7 +10820,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/9529114c-09e3-4393-bb62-3f9a32847710")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -11075,10 +11114,23 @@
 				)
 			)
 		)
+		(property "MPN" "Generic"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f234b8f-edce-4ddc-a866-4e08aa3c1ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d61255dd-23de-4bf5-9fa7-c13302692107/02367073-df7c-4684-a504-84a1b07c4de3")
 		(sheetname "/IO Expander/")
-		(sheetfile "io-expander.kicad_sch")
+		(sheetfile "69split-right-sheets/io-expander.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -11317,7 +11369,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/84f70e94-984a-4f30-9e56-81eb4a63031f")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -11641,7 +11693,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/cfc73d57-7622-4821-bd3e-6667f326cac0")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -11965,7 +12017,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/b47c6b11-034f-41d4-b77c-c2fddae6c932")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -12289,7 +12341,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/295ea445-ac8b-4614-8b47-7097b019f8f7")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -12613,7 +12665,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/3f1d51ef-6e87-478b-b763-0621f5592672")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -12936,7 +12988,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f2f72030-456e-424c-bdd0-69cd41410d8b/3bb3bc41-a156-4b71-bdfb-cbe31e490d87")
 		(sheetname "/GPIO Outputs/")
-		(sheetfile "gpio.kicad_sch")
+		(sheetfile "69split-right-sheets/gpio.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -13175,7 +13227,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/f40fd8f4-059a-4144-a216-d622aa26e525")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -13499,7 +13551,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/98923f24-a3d0-485f-ad09-4b9816319744")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -13851,7 +13903,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/d27c8b62-9c29-45c3-8486-67b7c119e2f0")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -14175,7 +14227,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/b092a8cd-b3c6-497b-ba27-3297a97cc090")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -14499,7 +14551,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/3dc81134-7f96-4b16-a009-a8789eeb0406")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -14823,7 +14875,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/3d98b5fe-c219-4f77-b7d5-12498f0a9ba5")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -15147,7 +15199,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/f1fa3484-6c15-4c14-b6a0-f11ae453ab9e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -15471,7 +15523,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/7ae0de7f-147b-48e7-bc69-31a17c1bdea9")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -15795,7 +15847,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/2d506510-b3b7-4788-9416-66e4eac2051a")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -16119,7 +16171,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/85daa15d-a1c1-4193-b088-d5e434e21878")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -16428,7 +16480,7 @@
 				)
 			)
 		)
-		(property "Key" "↑"
+		(property "Key" "Up"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16443,7 +16495,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/87d3488e-6d6c-45a3-be38-feea5b3e5f72")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -16767,7 +16819,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/692743a1-bec0-462b-8364-1ceac6b5586d")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -17076,7 +17128,7 @@
 				)
 			)
 		)
-		(property "Key" "→"
+		(property "Key" "Right"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17091,7 +17143,7 @@
 		)
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/9f355e00-5a2f-42f2-8157-dcd59b433b27")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -17449,7 +17501,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/e41c8852-6658-4725-b7f7-431d7db993de")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -17785,7 +17837,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/12f3273e-cb54-450e-ab38-1983d3ab5a2e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -18121,7 +18173,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/18986292-7a47-4b4e-b26c-1cfc33c4b2ef")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -18457,7 +18509,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/47859749-3c6b-4209-bd47-77a453f1a974")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -18793,7 +18845,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/3cd5d59e-4f75-40ca-bce1-14c7500a8b94")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -19129,7 +19181,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/e857c8fe-0f63-4dad-87db-359bba94deb8")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -19465,7 +19517,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/084eceb9-b79e-4e0c-b452-4955d47907fa")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -19801,7 +19853,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/1e3cae03-1d8a-43fe-bdba-f1a166a12851")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -20137,7 +20189,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/0e1b013e-9a28-481e-bd8c-cc9e8d3cad0c")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -20473,7 +20525,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/ad58c13e-11a2-4b35-a23c-1b32262b56bc")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -20809,7 +20861,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/f8c0273b-c746-4b4d-bc45-0e1437903912")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -21145,7 +21197,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/202b56fa-7b9c-46a1-b8db-7a2121b0e393")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -21481,7 +21533,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/e4ec0745-a89c-404a-8017-ee1d4a74c828")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -21817,7 +21869,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/a05e20e6-c676-459b-bdb3-1b3ac639d4f6")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -22153,7 +22205,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/5730e4c4-6e32-48a0-956f-86d3a62b9c89")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -22489,7 +22541,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/c1fdacc4-2e64-4882-8b51-106a6da82f06")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -22825,7 +22877,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/865216d2-19b2-4fa7-b6a7-481869109fa7")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -23161,7 +23213,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/fb8060f7-bd63-4fa0-9c3f-13205dcc2dea")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -23497,7 +23549,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/f535d49c-e0ed-4533-902c-ba45e98f5e24")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -23833,7 +23885,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/971b1fc1-9687-4a32-a693-b48ffe2aa8af")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -24169,7 +24221,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/5acf1ded-7c52-4f8e-bf8a-f742b66966d3")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -24505,7 +24557,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/5b301aa0-10e5-4459-a08e-5d4d524b621b")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -24841,7 +24893,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/bb23f27a-fa19-4391-9973-573fbc82d4e2")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -25177,7 +25229,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/bf16e5b6-8676-4f9e-85e9-13c4110cd0cf")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -25513,7 +25565,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/bf8767c4-7e34-4327-9bf3-e20b6646fafa")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -25849,7 +25901,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/b39389bb-b35b-46d5-be21-42910891ad90")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -26185,7 +26237,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/7dcdf6cf-2c33-42ff-8d9c-e1786da78819")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -26521,7 +26573,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/680a8688-0a2e-4903-afa9-229585613ceb")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -26857,7 +26909,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/6c7c6b0b-4b57-4e46-997a-32f35545f7c7")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -27193,7 +27245,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/eede736f-9425-4401-85b8-51182f146d55")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -27529,7 +27581,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/5cc38350-9d9e-408f-9978-0f2f298dab3d")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -27865,7 +27917,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/2e4eb353-34de-4a2d-a3c7-e401a506864c")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -28201,7 +28253,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/f5655e2c-af19-4efb-80c7-e465757c53c6")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -28537,7 +28589,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/99394616-5cd5-4b7b-bdca-5937b30a0614")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -28873,7 +28925,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/308fcd4d-3abd-400a-ac55-52932e2e48ec")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -29209,7 +29261,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/8133d4d8-a4f9-445a-bba8-6282988dd851")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -29545,7 +29597,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/991ae110-34e2-4381-accb-2ba5c56f456e")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -29881,7 +29933,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/304f95ea-3bb9-42e8-9fc9-01cad916071a")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -30217,7 +30269,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a3a71a3c-f3ce-42c2-a0de-8434118661c9/90cc2192-4745-4c11-ac6a-6bdc9d14772d")
 		(sheetname "/Right Matrix/")
-		(sheetfile "right-matrix.kicad_sch")
+		(sheetfile "69split-right-sheets/right-matrix.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)

@@ -574,7 +574,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Rating",
           "name": "Rating",
           "show": true

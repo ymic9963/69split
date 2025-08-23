@@ -282,7 +282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "right-matrix.kicad_sch"
+		(property "Sheetfile" "69split-right-sheets/right-matrix.kicad_sch"
 			(at 193.04 150.4446 0)
 			(effects
 				(font
@@ -326,7 +326,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -344,8 +343,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "io-expander.kicad_sch"
-			(at 154.94 150.4446 0)
+		(property "Sheetfile" "69split-right-sheets/io-expander.kicad_sch"
+			(at 129.794 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +414,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "right-conn.kicad_sch"
+		(property "Sheetfile" "69split-right-sheets/right-conn.kicad_sch"
 			(at 135.255 112.522 0)
 			(effects
 				(font
@@ -487,7 +486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "gpio.kicad_sch"
+		(property "Sheetfile" "69split-right-sheets/gpio.kicad_sch"
 			(at 193.04 112.3446 0)
 			(effects
 				(font

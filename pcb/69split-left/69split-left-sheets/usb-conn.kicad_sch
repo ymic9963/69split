@@ -2998,7 +2998,7 @@
 			(uuid "1343c44d-b9df-4706-ad11-e16045ed8a8c")
 		)
 		(instances
-			(project ""
+			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26"
 					(reference "U3")
 					(unit 1)
@@ -3086,7 +3086,7 @@
 			(uuid "01a0784d-1ab7-42bf-852a-e0dacafb0c29")
 		)
 		(instances
-			(project ""
+			(project "69split-left"
 				(path "/94301c1c-44b1-4926-ac38-8a25b84a2b23/9761ff83-2474-42df-b43e-2f8540936a26"
 					(reference "D34")
 					(unit 1)
