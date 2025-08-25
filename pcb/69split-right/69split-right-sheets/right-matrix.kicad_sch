@@ -2074,7 +2074,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 200.66 121.92 90)
 			(effects
 				(font
@@ -2195,7 +2195,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 200.66 83.82 90)
 			(effects
 				(font
@@ -2316,7 +2316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 240.03 109.22 90)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 139.7 96.52 90)
 			(effects
 				(font
@@ -2659,7 +2659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 220.98 71.12 90)
 			(effects
 				(font
@@ -2780,7 +2780,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 161.29 121.92 90)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 200.66 96.52 90)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 180.34 83.82 90)
 			(effects
 				(font
@@ -3345,7 +3345,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 100.33 83.82 90)
 			(effects
 				(font
@@ -3567,7 +3567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 100.33 96.52 90)
 			(effects
 				(font
@@ -3991,7 +3991,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 119.38 71.12 90)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 161.29 109.22 90)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 220.98 109.22 90)
 			(effects
 				(font
@@ -4455,7 +4455,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 100.33 71.12 90)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 139.7 109.22 90)
 			(effects
 				(font
@@ -4798,7 +4798,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 220.98 83.82 90)
 			(effects
 				(font
@@ -5020,7 +5020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 100.33 121.92 90)
 			(effects
 				(font
@@ -5545,7 +5545,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 200.66 109.22 90)
 			(effects
 				(font
@@ -5969,7 +5969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 220.98 96.52 90)
 			(effects
 				(font
@@ -6292,7 +6292,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 180.34 71.12 90)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 240.03 71.12 90)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 220.98 121.92 90)
 			(effects
 				(font
@@ -7059,7 +7059,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 240.03 96.52 90)
 			(effects
 				(font
@@ -7180,7 +7180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 161.29 96.52 90)
 			(effects
 				(font
@@ -7705,7 +7705,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 139.7 83.82 90)
 			(effects
 				(font
@@ -7927,7 +7927,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 119.38 96.52 90)
 			(effects
 				(font
@@ -8149,7 +8149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 180.34 96.52 90)
 			(effects
 				(font
@@ -8472,7 +8472,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 119.38 83.82 90)
 			(effects
 				(font
@@ -8593,7 +8593,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 180.34 121.92 90)
 			(effects
 				(font
@@ -8714,7 +8714,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 139.7 71.12 90)
 			(effects
 				(font
@@ -8835,7 +8835,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 200.66 71.12 90)
 			(effects
 				(font
@@ -9360,7 +9360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 139.7 121.92 90)
 			(effects
 				(font
@@ -9481,7 +9481,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 180.34 109.22 90)
 			(effects
 				(font
@@ -9602,7 +9602,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 161.29 83.82 90)
 			(effects
 				(font
@@ -9723,7 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 119.38 109.22 90)
 			(effects
 				(font
@@ -10147,7 +10147,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 240.03 83.82 90)
 			(effects
 				(font
@@ -10268,7 +10268,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 161.29 71.12 90)
 			(effects
 				(font
@@ -10389,7 +10389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 240.03 121.92 90)
 			(effects
 				(font
@@ -10510,7 +10510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4454"
+		(property "MPN" "1N4148"
 			(at 100.33 109.22 90)
 			(effects
 				(font
