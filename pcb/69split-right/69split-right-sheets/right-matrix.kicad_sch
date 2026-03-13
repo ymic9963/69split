@@ -1777,7 +1777,7 @@
 		)
 		(uuid "fd094c48-0d0c-4e55-9d6e-a44a8a6c94e7")
 	)
-	(label "COL11"
+	(label "COL12"
 		(at 190.5 138.43 90)
 		(effects
 			(font
@@ -1797,7 +1797,7 @@
 		)
 		(uuid "47fcf23c-653e-4a3c-974c-7c178e02b1b3")
 	)
-	(label "COL9"
+	(label "COL10"
 		(at 151.13 138.43 90)
 		(effects
 			(font
@@ -1827,7 +1827,7 @@
 		)
 		(uuid "6c27a1e7-b5e0-4c3a-93d3-e2d7892ee3c7")
 	)
-	(label "COL10"
+	(label "COL11"
 		(at 170.18 138.43 90)
 		(effects
 			(font
@@ -1847,7 +1847,7 @@
 		)
 		(uuid "9551bbd3-101f-45e1-b9ad-0595d565dc65")
 	)
-	(label "COL12"
+	(label "COL13"
 		(at 210.82 138.43 90)
 		(effects
 			(font
@@ -1857,7 +1857,7 @@
 		)
 		(uuid "b03b505a-df8f-4a06-8a35-cfee26cf2088")
 	)
-	(label "COL8"
+	(label "COL9"
 		(at 129.54 138.43 90)
 		(effects
 			(font
@@ -1867,7 +1867,7 @@
 		)
 		(uuid "b29c7d63-92f2-4a0f-8451-5dcc64e23f29")
 	)
-	(label "COL6"
+	(label "COL7"
 		(at 90.17 138.43 90)
 		(effects
 			(font
@@ -1877,7 +1877,7 @@
 		)
 		(uuid "b3f13c9f-1dfd-4323-b6d6-8f570e168d68")
 	)
-	(label "COL13"
+	(label "COL14"
 		(at 229.87 138.43 90)
 		(effects
 			(font
@@ -1887,7 +1887,7 @@
 		)
 		(uuid "d7e9cedc-744d-48ca-a2b7-4611bb09fd31")
 	)
-	(label "COL7"
+	(label "COL8"
 		(at 109.22 138.43 90)
 		(effects
 			(font

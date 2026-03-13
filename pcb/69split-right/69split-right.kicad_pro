@@ -494,7 +494,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://my-sheet.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
