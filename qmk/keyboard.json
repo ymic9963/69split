@@ -1,14 +1,13 @@
 {
-    "keyboard_name": "69split",
+    "keyboard_name": "69SPLIT",
     "maintainer": "ymich9963",
     "manufacturer": "ymich9963",
-    "url":, "https://github.com/ymich9963/69split",
+    "url": "https://github.com/ymich9963/69split",
     "bootloader_instructions": "Press the RESET button on the keyboard...",
     "tags": ["split"],
-    "bootloader": "atmel-dfu",
+    "bootloader": "usbasploader",
     "processor": "atmega32u4",
     "features": {
-        "combo": true,
         "console": true,
         "extrakey": true,
         "indicators": true,
@@ -24,7 +23,7 @@
         "caps_lock": "E6"
     },
     "layouts":{
-        "LAYOUT_69_iso": {
+        "LAYOUT": {
             "layout": [
                 // Row 0
                 {"label": "Escape", "matrix": [0, 0], "x": 0, "y": 0, "w": 1},
@@ -115,7 +114,10 @@
     // "leader_key": {},
     "diode_orientation": "COL2ROW",
     "matrix_pins": {
-        "cols": ["D4", "D5", "D6", "D7", "F5", "F6", "F7"],
+        // Actual columns
+        // "cols": ["D4", "D5", "D6", "D7", "F5", "F6", "F7"]
+        "cols": ["D4", "D5", "D6", "D7", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "F13", "F14", "F15"],
+        "custom_lite": true,
         "rows": ["B1", "B2", "B3", "B4", "B5"],
     }
     "mouse_key": {
