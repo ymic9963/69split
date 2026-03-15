@@ -14,7 +14,7 @@
         "leader_key": false,
         "mousekey": true,
         "nkro": true,
-        "secure": false,
+        "secure": false
     },
     "combo": {
         "term": 50
@@ -42,7 +42,6 @@
                 {"label": "F12", "matrix": [0, 12], "x": 13, "y": 0, "w": 1},
                 {"label": "Backspace", "matrix": [0, 13], "x": 14, "y": 0, "w": 2},
 
-                // Row 1
                 {"label": "Tab", "matrix": [1, 0], "x": 0, "y": 1, "w": 1.5},
                 {"label": "Q", "matrix": [1, 1], "x": 1.5, "y": 1, "w": 1},
                 {"label": "W", "matrix": [1, 2], "x": 2.5, "y": 1, "w": 1},
@@ -114,17 +113,13 @@
     // "leader_key": {},
     "diode_orientation": "COL2ROW",
     "matrix_pins": {
-        // Actual columns
-        // "cols": ["D4", "D5", "D6", "D7", "F5", "F6", "F7"]
-        "cols": ["D4", "D5", "D6", "D7", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "F13", "F14", "F15"],
         "custom_lite": true,
-        "rows": ["B1", "B2", "B3", "B4", "B5"],
-    }
+    },
     "mouse_key": {
         "enabled": true
     },
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x6969",
+        "pid": "0x6969"
     }
 }
