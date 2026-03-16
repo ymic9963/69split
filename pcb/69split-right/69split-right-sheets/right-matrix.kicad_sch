@@ -2454,7 +2454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Shift"
+		(property "Key" "R Shift"
 			(at 195.58 110.49 0)
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Alt,`,¬"
+		(property "Key" "R Alt"
 			(at 134.62 123.19 0)
 			(effects
 				(font
@@ -9175,7 +9175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Ctrl"
+		(property "Key" "R Ctrl"
 			(at 175.26 123.19 0)
 			(effects
 				(font

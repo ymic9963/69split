@@ -1759,7 +1759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Win"
+		(property "Key" "GUI"
 			(at 86.36 125.73 0)
 			(effects
 				(font
@@ -1849,7 +1849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Shift"
+		(property "Key" "L Shift"
 			(at 66.04 102.87 0)
 			(effects
 				(font
@@ -2869,7 +2869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Alt"
+		(property "Key" "L Alt"
 			(at 106.68 125.73 0)
 			(effects
 				(font
@@ -4589,7 +4589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Key" "Ctrl"
+		(property "Key" "L Ctrl"
 			(at 66.04 115.57 0)
 			(effects
 				(font

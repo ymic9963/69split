@@ -96,12 +96,12 @@
 
                 // Row 4
                 {"label": "Ctrl", "matrix": [4, 0], "x": 0, "y": 4, "w": 1.25},
-                {"label": "OS", "matrix": [4, 1], "x": 1.25, "y": 4, "w": 1.25},
-                {"label": "Alt", "matrix": [4, 2], "x": 2.50, "y": 4, "w": 1.25},
+                {"label": "GUI", "matrix": [4, 1], "x": 1.25, "y": 4, "w": 1.25},
+                {"label": "L Alt", "matrix": [4, 2], "x": 2.50, "y": 4, "w": 1.25},
                 {"label": "Space", "matrix": [4, 3], "x": 3.75, "y": 4, "w": 2.75},
 
                 {"label": "Space", "matrix": [4, 7], "x": 7.50, "y": 4, "w": 2.75},
-                {"label": "Alt", "matrix": [4, 9], "x": 10.25, "y": 4, "w": 1.25},
+                {"label": "R Alt", "matrix": [4, 9], "x": 10.25, "y": 4, "w": 1.25},
                 {"label": "Fn", "matrix": [4, 10], "x": 11.50, "y": 4, "w": 1.25},
                 {"label": "Ctrl", "matrix": [4, 11], "x": 12.75, "y": 4, "w": 1.25},
                 {"label": "Left", "matrix": [4, 12], "x": 14, "y": 4, "w": 1},
