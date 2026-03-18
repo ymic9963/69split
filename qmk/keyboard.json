@@ -7,6 +7,9 @@
     "tags": ["split"],
     "bootloader": "usbasploader",
     "processor": "atmega32u4",
+    "build": {
+        "debounce_type": "sym_defer_pk"
+    },
     "features": {
         "console": true,
         "extrakey": true,
@@ -113,7 +116,7 @@
     // "leader_key": {},
     "diode_orientation": "COL2ROW",
     "matrix_pins": {
-        "custom_lite": true,
+        "custom": true,
     },
     "mouse_key": {
         "enabled": true
