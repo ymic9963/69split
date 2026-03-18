@@ -2,3 +2,4 @@
 -IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/quantum/logging
 -IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/platforms
 -IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/lib/printf/src/printf
+-IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/drivers/gpio

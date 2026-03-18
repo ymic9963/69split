@@ -2,7 +2,11 @@
 #include "matrix.h"
 #include "debounce.h"
 #include "print.h"
+#include "mpc23018.h"
 #include "config.h"
+
+#define IOEXPANDER_COLS 8
+#define IOEXPANDER_ADDR 0
 
 static pin_t row_pins[MATRIX_ROWS_PER_HAND] = MATRIX_ROW_PINS;
 static pin_t col_pins[MATRIX_COLS] = MATRIX_COL_PINS;
@@ -105,12 +109,16 @@ void matrix_read_cols_on_row(matrix_row_t current_matrix[], uint8_t current_row)
     // Update the matrix
     current_matrix[current_row] = current_row_value;
 }
-// TODO: Implement MCP initialisation
-// TODO: Might be able to use lite matrix so maybe check with mcp23017 matrix example
+
+// TODO: Implement MCP initialisation and scanning
+// TODO: Might be able to use lite matrix so maybe check with mcp23017 matrix example. Look like most copied functions here are c alled anyway in matrix_common.c
+
 /* From qmk_firmware/quantum/matrix.c */
 void matrix_init(void) {
     /* Initialise matrix pins */
     matrix_init_pins();
+
+    mcp23018_init(IOEXPANDER_ADDR);
 
     /* All keys off */
     memset(matrix, 0, sizeof(matrix));
@@ -123,8 +131,6 @@ void matrix_init(void) {
     matrix_init_kb();
 }
 
-// TODO: Implement MCP scanning
-// TODO: Might be able to use lite matrix so maybe check with mcp23017 matrix example
 /* From qmk_firmware/quantum/matrix.c */
 uint8_t matrix_scan(void) {
     bool changed = false;
