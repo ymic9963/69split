@@ -90,18 +90,6 @@ void matrix_init_custom(void) {
     }
 }
 
-void matrix_power_up(void) {
-    mcp23017_status = init_mcp23017();
-
-    unselect_rows();
-    init_cols();
-
-    // initialize matrix state: all keys off
-    for (uint8_t i = 0; i < MATRIX_ROWS; i++) {
-        matrix[i] = 0;
-    }
-}
-
 // Reads and stores a row, returning
 // whether a change occurred.
 static inline bool store_matrix_row(matrix_row_t current_matrix[], uint8_t index) {

@@ -116,7 +116,7 @@
     // "leader_key": {},
     "diode_orientation": "COL2ROW",
     "matrix_pins": {
-        "custom": true,
+        "custom_lite": true,
     },
     "mouse_key": {
         "enabled": true
