@@ -1,3 +1,0 @@
--IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/quantum
--IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/drivers/gpio
--IC:/Users/YiannisMichael/Documents/projects/qmk_firmware/platforms/avr
