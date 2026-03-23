@@ -1,2 +1,2 @@
 VPATH += drivers/gpio
-SRC += i2c_master.c mcp23018.c matrix.c 
+SRC += i2c_master.c mcp23018.c matrix.c 69split.c
