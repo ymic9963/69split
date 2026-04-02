@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f79c3bfa-40a7-4d04-ac4b-e56fce3d0867")
 	(paper "A4")
 	(title_block
@@ -24,7 +24,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 1c5b7b3d-99a8-496b-81b4-d8bc5a01f255)
+		(uuid "1c5b7b3d-99a8-496b-81b4-d8bc5a01f255")
 	)
 	(arc
 		(start 98.425 86.36)
@@ -38,7 +38,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 52d20713-9743-4600-abd6-cc232dbaadd9)
+		(uuid "52d20713-9743-4600-abd6-cc232dbaadd9")
 	)
 	(rectangle
 		(start 63.5 86.36)
@@ -50,7 +50,7 @@
 		(fill
 			(type none)
 		)
-		(uuid a094494d-52ad-427a-b683-331695a40a85)
+		(uuid "a094494d-52ad-427a-b683-331695a40a85")
 	)
 	(text "L + R\n42mA + 76mA @ 5V\n25mA + 51mA @ 3V3\n\nTypical current draw when everythin is in use\nexcept the breakout header."
 		(exclude_from_sim no)
@@ -270,11 +270,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a3a71a3c-f3ce-42c2-a0de-8434118661c9")
 		(property "Sheetname" "Right Matrix"
 			(at 193.04 131.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,6 +286,8 @@
 		)
 		(property "Sheetfile" "69split-right-sheets/right-matrix.kicad_sch"
 			(at 193.04 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,11 +335,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d61255dd-23de-4bf5-9fa7-c13302692107")
 		(property "Sheetname" "IO Expander"
 			(at 154.94 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,6 +351,8 @@
 		)
 		(property "Sheetfile" "69split-right-sheets/io-expander.kicad_sch"
 			(at 129.794 150.368 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,11 +410,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e52f6576-264c-459a-9037-dc2e10a35447")
 		(property "Sheetname" "Right Keyboard Connector"
 			(at 140.335 85.852 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,6 +426,8 @@
 		)
 		(property "Sheetfile" "69split-right-sheets/right-conn.kicad_sch"
 			(at 135.255 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,11 +486,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f2f72030-456e-424c-bdd0-69cd41410d8b")
 		(property "Sheetname" "GPIO Outputs"
 			(at 193.04 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -488,6 +502,8 @@
 		)
 		(property "Sheetfile" "69split-right-sheets/gpio.kicad_sch"
 			(at 193.04 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
