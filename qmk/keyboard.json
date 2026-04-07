@@ -1,11 +1,11 @@
 {
     "keyboard_name": "69SPLIT",
-    "maintainer": "ymich9963",
-    "manufacturer": "ymich9963",
-    "url": "https://github.com/ymich9963/69split",
+    "maintainer": "ymic9963",
+    "manufacturer": "ymic9963",
+    "url": "https://github.com/ymic9963/69split",
     "bootloader_instructions": "Press the RESET button on the keyboard...",
     "tags": ["split"],
-    "bootloader": "usbasploader",
+    "bootloader": "atmel-dfu",
     "processor": "atmega32u4",
     "build": {
         "debounce_type": "sym_defer_pk"
