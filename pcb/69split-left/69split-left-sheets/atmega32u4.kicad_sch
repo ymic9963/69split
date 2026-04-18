@@ -6487,7 +6487,7 @@
 				)
 			)
 		)
-		(property "MPN" "ABL-8.000MHZ-B4Y-T "
+		(property "MPN" "ABL-16.000MHZ-B4Y-T "
 			(at 104.14 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6498,7 +6498,7 @@
 				)
 			)
 		)
-		(property "Rating" "8 MHz"
+		(property "Rating" "16 MHz"
 			(at 104.14 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
