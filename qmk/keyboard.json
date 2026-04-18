@@ -28,7 +28,6 @@
     "layouts":{
         "LAYOUT": {
             "layout": [
-                // Row 0
                 {"label": "Escape", "matrix": [0, 0], "x": 0, "y": 0, "w": 1},
                 {"label": "F1", "matrix": [0, 1], "x": 1, "y": 0, "w": 1},
                 {"label": "F2", "matrix": [0, 2], "x": 2, "y": 0, "w": 1},
@@ -62,7 +61,6 @@
                 {"label": "Enter", "matrix": [1, 14], "x": 15.5, "y": 1, "w": 1.25, "h": 2},
                 {"label": "Delete", "matrix": [0, 14], "x": 17, "y": 1, "w": 1},
 
-                // Row 2
                 {"label": "Caps Lock", "matrix": [2, 0], "x": 0, "y": 2, "w": 1.75},
                 {"label": "A", "matrix": [2, 1], "x": 1.75, "y": 2, "w": 1},
                 {"label": "S", "matrix": [2, 2], "x": 2.75, "y": 2, "w": 1},
@@ -79,7 +77,6 @@
                 {"label": "#", "matrix": [2, 13], "x": 14.75, "y": 2, "w": 1},
                 {"label": "Home", "matrix": [2, 14], "x": 16, "y": 2, "w": 1},
 
-                // Row 3
                 {"label": "Shift", "matrix": [3, 0], "x": 0, "y": 3, "w": 1.25},
                 {"label": "\\", "matrix": [3, 1], "x": 1.25, "y": 3, "w": 1},
                 {"label": "Z", "matrix": [3, 2], "x": 2.25, "y": 3, "w": 1},
@@ -97,7 +94,6 @@
                 {"label": "Up", "matrix": [3, 13], "x": 14.25, "y": 3, "w": 1},
                 {"label": "End", "matrix": [3, 14], "x": 16, "y": 3, "w": 1},
 
-                // Row 4
                 {"label": "Ctrl", "matrix": [4, 0], "x": 0, "y": 4, "w": 1.25},
                 {"label": "GUI", "matrix": [4, 1], "x": 1.25, "y": 4, "w": 1.25},
                 {"label": "L Alt", "matrix": [4, 2], "x": 2.50, "y": 4, "w": 1.25},
@@ -113,7 +109,6 @@
             ]
         }
     },
-    // "leader_key": {},
     "diode_orientation": "COL2ROW",
     "matrix_pins": {
         "custom_lite": true,
