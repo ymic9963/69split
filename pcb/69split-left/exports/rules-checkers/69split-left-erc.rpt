@@ -1,0 +1,29 @@
+ERC report (2026-04-30T17:00:15, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_issues]: Symbol 'SD05_SOD323' not found in symbol library 'Diode'
+    ; warning
+    @(187.96 mm, 102.87 mm): Symbol D34 [SD05_SOD323]
+
+***** Sheet /USB Connector/
+
+***** Sheet /Indicator LEDs/
+
+***** Sheet /ATmega32U4/
+
+***** Sheet /LDO & Switch/
+
+***** Sheet /Left Keyboard Connector/
+
+***** Sheet /Left Matrix/
+
+***** Sheet /Breakout Header/
+
+ ** ERC messages: 1  Errors 0  Warnings 1
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
