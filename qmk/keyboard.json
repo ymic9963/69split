@@ -110,9 +110,6 @@
         }
     },
     "diode_orientation": "COL2ROW",
-    "matrix_pins": {
-        "custom_lite": true,
-    },
     "mouse_key": {
         "enabled": true
     },
