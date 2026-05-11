@@ -3,7 +3,7 @@
     "maintainer": "ymic9963",
     "manufacturer": "ymic9963",
     "url": "https://github.com/ymic9963/69split",
-    "bootloader_instructions": "Press the RESET button on the keyboard...",
+    "bootloader_instructions": "Press Fn + ESC to enter bootloader...",
     "tags": ["split"],
     "bootloader": "atmel-dfu",
     "processor": "atmega32u4",
@@ -11,14 +11,10 @@
         "debounce_type": "sym_defer_pk"
     },
     "features": {
-        "console": true,
+        "audio": true,
         "indicators": true,
         "mousekey": true,
-        "nkro": true,
         "midi": true,
-    },
-    "combo": {
-        "term": 50
     },
     "indicators": {
         "caps_lock": "E6"
