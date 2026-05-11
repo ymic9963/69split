@@ -12,12 +12,10 @@
     },
     "features": {
         "console": true,
-        "extrakey": true,
         "indicators": true,
-        "leader_key": false,
         "mousekey": true,
         "nkro": true,
-        "secure": false
+        "midi": true,
     },
     "combo": {
         "term": 50
